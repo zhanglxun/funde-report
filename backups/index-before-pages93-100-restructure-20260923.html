@@ -3513,95 +3513,132 @@
     </div>
   </section>
 
-  <!-- 93 谁付钱、为什么付钱 -->
-  <section data-label="谁付钱、为什么付钱">
-    <div class="slide slide--alt" id="s093"><style>#s093 .payer-grid{display:grid;grid-template-columns:1.05fr 1fr 1fr;gap:20px;flex:1;min-height:0;margin-top:26px}#s093 .payer-card{padding:30px;background:var(--cream);border:1px solid var(--line);border-top:6px solid var(--orange-soft);border-radius:18px;display:flex;flex-direction:column}#s093 .payer-card.pay{background:color-mix(in srgb,var(--orange-soft) 32%,var(--cream-2));border-top-color:var(--orange)}#s093 .payer-tag{align-self:flex-start;padding:6px 12px;border-radius:999px;background:var(--cream-deep);font-size:16px;font-weight:900;color:var(--muted)}#s093 .payer-card.pay .payer-tag{background:var(--orange);color:#fff}#s093 .payer-card h3{margin-top:18px;font-size:31px;color:var(--ink)}#s093 .payer-card .role{margin-top:12px;font-size:22px;line-height:1.45;color:var(--ink-soft)}#s093 .payer-points{display:grid;gap:12px;margin-top:auto;padding-top:24px}#s093 .payer-point{padding:13px 15px;background:var(--cream-2);border-left:4px solid var(--orange-soft);font-size:19px;line-height:1.35;color:var(--ink-soft)}#s093 .payer-card.pay .payer-point{background:rgba(255,255,255,.58);border-left-color:var(--orange)}#s093 .relation{display:grid;grid-template-columns:1fr auto 1.15fr auto 1fr;align-items:center;gap:14px;margin-top:22px;padding:17px 22px;background:var(--ink);border-radius:14px;color:#fff}#s093 .relation b{font-size:21px;text-align:center}#s093 .relation span{font-size:30px;color:var(--orange-soft)}#s093 .relation em{display:block;margin-top:4px;font-size:15px;font-style:normal;font-weight:500;color:#DCCDBD}</style>
+  <!-- 93 典型渠道与三类付费者 -->
+  <section data-label="典型渠道与三类付费者">
+    <div class="slide slide--alt">
       <div class="s-head tight">
-        <div class="kicker anim">谁付钱、为什么付钱</div>
-        <div class="s-title anim" style="font-size:44px">医院提供场景与信任，<span class="hl">真正支付主要来自家庭与医疗保险</span></div>
+        <div class="kicker anim">天使医生的典型渠道与三类付费者</div>
+        <div class="s-title anim" style="font-size:44px">渠道结构本质上是 <span class="hl">B2B2C 或 P2S（Provider to Service）模式</span></div>
       </div>
-      <div class="payer-grid anim2">
-        <div class="payer-card">
-          <div class="payer-tag">场景方 · 非主要付费者</div><h3>医院</h3>
-          <div class="role">用户仍然是医院的用户；医院提供诊疗场地、医生资源和信誉背书。</div>
-          <div class="payer-points"><div class="payer-point">平台帮助医院完成院外随访、连续监测和用户服务</div><div class="payer-point">补充院内诊疗之外的长期医疗资料与风险数据</div></div>
-        </div>
-        <div class="payer-card pay">
-          <div class="payer-tag">主要付费者</div><h3>孕产家庭</h3>
-          <div class="role">为风险降低、就医便利与高品质体验直接付费。</div>
-          <div class="payer-points"><div class="payer-point">设备与单项监测包</div><div class="payer-point">VIP产检、特需门诊式全包套餐</div><div class="payer-point">月子、月嫂与产后康复服务</div></div>
-        </div>
-        <div class="payer-card pay">
-          <div class="payer-tag">主要支付方</div><h3>医疗保险</h3>
-          <div class="role">为纳入保障范围的医疗服务、风险管理和健康管理项目支付。</div>
-          <div class="payer-points"><div class="payer-point">孕产医疗与母婴保险责任</div><div class="payer-point">高危孕产风险管理服务</div><div class="payer-point">保险＋健康管理组合产品</div></div>
-        </div>
+      <div class="cards c3 anim2" style="margin-top:16px">
+        <div class="card" style="justify-content:center;gap:6px"><h3 style="font-size:28px">医院端</h3><p style="font-size:22px">妇产科医院合作、医院建档、高危妊娠筛查、医生或科室推荐、医院项目采购、医院信息化和专病管理项目</p></div>
+        <div class="card" style="justify-content:center;gap:6px"><h3 style="font-size:28px">医生端</h3><p style="font-size:22px">医生使用平台管理患者、通过设备和数据进行随访、将高危患者纳入连续管理</p></div>
+        <div class="card" style="justify-content:center;gap:6px"><h3 style="font-size:28px">用户端</h3><p style="font-size:22px">医院导入、医生推荐、孕妇或家属主动购买、设备销售或租赁、医疗服务包、保险或医院项目打包</p></div>
       </div>
-      <div class="relation anim3">
-        <b>医院用户<em>院内诊疗关系不改变</em></b><span>→</span><b>平台承接院外管理<em>监测、随访、服务与资料沉淀</em></b><span>→</span><b>家庭／医疗保险支付<em>购买连续服务与风险管理</em></b>
+      <div class="kicker anim3" style="margin-top:22px">真正付费的不是一个用户，而是四类付费者</div>
+      <table class="t dense anim3" style="margin-top:10px;font-size:24px">
+        <thead><tr><th style="width:18%">付费者</th><th style="width:42%">为什么付费</th><th class="hot">买的产品</th></tr></thead>
+        <tbody>
+          <tr><td class="lab">医院</td><td>提升高危孕产妇管理效率、学科能力和患者黏性</td><td>SaaS、设备、科室项目、平台服务</td></tr>
+          <tr><td class="lab">医生</td><td>获得连续数据、远程随访和异常预警工具</td><td>通常不是个人直接付费，而是医院或项目提供</td></tr>
+          <tr><td class="lab">孕妇／家庭</td><td>减少风险不确定性，获得持续监测和及时干预</td><td>设备、监测包、专病管理包、互联网医院服务</td></tr>
+          <tr class="hotrow"><td class="lab">保险公司</td><td>降低孕产险、母婴险的风险和赔付波动</td><td>风险管理服务、健康管理包、数据和干预服务</td></tr>
+        </tbody>
+      </table>
+      <div class="kicker anim3" style="margin-top:22px">从用户价值看，适合收费的产品可归纳为七类</div>
+      <div class="chiprow lg anim3" style="margin-top:12px">
+        <span class="chip">① 高危妊娠管理包</span>
+        <span class="chip">② 居家胎心监测包</span>
+        <span class="chip">③ 妊娠高血压管理包</span>
+        <span class="chip">④ 妊娠糖尿病管理包</span>
+        <span class="chip">⑤ 孕产妇院内外连续管理包</span>
+        <span class="chip">⑥ 医院科室数字化管理系统</span>
+        <span class="chip">⑦ 母婴保险附加健康管理服务</span>
       </div>
       <div class="pagemark">93</div>
     </div>
   </section>
 
-  <!-- 94 孕产家庭究竟买什么 -->
-  <section data-label="孕产家庭究竟买什么">
-    <div class="slide" id="s094"><style>#s094 .value-ladder{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;flex:1;min-height:0;margin-top:28px;align-items:stretch}#s094 .value-card{position:relative;padding:30px 26px;background:var(--cream-2);border:1px solid var(--line);border-top:6px solid var(--orange-soft);border-radius:18px;display:flex;flex-direction:column}#s094 .value-card.hot{background:var(--orange);border-color:var(--orange-deep);color:#fff}#s094 .value-card:not(:last-child):after{content:"→";position:absolute;right:-28px;top:50%;z-index:3;transform:translateY(-50%);width:38px;height:38px;border-radius:50%;display:grid;place-items:center;background:var(--cream);color:var(--orange);font-size:28px;font-weight:900}#s094 .value-no{font-size:52px;line-height:1;font-weight:900;color:var(--orange-soft)}#s094 .value-card h3{margin-top:18px;font-size:29px;line-height:1.25;color:var(--ink)}#s094 .value-card.hot h3{color:#fff}#s094 .value-card p{margin-top:18px;font-size:22px;line-height:1.5;color:var(--ink-soft)}#s094 .value-card.hot p{color:#FFF4E8}#s094 .value-result{margin-top:auto;padding-top:22px;font-size:19px;font-weight:900;color:var(--orange)}#s094 .value-card.hot .value-result{color:#fff}#s094 .vip-suite{display:grid;grid-template-columns:270px 1fr;gap:24px;align-items:center;margin-top:22px;padding:22px 26px;background:var(--ink);border-radius:16px;color:#fff}#s094 .vip-suite h3{font-size:28px;color:#fff}#s094 .vip-suite p{font-size:21px;line-height:1.4;color:#EADFD2}#s094 .vip-suite b{color:var(--orange-soft)}</style>
+  <!-- 94 市场定位与用户策略 -->
+  <section data-label="市场定位与用户策略">
+    <div class="slide">
       <div class="s-head tight">
-        <div class="kicker anim">孕产家庭究竟买什么</div>
-        <div class="s-title anim" style="font-size:44px">从发现风险到获得安心，价值来自<span class="hl">有人连续负责</span></div>
+        <div class="kicker anim">用户到底在买什么：市场定位与用户策略</div>
+        <div class="s-title anim" style="font-size:44px">孕产家庭买的是<span class="hl">“对高风险孕产过程的连续监测、提前预警和及时干预”</span></div>
       </div>
-      <div class="value-ladder anim2">
-        <div class="value-card"><div class="value-no">01</div><h3>发现风险</h3><p>通过胎心、血压、血糖及产前筛查，更早识别高危信号。</p><div class="value-result">从“看不见”到“及时发现”</div></div>
-        <div class="value-card"><div class="value-no">02</div><h3>持续监测</h3><p>用设备和平台填补两次医院就诊之间的家庭监测空白。</p><div class="value-result">从“低频就诊”到“连续数据”</div></div>
-        <div class="value-card hot"><div class="value-no">03</div><h3>异常有人处理</h3><p>监测、预警、医生判断、干预、转诊和住院管理形成完整闭环。</p><div class="value-result">从“有设备”到“有人负责”</div></div>
-        <div class="value-card"><div class="value-no">04</div><h3>获得安心</h3><p>降低高风险孕产过程中的信息不对称、等待焦虑和决策成本。</p><div class="value-result">最终购买的是确定性</div></div>
+      <div class="cards c3 anim2" style="margin-top:14px">
+        <div class="card" style="justify-content:center;gap:6px"><h3 style="font-size:27px">核心用户群体</h3><p style="font-size:21px">孕妇和产妇（尤其中高端及高风险孕产妇）、妇产科医生和助产士、月子中心和月嫂等专业人员，兼顾B端（医院、机构）和C端（家庭）。90后、95后成为生育主力军后提出“<b>公立医院的专业医疗+贴心优质服务</b>”的新要求——既提供公立医院的医学保障，又提供类似高端私立的贴心体验。</p></div>
+        <div class="card" style="justify-content:center;gap:6px"><h3 style="font-size:27px">市场渗透策略</h3><p style="font-size:21px">自成立起即采取“医院合作”为主的 B2B2C 渗透路径，与三甲医院及妇幼保健院共建孕产期管理项目获取用户，<b>几乎不做C端广告获客</b>，更多依靠口碑传播和医患转介绍；同时通过政府项目和行业协会渠道提升区域覆盖（协助卫健委建设区域妇幼健康信息化），并通过孕妈沙龙、母婴健康讲座、与保险公司合作导流触达中高收入人群。</p></div>
+        <div class="card" style="justify-content:center;gap:6px"><h3 style="font-size:27px">用户留存方式</h3><p style="font-size:21px">面对孕产周期有限（怀孕到产后一两年）的用户生命周期，平台提供<b>全孕产周期连续服务</b>（孕早期建档到二胎计划持续留存），产后以婴幼儿健康内容延长黏性，并用积分奖励、社区荣誉、老用户专属福利营造归属感。</p></div>
       </div>
-      <div class="vip-suite anim3"><h3>VIP全栈套餐</h3><p>类似特需门诊的全包方案：<b>VIP产检＋1V1管家＋专家预约＋连续监测＋住院协助＋月子与产后服务</b>，面向高净值及高风险孕产家庭提供贯穿全周期的服务确定性。</p></div>
+      <div class="kicker anim3" style="margin-top:20px">孕产家庭究竟买的是什么：四层递进的价值</div>
+      <div class="storyflow anim3" style="margin-top:12px">
+        <div class="unit"><div class="num">01</div><h3 style="font-size:28px">买“提前发现风险”</h3><p style="font-size:22px">胎心异常、血压异常、妊娠高血压、妊娠糖尿病、胎儿发育风险、早产风险等异常被尽早发现的概率提升</p></div>
+        <div class="arrow">→</div>
+        <div class="unit"><div class="num">02</div><h3 style="font-size:28px">买“持续监测”</h3><p style="font-size:22px">传统医院就诊低频，几周一次，在家的大量时间没有专业监测；通过设备和平台把医院能力延伸到家庭</p></div>
+        <div class="arrow">→</div>
+        <div class="unit" style="background:var(--orange);border-color:var(--orange-deep)"><div class="num" style="color:rgba(255,255,255,.55)">03</div><h3 style="font-size:28px;color:#FFF6EC">买“出现异常后有人处理”</h3><p style="font-size:22px;color:#FFF6EC">单纯设备没有价值，真正有价值的是“监测—预警—医生判断—干预—转诊—住院管理”完整链路。能告诉用户是否异常、是否需要联系医生、去哪家医院、如何复查，产品价值就从“硬件”升级为“风险管理服务”</p></div>
+        <div class="arrow">→</div>
+        <div class="unit"><div class="num">04</div><h3 style="font-size:28px">买“安心感”</h3><p style="font-size:22px">孕产场景时间边界明确、风险后果严重、焦虑程度高、监测频率较高、医疗路径相对清晰——这是孕产用户比普通健康用户更愿意为持续服务付费的根本原因</p></div>
+      </div>
+      <div class="quote-box anim3" style="margin-top:18px"><p style="font-size:26px"><b>一句话总结：</b>孕产家庭买的是“对高风险孕产过程的连续监测、提前预警和及时干预”；而京柏医疗真正的客户——<b>医院</b>——买的是“用信息化和设备能力提升产科专科水平、改善患者体验、建立学科竞争力”。这是一套<b>以医院为核心杠杆、以设备数据为信任基础</b>的 B2B2C 模式。</p></div>
       <div class="pagemark">94</div>
     </div>
   </section>
 
   <!-- 95 服务交付与运营能力 -->
   <section data-label="服务交付与运营能力">
-    <div class="slide slide--alt" id="s095"><style>#s095 .delivery-layout{display:grid;grid-template-columns:1.75fr .85fr;gap:22px;flex:1;min-height:0;margin-top:24px}#s095 .delivery-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}#s095 .delivery-card{padding:25px 26px;background:var(--cream);border:1px solid var(--line);border-top:5px solid var(--orange-soft);border-radius:17px;display:flex;flex-direction:column}#s095 .delivery-card.hot{background:color-mix(in srgb,var(--orange-soft) 35%,var(--cream-2));border-top-color:var(--orange)}#s095 .delivery-card .n{font-size:27px}#s095 .delivery-card h3{margin-top:10px;font-size:27px;color:var(--ink)}#s095 .delivery-card p{margin-top:13px;font-size:21px;line-height:1.48;color:var(--ink-soft)}#s095 .photo-slot{position:relative;display:flex;flex-direction:column;justify-content:flex-end;padding:28px;border:2px dashed var(--orange-soft);border-radius:18px;background:linear-gradient(145deg,var(--cream) 0%,var(--cream-deep) 100%);overflow:hidden}#s095 .photo-slot:before{content:"";position:absolute;width:230px;height:230px;right:-45px;top:-50px;border:2px solid var(--orange-soft);border-radius:50%;opacity:.65}#s095 .photo-slot b{position:relative;font-size:28px;color:var(--ink)}#s095 .photo-slot span{position:relative;margin-top:10px;font-size:19px;line-height:1.45;color:var(--muted)}#s095 .org-strip{display:grid;grid-template-columns:245px 1fr;gap:18px;align-items:center;margin-top:18px;padding:16px 22px;background:var(--ink);border-radius:14px;color:#fff}#s095 .org-strip b{font-size:23px}#s095 .org-strip .chiprow{margin:0}#s095 .org-strip .chip{background:rgba(255,255,255,.1);border-color:rgba(255,255,255,.2);color:#fff;font-size:17px}</style>
+    <div class="slide slide--alt">
       <div class="s-head tight">
         <div class="kicker anim">服务交付与运营能力</div>
-        <div class="s-title anim" style="font-size:46px">专业团队进入医院，再把服务<span class="hl">延伸到院外与家庭</span></div>
+        <div class="s-title anim" style="font-size:46px">“数字内容 + 人工服务”融合的<span class="hl">重运营、强交付</span>体系</div>
       </div>
-      <div class="delivery-layout anim2">
-        <div class="delivery-grid">
-          <div class="delivery-card hot"><div class="n">01</div><h3>6S医生与专业团队</h3><p>整合产科、儿科、内分泌医生、营养师和健康管理师；复杂病例由MDT提供专业支持。</p></div>
-          <div class="delivery-card"><div class="n">02</div><h3>院内驻点与线下陪诊</h3><p>从建档、产检到特需门诊提供驻点服务，协助预约、陪诊、转诊和住院绿色通道。</p></div>
-          <div class="delivery-card"><div class="n">03</div><h3>院外监测与异常响应</h3><p>设备数据持续上传，健康管理师每日分层跟进，异常时连接主诊医生完成处置闭环。</p></div>
-          <div class="delivery-card"><div class="n">04</div><h3>月子、月嫂与产后服务</h3><p>覆盖月子中心、上门月嫂、通乳和产后康复，并建立培训、考核、派遣与信用评价标准。</p></div>
-        </div>
-        <div class="photo-slot"><b>实景图片预留位</b><span>建议插入：院内驻点服务、线下陪诊、VIP产科门诊或月子服务场景。</span></div>
+      <div class="cards c4 anim2" style="flex:1;align-items:stretch;margin-top:24px">
+        <div class="card" style="justify-content:center;gap:10px"><div class="n">01</div><h3 style="font-size:28px">医学内容与咨询服务</h3><p style="font-size:24px">由自有团队和合作专家提供；问诊咨询整合公立医院产科医生资源，并配合 AI 辅助答疑工具提高单医生服务效率。</p></div>
+        <div class="card" style="justify-content:center;gap:10px"><div class="n">02</div><h3 style="font-size:28px">6S 服务团队体系</h3><p style="font-size:24px">为 VIP 孕产妇提供专属服务组合，并制定标准 SOP（随访频率、异常上报流程）确保服务一致性。</p></div>
+        <div class="card" style="justify-content:center;gap:10px"><div class="n">03</div><h3 style="font-size:28px">问诊与转诊协同</h3><p style="font-size:24px">依托合作医院专家团队，线上发现异常可直接协助预约合作医院相关科室，实现<b>快速转诊绿色通道</b>。</p></div>
+        <div class="card" style="justify-content:center;gap:10px"><div class="n">04</div><h3 style="font-size:28px">月嫂管理</h3><p style="font-size:24px">建立统一培训、考核、派遣机制，引入第三方背景调查和信用评价体系。</p></div>
       </div>
-      <div class="org-strip anim3"><b>组织与系统支撑</b><div class="chiprow"><span class="chip">区域与院内团队</span><span class="chip">VIP客户服务中心</span><span class="chip">医学服务中心</span><span class="chip">数据与信息化中心</span><span class="chip">日常运营团队</span></div></div>
+      <div class="quote-box anim3" style="margin-top:28px"><p style="font-size:30px">这种“重运营、强交付”模式<b>成本较高</b>，但换来了<b>高用户满意度和信任度</b>。</p></div>
       <div class="pagemark">95</div>
     </div>
   </section>
 
   <!-- 96 渠道拓展与生态构建 -->
   <section data-label="渠道拓展与生态构建">
-    <div class="slide" id="s096-scale"><style>#s096-scale .scale-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;flex:1;min-height:0;margin-top:26px}#s096-scale .scale-card{padding:28px 25px;background:var(--cream-2);border:1px solid var(--line);border-top:6px solid var(--orange-soft);border-radius:18px;display:flex;flex-direction:column}#s096-scale .scale-card.hot{background:var(--orange);border-color:var(--orange-deep);color:#fff}#s096-scale .scale-no{font-size:46px;line-height:1;font-weight:900;color:var(--orange-soft)}#s096-scale .scale-card h3{margin-top:18px;font-size:28px;color:var(--ink)}#s096-scale .scale-card.hot h3{color:#fff}#s096-scale .scale-card p{margin-top:16px;font-size:22px;line-height:1.48;color:var(--ink-soft)}#s096-scale .scale-card.hot p{color:#FFF4E8}#s096-scale .scale-role{margin-top:auto;padding-top:20px;font-size:19px;font-weight:900;color:var(--orange)}#s096-scale .scale-card.hot .scale-role{color:#fff}#s096-scale .scale-flow{display:grid;grid-template-columns:repeat(4,1fr);gap:34px;margin-top:22px}#s096-scale .flow-node{position:relative;padding:15px 16px;background:var(--cream-deep);border-radius:10px;text-align:center;font-size:20px;font-weight:800;color:var(--ink)}#s096-scale .flow-node:not(:last-child):after{content:"→";position:absolute;right:-29px;top:50%;transform:translateY(-50%);font-size:30px;color:var(--orange)}</style>
+    <div class="slide">
       <div class="s-head tight">
-        <div class="kicker anim">业务如何规模化</div>
-        <div class="s-title anim" style="font-size:44px">标杆自营、区域复制、平台运营与保险支付<span class="hl">四条路径协同放大</span></div>
+        <div class="kicker anim">渠道拓展与生态构建</div>
+        <div class="s-title anim" style="font-size:46px">直营、加盟、OEM／技术合作<span class="hl">三种形式多管齐下</span></div>
       </div>
-      <div class="scale-grid anim2">
-        <div class="scale-card hot"><div class="scale-no">01</div><h3>医院内自营／深度共建</h3><p>在重点医院建设VIP产科门诊和驻点服务团队，跑通产品、SOP和交付标准。</p><div class="scale-role">作用：建立标杆与临床信任</div></div>
-        <div class="scale-card"><div class="scale-no">02</div><h3>代理机构区域合作</h3><p>由区域代理商共同开发医院项目，承接本地商务、部署和服务资源组织。</p><div class="scale-role">作用：降低区域复制成本</div></div>
-        <div class="scale-card"><div class="scale-no">03</div><h3>平台持续运营</h3><p>统一沉淀用户档案、设备数据、随访工单和会员运营，让线下服务可管理、可复用。</p><div class="scale-role">作用：标准化并形成数据资产</div></div>
-        <div class="scale-card"><div class="scale-no">04</div><h3>医疗保险合作</h3><p>把孕产医疗、专病管理和母婴服务组合进保险方案，扩大支付覆盖和用户触达。</p><div class="scale-role">作用：放大支付与获客入口</div></div>
+      <div class="cards c4 anim2" style="flex:1;align-items:stretch;margin-top:24px">
+        <div class="card warm" style="justify-content:center;gap:10px"><h3 style="font-size:28px">医院渠道（直营+合作）</h3><p style="font-size:24px">既有共建“天使医生VIP产科门诊”的深度直营模式，也有医院购买/租用信息系统的合作模式；已有 <b>600多家</b>公立医院合作，未来计划下沉到二级医院和基层妇幼保健院。</p></div>
+        <div class="card" style="justify-content:center;gap:10px"><h3 style="font-size:28px">月子中心和康复机构</h3><p style="font-size:24px">通过品牌加盟（挂牌“天使医生”联合品牌）或技术输出（提供IT系统及培训，维持机构自有品牌）拓展线下网络。</p></div>
+        <div class="card" style="justify-content:center;gap:10px"><h3 style="font-size:28px">政府与公共卫生合作</h3><p style="font-size:24px">参与区域妇幼健康联合体建设，将平台升级为全市/全省孕产妇管理平台，通过招投标或战略协议获得项目收入。</p></div>
+        <div class="card" style="justify-content:center;gap:10px"><h3 style="font-size:28px">跨界合作与生态联盟</h3><p style="font-size:24px">与商业保险公司合作开发“<b>母婴保险+健康管理</b>”产品，与产后健身、美体机构合作延伸服务链条。</p></div>
       </div>
-      <div class="scale-flow anim3"><div class="flow-node">医院标杆验证</div><div class="flow-node">代理机构复制</div><div class="flow-node">平台标准化运营</div><div class="flow-node">保险支付放大</div></div>
+      <div class="quote-box anim3" style="margin-top:28px"><p style="font-size:29px">渠道模式综合运用<b>直营（标杆示范）、加盟（规模版图）、OEM/技术合作（技术影响力）</b>三种形式，多管齐下扩大服务网络的深度和广度。</p></div>
       <div class="pagemark">96</div>
     </div>
   </section>
 
-  <!-- 97 同赛道验证 -->
+  <!-- 97 线下门店和运营实景 -->
+  <section data-label="线下门店和运营实景">
+    <div class="slide slide--alt">
+      <div class="s-head tight">
+        <div class="kicker anim">线下门店和运营实景</div>
+        <div class="s-title anim" style="font-size:46px">用专业内容 + 沉浸式体验强化<span class="hl">“公立医疗保障 + 高端私享体验”</span></div>
+      </div>
+      <div class="cards c3 anim2" style="flex:1;align-items:stretch;margin-top:22px">
+        <div class="card" style="justify-content:center;gap:10px">
+          <h3 style="font-size:28px">线下网络</h3>
+          <p style="font-size:24px">覆盖医院产检门诊、医院特需门诊（如与江西赣州市妇幼保健院共建的特需门诊）、线下会员中心、自营高端月子中心（深圳首家）及上门月嫂服务。</p>
+          <p style="font-size:24px">线下活动形式包括孕期中医体质辨识讲座（联合中医专家一对一问诊答疑）、月子餐烹饪培训（高端月子中心星级大厨手把手教学）等。</p>
+        </div>
+        <div class="card warm" style="justify-content:center;gap:10px">
+          <h3 style="font-size:28px">商务合作生态四类角色</h3>
+          <p style="font-size:24px"><b>医院</b>：招商入院 + 收益分成<br><b>医生</b>：学术培训 + 患者管理系统 + 开单分成<br><b>专家</b>：联合学术会议<br><b>代理商</b>：共同开发医院项目 + 分成机制</p>
+        </div>
+        <div class="card" style="justify-content:center;gap:10px">
+          <h3 style="font-size:28px">组织架构</h3>
+          <p style="font-size:24px">商务招商团队、区域与院内团队、VIP客户服务中心、装修与施工团队、总部信息化与数据中心、医学服务中心、日常运营团队。</p>
+        </div>
+      </div>
+      <div class="pagemark">97</div>
+    </div>
+  </section>
+
+  <!-- 98 同赛道对标 -->
   <section data-label="同赛道对标">
     <div class="slide">
       <div class="s-head tight">
@@ -3618,34 +3655,87 @@
         </tbody>
       </table>
       <div class="quote-box anim3" style="margin-top:24px"><p style="font-size:27px">这一图谱说明，“院内院外一体化”是慢病、肿瘤、母婴等多个专科垂直赛道正在<b>收敛的共同范式</b>，其共性是：选择<b>诊疗路径清晰、复购/复诊频率高</b>的专病场景切入医院临床流程，再向院外延伸监测与随访能力，最终把<b>专病数据沉淀为壁垒</b>。</p></div>
-      <div class="pagemark">97</div>
-    </div>
-  </section>
-
-  <!-- 98 与平安模式的关键差异 -->
-  <section data-label="与平安健康商业模式的对比">
-    <div class="slide slide--alt" id="s098"><style>#s098 .compare-table{flex:1;margin-top:24px;font-size:24px}#s098 .compare-table th,#s098 .compare-table td{padding:19px 22px;line-height:1.38}#s098 .compare-table th:first-child,#s098 .compare-table td:first-child{width:15%}#s098 .compare-table th:nth-child(2),#s098 .compare-table td:nth-child(2){width:42.5%}#s098 .compare-table th:nth-child(3),#s098 .compare-table td:nth-child(3){width:42.5%}#s098 .compare-table td b{display:block;margin-bottom:4px;font-size:20px;color:var(--orange)}#s098 .compare-summary{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:18px}#s098 .summary-card{padding:17px 22px;background:var(--cream);border-left:5px solid var(--orange-soft);font-size:22px;line-height:1.4;color:var(--ink-soft)}#s098 .summary-card.hot{background:color-mix(in srgb,var(--orange-soft) 38%,var(--cream-2));border-left-color:var(--orange)}#s098 .summary-card b{color:var(--ink)}#s098 .source-note{margin-top:10px;font-size:15px;color:var(--muted)}</style>
-      <div class="s-head tight">
-        <div class="kicker anim">与平安模式的关键差异</div>
-        <div class="s-title anim" style="font-size:44px">同样连接医疗与健康管理，<span class="hl">增长基因完全不同</span></div>
-      </div>
-      <table class="t compare-table anim2">
-        <thead><tr><th>比较维度</th><th>天使医生</th><th class="hot">平安健康</th></tr></thead>
-        <tbody>
-          <tr><td class="lab">支付方</td><td><b>家庭＋医疗保险</b>依托医院场景形成支付</td><td><b>保险集团＋企业客户</b>由稳定支付方统筹服务</td></tr>
-          <tr><td class="lab">核心入口</td><td><b>医院、医生与监测设备</b>从孕产临床流程切入</td><td><b>保单、代理人和企业账户</b>从金融客户关系切入</td></tr>
-          <tr><td class="lab">产品形态</td><td><b>设备＋SaaS＋VIP专病包</b>可以独立定价成交</td><td><b>保单＋分层健康权益</b>服务多作为保险权益交付</td></tr>
-          <tr><td class="lab">交付方式</td><td><b>院内驻点＋健康管家＋MDT</b>销售与交付高度一体化</td><td><b>代理人销售＋专业团队履约</b>销售与交付相对分离</td></tr>
-          <tr class="hotrow"><td class="lab">核心壁垒</td><td><b>专病路径、连续数据、医院信任</b>以临床深度建立可信度</td><td><b>支付方、客户池、医疗网络</b>以网络规模建立确定性</td></tr>
-        </tbody>
-      </table>
-      <div class="compare-summary anim3"><div class="summary-card"><b>天使医生：</b>深耕一个高风险专病，把医院能力延伸到家庭。</div><div class="summary-card hot"><b>平安健康：</b>掌握支付方和客户池，再用规模化网络组织履约。</div></div>
-      <div class="source-note anim3">口径说明：合作医院数、用户规模等采用企业不同年份披露数据，仅用于方向性比较，不作为统一审计口径。</div>
       <div class="pagemark">98</div>
     </div>
   </section>
 
-  <!-- 99 分节·产品设计和共同启发 -->
+  <!-- 99 与平安健康商业模式的对比 -->
+  <section data-label="与平安健康商业模式的对比">
+    <div class="slide slide--alt" id="s108"><style>#s108 table.t td,#s108 table.t th{padding:12px 16px;font-size:21px;line-height:1.3}#s108 table.t thead th{font-size:21px}</style>
+      <div class="s-head tight">
+        <div class="kicker anim">与平安健康商业模式的对比</div>
+        <div class="s-title anim" style="font-size:42px">“支付方+网络规模” vs <span class="hl">“专病深度+临床可信度”</span></div>
+      </div>
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:22px;flex:1;min-height:0;margin-top:12px">
+        <div style="display:flex;flex-direction:column;min-height:0">
+          <div class="kicker" style="margin-bottom:8px">商业机制对比</div>
+          <table class="t dense anim2" style="font-size:21px">
+            <thead><tr><th style="width:18%">维度</th><th>天使医生（京柏医疗）</th><th class="hot">平安健康</th></tr></thead>
+            <tbody>
+              <tr><td class="lab">起家路径</td><td>硬件设备公司转型（1998年起）</td><td>互联网问诊平台转型保险生态（2014年起）</td></tr>
+              <tr><td class="lab">核心客户</td><td>医院（B端为主）</td><td>F端保险+B端企业+C端个人</td></tr>
+              <tr><td class="lab">获客方式</td><td>医院渠道导入，几乎不做C端广告</td><td>保险渠道、企业渠道、代理人网络</td></tr>
+              <tr><td class="lab">货是什么</td><td>设备/系统项目+VIP专病服务包，可独立定价</td><td>保单本身，健康服务是不单独定价的附加权益</td></tr>
+              <tr><td class="lab">谁卖谁交付</td><td>驻点健康顾问（“S”）：卖的人和做的人是同一体系</td><td>代理人（卖）与医养服务经理/自有医生网络（做）完全分离</td></tr>
+              <tr><td class="lab">数据与循证</td><td>真实设备数据、千万级监护报告、多中心临床结局验证</td><td>依托实体医疗网络专科资源，AI辅助诊疗准确率对外披露</td></tr>
+              <tr><td class="lab">监管定性</td><td>医疗信息化/设备服务，B端项目可独立定价</td><td>纳入保险责任条款的健康管理服务成本≤净保险费20%；单独提供服务不得与保险产品强制捆绑</td></tr>
+              <tr><td class="lab">扩张瓶颈</td><td>受限于医院合作深度和专职健康顾问招募，难以快速复制</td><td>受限于代理人网点数量，但履约端可集中化、规模化</td></tr>
+              <tr class="hotrow"><td class="lab">可验证性</td><td>有明确的临床结局数据（子痫前期风险下降18%等）</td><td>有明确的财务与客户经营数据（件均保费、续保率）</td></tr>
+            </tbody>
+          </table>
+        </div>
+        <div style="display:flex;flex-direction:column;min-height:0">
+          <div class="kicker" style="margin-bottom:8px">用户价值与付费逻辑对比</div>
+          <table class="t dense anim2" style="font-size:21px">
+            <thead><tr><th style="width:20%">维度</th><th>平安健康</th><th class="hot">天使医生</th></tr></thead>
+            <tbody>
+              <tr><td class="lab">服务范围</td><td>泛医疗、保险、慢病、养老</td><td>孕产及高危妊娠专病</td></tr>
+              <tr><td class="lab">核心入口</td><td>保险、企业、综合金融客户</td><td>医院、医生、设备</td></tr>
+              <tr><td class="lab">主要模式</td><td>F/B端支付，C端使用</td><td>B2B2C／P2S</td></tr>
+              <tr><td class="lab">用户痛点</td><td>找医院、找医生、理赔、长期照护</td><td>风险监测、异常预警、连续管理</td></tr>
+              <tr><td class="lab">服务价值</td><td>降低医疗和照护决策成本</td><td>降低临床风险和管理盲区</td></tr>
+              <tr><td class="lab">主要收入</td><td>保费协同、企业服务、会员和医疗服务</td><td>SaaS、设备、项目服务、专病管理</td></tr>
+              <tr><td class="lab">数据价值</td><td>客户分层、控赔、续保、交叉销售</td><td>风险预警、疗效管理、科研和医院运营</td></tr>
+              <tr><td class="lab">直接付费意愿</td><td>泛健康较弱，疾病和支付场景较强</td><td>高危孕产场景较强</td></tr>
+              <tr class="hotrow"><td class="lab">关键壁垒</td><td>支付方、保险客户池、医疗网络</td><td>临床路径、数据连续性、医院协同</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="quote-box anim3" style="margin-top:12px;padding:16px 26px"><p style="font-size:24px"><b>一句话总结：</b>平安用户购买的是<b>医疗和保险之间的协调能力，以及家庭长期健康管理的确定性</b>；天使医生用户购买的是<b>对高风险孕产过程的连续监测、提前预警和及时干预</b>。前者靠“支付方+网络规模”，后者靠“专病深度+临床可信度”——这也是两者几乎不构成直接竞争、但都值得富德联好分别借鉴的原因。</p></div>
+      <div class="pagemark">99</div>
+    </div>
+  </section>
+
+  <!-- 100 风险提示与信息一致性 -->
+  <section data-label="风险提示与信息一致性">
+    <div class="slide">
+      <div class="s-head tight">
+        <div class="kicker anim">风险提示与信息一致性说明</div>
+        <div class="s-title anim" style="font-size:46px">对标时<span class="hl">仅作方向性参考</span>，而非精确数字</div>
+      </div>
+      <div class="cards c3 anim2" style="flex:1;align-items:stretch;margin-top:26px">
+        <div class="card" style="justify-content:center;gap:10px">
+          <div class="n">01</div>
+          <h3 style="font-size:30px">官方口径逐年变化</h3>
+          <p style="font-size:24px">天使医生官方通稿在不同年份对“合作医院数量”（400余家 → 600余家 → 1000+家）、“服务用户规模”（230万+ → 240万+）的口径存在明显变化，属于正常业务增长表述，但<b>缺乏第三方审计或统一统计口径</b>。</p>
+        </div>
+        <div class="card" style="justify-content:center;gap:10px">
+          <div class="n">02</div>
+          <h3 style="font-size:30px">近十年未见新融资</h3>
+          <p style="font-size:24px">公开渠道未检索到融资轮次超过 2016 年 A+ 轮的进一步披露，也未见其上市辅导、并购等重大资本动作信息——说明近十年发展可能<b>更依赖内生收入而非持续融资驱动</b>。</p>
+        </div>
+        <div class="card warm" style="justify-content:center;gap:10px">
+          <div class="n">03</div>
+          <h3 style="font-size:30px">用户体验缺乏独立验证</h3>
+          <p style="font-size:24px">与长轻等纯C端消费医疗模式不同，公开检索未发现集中性消费者投诉——这与其 B2B2C 模式高度相关（孕产妇很少直接为App付费或产生退款纠纷），但也意味着该模式的<b>真实用户体验和满意度缺乏独立第三方渠道验证</b>，公开信息基本来自企业自述和合作方背书。</p>
+        </div>
+      </div>
+      <div class="pagemark">100</div>
+    </div>
+  </section>
+
+  <!-- 101 分节·产品设计和共同启发 -->
   <section data-label="产品设计和共同启发">
     <div class="divider">
       <img class="bleed" src="imgs/86-div-chapter7.png" alt="">
@@ -3657,11 +3747,11 @@
         <div class="dsub anim3">从跨平台方法论、服务确定性、家庭经营与分层权益，走向可经营、可交付、可复制的健康产品体系。</div>
         <div class="case-scope anim3"><span>跨平台启发</span><span>服务确定性</span><span>分层会员</span><span>家庭经营</span><span>产品化交付</span></div>
       </div>
-      <div class="pagemark">99</div>
+      <div class="pagemark">101</div>
     </div>
   </section>
 
-  <!-- 100 对富德联好的启示 -->
+  <!-- 102 对富德联好的启示 -->
   <section data-label="对富德联好的启示">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3676,11 +3766,11 @@
         <div class="card" style="justify-content:center;gap:10px"><div class="n">③</div><h3 style="font-size:28px">收入结构优先绑定B端</h3><p style="font-size:24px">优先绑定医院／保险／企业而非 C 端一次性收费，降低对营销转化率的依赖。</p></div>
         <div class="card warm" style="justify-content:center;gap:10px"><div class="n">④</div><h3 style="font-size:28px">保持渐进式转型节奏</h3><p style="font-size:24px">先在 1—2 个专病场景把“设备+医院+数据”模式验证扎实，再横向复制，而非一步追求平安级别的大生态。</p></div>
       </div>
-      <div class="pagemark">100</div>
+      <div class="pagemark">102</div>
     </div>
   </section>
 
-  <!-- 101 人货场逻辑 -->
+  <!-- 103 人货场逻辑 -->
   <section data-label="人货场逻辑">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3699,11 +3789,11 @@
         </tbody>
       </table>
       <div class="quote-box anim3" style="margin-top:22px"><p style="font-size:25px">这不是谁优谁劣的问题，而是<b>两种组织能力和渠道设计完全不同的商业模式</b>：前者是“人货场三合一”的现场生意，后者是“销售现场与服务现场两段分离、监管红线倒逼产品权益化”的金融+服务组合生意。富德如果两种打法都想尝试，必须认识到这需要<b>两套完全不同的团队、考核机制和资源投入</b>——想做专科垂直的高客单价模式，就需要一支完全独立于保险代理人之外的专职线下队伍；想做保险生态型的规模化模式，就必须先把权益“标准化、对照表化”，把专业判断从销售环节剥离。</p></div>
-      <div class="pagemark">101</div>
+      <div class="pagemark">103</div>
     </div>
   </section>
 
-  <!-- 102 产品生命周期逻辑 -->
+  <!-- 104 产品生命周期逻辑 -->
   <section data-label="产品生命周期逻辑">
     <div class="slide">
       <div class="s-head tight">
@@ -3726,11 +3816,11 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:24px"><p style="font-size:27px"><b>对富德的启示：</b>任何健康管理产品的设计起点，都不应是“这次能卖多少钱”，而应是“<b>这个客户接下来三到五年会在什么时间点回到这个账户里</b>”——服务产品之间必须有转介链路（健康咨询 → 就医协助 → 慢病管理 → 养老健康），而不是互相孤立的功能堆砌。</p></div>
-      <div class="pagemark">102</div>
+      <div class="pagemark">104</div>
     </div>
   </section>
 
-  <!-- 103 聚焦主战场 -->
+  <!-- 105 聚焦主战场 -->
   <section data-label="聚焦主战场">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3753,11 +3843,11 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:24px"><p style="font-size:26px">这与本报告“行业背景概览”一章提出的“行业未来的胜负手”判断相互印证：未来竞争不是“谁的 App 流量更大”，而是<b>谁能以更低成本、更可信赖地组织医疗健康服务，并让支付方愿意持续买单</b>。对富德而言，任何健康管理板块的立项，都应该先问“<b>我们能稳定掌握哪一类支付方、能用什么指标证明交付价值</b>”，再决定具体做哪些产品和服务。</p></div>
-      <div class="pagemark">103</div>
+      <div class="pagemark">105</div>
     </div>
   </section>
 
-  <!-- 104 不要把异常发现率作为活动成功指标 -->
+  <!-- 106 不要把异常发现率作为活动成功指标 -->
   <section data-label="不要把异常发现率作为活动成功指标">
     <div class="slide">
       <div class="s-head tight">
@@ -3776,11 +3866,11 @@
         <div class="card" style="justify-content:center"><p style="font-size:29px"><b>30／90天</b>客户回访满意度</p></div>
         <div class="card warm" style="justify-content:center"><p style="font-size:29px"><b>加保、续保和转介绍率</b></p></div>
       </div>
-      <div class="pagemark">104</div>
+      <div class="pagemark">106</div>
     </div>
   </section>
 
-  <!-- 105 医学解释+服务承接 -->
+  <!-- 107 医学解释+服务承接 -->
   <section data-label="医学解释+服务承接">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3813,11 +3903,11 @@
           <p style="color:#FFF6EC"><b>最后才做</b>家庭保障缺口与服务方案沟通</p>
         </div>
       </div>
-      <div class="pagemark">105</div>
+      <div class="pagemark">107</div>
     </div>
   </section>
 
-  <!-- 106 分层会员权益 -->
+  <!-- 108 分层会员权益 -->
   <section data-label="分层会员权益">
     <div class="slide">
       <style>
@@ -3842,11 +3932,11 @@
         </tbody>
       </table>
       <div class="quote-box anim3" style="margin-top:22px"><p style="font-size:29px">用户才能理解：保费更高，不只是保额更高，<b>服务的响应能力、资源层级和家庭覆盖范围也不同</b>。</p></div>
-      <div class="pagemark">106</div>
+      <div class="pagemark">108</div>
     </div>
   </section>
 
-  <!-- 107 以家庭为单位 -->
+  <!-- 109 以家庭为单位 -->
   <section data-label="以家庭为单位">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3870,11 +3960,11 @@
           <div class="s-body" style="font-size:30px">或通过视频、线上家庭服务方案，让子女参与后续决策。</div>
         </div>
       </div>
-      <div class="pagemark">107</div>
+      <div class="pagemark">109</div>
     </div>
   </section>
 
-  <!-- 108 先卖服务确定性 -->
+  <!-- 110 先卖服务确定性 -->
   <section data-label="先卖服务确定性">
     <div class="slide">
       <div class="s-head tight">
@@ -3886,11 +3976,11 @@
       <div class="quote anim2" style="font-size:54px;max-width:1700px">用户未必会因为知道自己<span class="hl">有风险</span>而信任保险公司；<br>但会因为相信<span class="hl">“关键时刻有人能把事情办下来”</span>，而认可保险与健康服务的长期价值。</div>
             </div>
       <div class="quote-box anim3"><p style="font-size:31px">这也是平安能把健康、医疗、养老服务放进<b>高保费寿险和年金险</b>中的核心原因。</p></div>
-      <div class="pagemark">108</div>
+      <div class="pagemark">110</div>
     </div>
   </section>
 
-  <!-- 109 设计前提与产品总架构 -->
+  <!-- 111 设计前提与产品总架构 -->
   <section data-label="设计前提与产品总架构">
     <div class="slide">
       <div class="s-head tight">
@@ -3919,13 +4009,13 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:16px"><p style="font-size:23px"><b>产品设计五大原则：</b>①先高频、后低频，先标准化、后重交付；②以家庭为最小经营单元（保单持有人、配偶、子女、父母共享一个家庭账户）；③服务分层，不做“一刀切”（免费基础权益用于激活，高价值服务以会员资格或次数包区分）；④先承诺服务确定性，再谈健康改善（不以疾病治愈、排队优先或理赔结果作不当承诺）；⑤保险与医疗独立决策（医疗建议由合格医疗人员提供，健康服务数据与核保、理赔、营销之间设置授权与用途隔离机制）。</p></div>
-      <div class="pagemark">109</div>
+      <div class="pagemark">111</div>
     </div>
   </section>
 
-  <!-- 110 保险产品设计 -->
+  <!-- 112 保险产品设计 -->
   <section data-label="保险产品设计">
-    <div class="slide slide--alt" id="s112-summary"><style>#s112-summary table.t th,#s112-summary table.t td{padding:8px 14px;font-size:20px;line-height:1.24}#s112-summary .card p{font-size:19px}#s112-summary .card h3{font-size:25px}#s112-summary .s-body{font-size:22px}</style>
+    <div class="slide slide--alt" id="s094"><style>#s094 table.t th,#s094 table.t td{padding:8px 14px;font-size:20px;line-height:1.24}#s094 .card p{font-size:19px}#s094 .card h3{font-size:25px}#s094 .s-body{font-size:22px}</style>
       <div class="s-head tight">
         <div class="kicker anim">保险产品设计</div>
         <div class="s-title anim" style="font-size:44px">让保险从“风险赔付合同”成为<span class="hl">“可持续使用的家庭健康保障方案”</span></div>
@@ -3958,11 +4048,11 @@
           <p style="font-size:21px"><b>不得将健康服务数据用于拒保、拒赔或歧视性定价。</b></p>
         </div>
       </div>
-      <div class="pagemark">110</div>
+      <div class="pagemark">112</div>
     </div>
   </section>
 
-  <!-- 111 服务产品设计 -->
+  <!-- 113 服务产品设计 -->
   <section data-label="服务产品设计">
     <div class="slide">
       <div class="s-head tight">
@@ -3996,11 +4086,11 @@
           <p style="font-size:20px"><b>0—6个月</b>验证产品价值：选定1—2个重点城市和存量客群，上线基础会员/报告解读/咨询/就医导航，跑通权益激活与工单系统，不自建重资产医疗网络。<b>6—12个月</b>验证商业闭环：引入慢病管理和就医专项包，测试会员升级和服务包付费。<b>12—24个月</b>复制与协同：扩展城市与供应网络，连接康复、养老与理赔服务，形成客户分层运营。</p>
         </div>
       </div>
-      <div class="pagemark">111</div>
+      <div class="pagemark">113</div>
     </div>
   </section>
 
-  <!-- 112 平安案例对富德联好的核心启示 -->
+  <!-- 114 平安案例对富德联好的核心启示 -->
   <section data-label="平安案例对富德联好的核心启示">
     <div class="slide slide--alt" id="s096"><style>#s096 table.t th,#s096 table.t td{padding:8px 14px;font-size:20px;line-height:1.24}</style>
       <div class="s-head tight">
@@ -4019,7 +4109,7 @@
           <tr class="hotrow"><td class="lab">合规与风险边界</td><td>条款内服务成本≤净保险费20%；单独服务须明示合同与价格、不得强制捆绑；保险与医疗须独立决策</td><td>健康服务数据用于核保、理赔、营销前需另行明确授权，不得用于拒保拒赔或歧视性定价；合规责任应前置到产品设计和总部治理层面，而非压给一线代理人</td></tr>
         </tbody>
       </table>
-      <div class="pagemark">112</div>
+      <div class="pagemark">114</div>
     </div>
   </section>
 
