@@ -743,6 +743,49 @@
   .trust-journey{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;flex:1;min-height:0;margin-top:18px;position:relative}.trust-journey::before{content:"";position:absolute;z-index:0;left:9%;right:9%;top:78px;border-top:2px dashed #E4B688}.trust-stage{position:relative;z-index:1;display:flex;flex-direction:column;min-height:0;padding:22px 21px 24px;border:1px solid var(--line);border-radius:18px;background:rgba(255,251,245,.94)}.trust-stage .ts-no{display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:#F6D4B4;font-size:20px;font-weight:900;color:#A65326}.trust-stage h3{margin:14px 0 7px;font-size:32px;line-height:1.1;color:var(--ink)}.trust-stage .ts-key{font-size:21px;font-weight:850;line-height:1.3;color:#A65326}.trust-stage ul{display:flex;flex:1;flex-direction:column;justify-content:space-between;gap:14px;margin-top:22px;padding-bottom:4px;list-style:none}.trust-stage li{padding-left:17px;position:relative;font-size:21px;line-height:1.32;color:var(--ink-soft)}.trust-stage li::before{content:"";position:absolute;left:1px;top:.48em;width:7px;height:7px;border-radius:50%;background:var(--orange)}.trust-stage.trust{background:linear-gradient(155deg,#FFF1E3,#F6C28E);border-color:#E3A167}.trust-stage.trust .ts-no{background:#EFA264;color:#FFF9F1}.trust-stage.trust h3{color:var(--ink)}.trust-stage.trust .ts-key{color:#A65326}.trust-stage.trust li{color:var(--ink-soft)}.trust-stage.trust li::before{background:#D97937}
   section[data-label="第一问：企业采购决策链"] .t th,section[data-label="第一问：企业采购决策链"] .t td{padding-top:15px;padding-bottom:15px}section[data-label="第一问：企业采购决策链"] .product-plan-intro{margin-top:52px}section[data-label="第一问：企业采购决策链"] .product-plan-cards{margin-top:26px}
   section[data-label="第三问之一：健康委托管理"] .chiprow.lg .chip{border:2px solid #D8A16D;background:#FFF9F1;box-shadow:0 3px 8px rgba(166,91,39,.06);color:var(--ink)}
+  /* ---- page 74: five procurement values as a rising value ladder ---- */
+  section[data-label="第二问深化：五项采购价值"] .purchase-ladder{position:relative;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:15px;align-items:end;flex:1;min-height:0;margin-top:30px;padding:56px 0 30px}
+  section[data-label="第二问深化：五项采购价值"] .purchase-ladder::before{content:"";position:absolute;left:8%;right:8%;bottom:68px;height:2px;background:linear-gradient(90deg,#E8C4A2,#E0742F);opacity:.75}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step{position:relative;z-index:1;display:flex;flex-direction:column;min-height:390px;padding:44px 22px 22px;border:1px solid var(--line);border-radius:20px;background:rgba(255,251,245,.96);box-shadow:0 9px 24px rgba(101,66,35,.045);transform:translateY(-44px)}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s1{margin-bottom:0}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s2{margin-bottom:34px}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s3{margin-bottom:68px;border-color:#E1A16C;background:#FFF0E0;box-shadow:0 12px 28px rgba(190,96,33,.10)}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s4{margin-bottom:102px}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s5{margin-bottom:136px;border-color:#B9DCD2;background:#F3FAF7}
+  section[data-label="第二问深化：五项采购价值"] .purchase-no{position:absolute;left:22px;top:-28px;display:grid;place-items:center;width:58px;height:58px;border-radius:50%;background:var(--cream-2);border:3px solid var(--orange);box-shadow:0 4px 12px rgba(161,86,37,.12);font-size:23px;font-weight:900;color:var(--orange)}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s3 .purchase-no{background:var(--orange);color:#FFF9F1}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s5 .purchase-no{border-color:var(--mint);color:#23876E}
+  section[data-label="第二问深化：五项采购价值"] .purchase-level{font-size:18px;font-weight:900;letter-spacing:.08em;color:var(--orange)}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s5 .purchase-level{color:#23876E}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step h3{margin:10px 0 13px;font-size:29px;line-height:1.12;color:var(--ink)}
+  section[data-label="第二问深化：五项采购价值"] .purchase-core{font-size:21px;font-weight:750;line-height:1.4;color:var(--ink-soft)}
+  section[data-label="第二问深化：五项采购价值"] .purchase-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:16px}
+  section[data-label="第二问深化：五项采购价值"] .purchase-tags span{padding:6px 9px;border-radius:999px;background:#F7E5D3;font-size:17px;font-weight:750;line-height:1.15;color:#86502E}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s5 .purchase-tags span{background:#DCEFE8;color:#287A68}
+  section[data-label="第二问深化：五项采购价值"] .purchase-result{margin-top:auto;padding-top:15px;border-top:1px solid #E8D2BA;font-size:20px;font-weight:900;line-height:1.32;color:#A65326}
+  section[data-label="第二问深化：五项采购价值"] .purchase-step.s5 .purchase-result{border-color:#C8DED6;color:#23876E}
+  section[data-label="第二问深化：五项采购价值"] .purchase-axis{position:absolute;left:50%;bottom:1px;transform:translateX(-50%);display:flex;align-items:center;gap:14px;font-size:18px;font-weight:850;letter-spacing:.04em;color:var(--muted);white-space:nowrap}
+  section[data-label="第二问深化：五项采购价值"] .purchase-axis b{font-size:28px;color:var(--orange);line-height:1}
+  /* ---- page 82: four audiences, with the detailed value language consolidated ---- */
+  section[data-label="第五问：多角色价值表达"] .role-language-layout{display:grid;grid-template-rows:minmax(0,1fr) 36px minmax(0,1fr);flex:1;min-height:0;margin-top:22px}
+  section[data-label="第五问：多角色价值表达"] .role-tabs,section[data-label="第五问：多角色价值表达"] .role-voices{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
+  section[data-label="第五问：多角色价值表达"] .role-tab{display:grid;grid-template-columns:48px 1fr;gap:14px;align-items:center;padding:18px 20px;border:1px solid var(--line);border-radius:16px;background:rgba(255,251,245,.94)}
+  section[data-label="第五问：多角色价值表达"] .role-tab .role-no{display:grid;place-items:center;width:44px;height:44px;border-radius:50%;background:#F6D4B4;font-size:18px;font-weight:900;color:#A65326}
+  section[data-label="第五问：多角色价值表达"] .role-tab h3{font-size:27px;line-height:1.1;color:var(--ink)}
+  section[data-label="第五问：多角色价值表达"] .role-tab p{margin-top:6px;font-size:19px;font-weight:800;line-height:1.25;color:var(--orange)}
+  section[data-label="第五问：多角色价值表达"] .role-tab.employee{border-color:#DF9A60;background:#FFF0E0}
+  section[data-label="第五问：多角色价值表达"] .role-tab.employee .role-no{background:var(--orange);color:#FFF9F1}
+  section[data-label="第五问：多角色价值表达"] .role-connector{display:grid;grid-template-columns:repeat(4,1fr);gap:15px}
+  section[data-label="第五问：多角色价值表达"] .role-connector span{position:relative}
+  section[data-label="第五问：多角色价值表达"] .role-connector span::before{content:"";position:absolute;left:50%;top:0;bottom:13px;border-left:2px dotted #DFB78F}
+  section[data-label="第五问：多角色价值表达"] .role-connector span::after{content:"↓";position:absolute;left:50%;bottom:-2px;transform:translateX(-50%);font-size:23px;font-weight:900;color:var(--orange)}
+  section[data-label="第五问：多角色价值表达"] .role-voice{display:flex;flex-direction:column;padding:23px 22px 20px;border:1px solid var(--line);border-radius:17px;background:rgba(255,251,245,.96)}
+  section[data-label="第五问：多角色价值表达"] .role-voice .voice-label{font-size:17px;font-weight:900;letter-spacing:.08em;color:var(--orange)}
+  section[data-label="第五问：多角色价值表达"] .role-voice blockquote{margin:10px 0 16px;font-size:23px;font-weight:800;line-height:1.36;color:var(--ink)}
+  section[data-label="第五问：多角色价值表达"] .role-voice blockquote b{color:var(--orange-deep)}
+  section[data-label="第五问：多角色价值表达"] .voice-tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:auto}
+  section[data-label="第五问：多角色价值表达"] .voice-tags span{padding:6px 9px;border-radius:999px;background:#F7E5D3;font-size:16px;font-weight:750;line-height:1.15;color:#86502E}
+  section[data-label="第五问：多角色价值表达"] .role-voice.employee{border-color:#DF9A60;background:linear-gradient(155deg,#FFF2E4,#F8D4B2)}
   section[data-label="用户如何使用"] .usage-compare{display:grid;grid-template-columns:1fr 1fr;gap:28px;flex:1;min-height:0;margin-top:18px}section[data-label="用户如何使用"] .usage-card{position:relative;display:flex;flex-direction:column;padding:27px 30px;border:1.5px solid #D9AC80;border-radius:21px;background:rgba(255,252,247,.96)}section[data-label="用户如何使用"] .usage-card .usage-no{display:flex;align-items:center;gap:9px;font-size:19px;font-weight:900;letter-spacing:.08em;color:var(--orange)}section[data-label="用户如何使用"] .usage-card .usage-no i{display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#F5D4B6;font-style:normal;font-size:15px;color:#9E5127}section[data-label="用户如何使用"] .usage-card h3{margin:10px 0 17px;font-size:39px;line-height:1.1;color:var(--ink)}section[data-label="用户如何使用"] .usage-block{padding:13px 0;border-top:1px solid #E8D2BA}section[data-label="用户如何使用"] .usage-block b{display:block;margin-bottom:7px;font-size:19px;letter-spacing:.06em;color:#A65326}section[data-label="用户如何使用"] .usage-block p{font-size:21px;line-height:1.42;color:var(--ink-soft)}section[data-label="用户如何使用"] .usage-points{display:flex;flex-wrap:wrap;gap:8px;list-style:none}section[data-label="用户如何使用"] .usage-points li{padding:6px 10px;border-radius:9px;background:#F8E6D4;font-size:18px;line-height:1.2;color:var(--ink-soft)}section[data-label="用户如何使用"] .usage-takeaway{margin-top:auto;padding:13px 15px;border-left:4px solid var(--orange);background:#FFF3E5;font-size:21px;font-weight:850;line-height:1.38;color:#A65326}
 .scene-layout{display:grid;grid-template-columns:.82fr 1fr .82fr;gap:0;align-items:stretch;flex:1}.scene-layout .scene-box{padding:34px;border:1px solid var(--line);background:var(--cream-2)}.scene-layout .scene-box:first-child{border-radius:22px 0 0 22px}.scene-layout .scene-box:last-child{border-radius:0 22px 22px 0}.scene-layout .scene-box.hot{background:var(--orange);border-color:var(--orange-deep)}.scene-layout .tag{font-size:22px;font-weight:800;letter-spacing:.12em;color:var(--orange)}.scene-layout .hot .tag,.scene-layout .hot p{color:#FFF6EC}.scene-layout p{font-size:31px;line-height:1.45;color:var(--ink-soft);margin-top:16px}.source-list{display:grid;grid-template-columns:1fr 1fr;gap:20px;flex:1}.source-list .source{padding:26px;border:1px solid var(--line);border-radius:18px;background:var(--cream-2);font-size:30px;line-height:1.42;color:var(--ink-soft)}.source-list b{display:block;color:var(--orange);font-size:23px;margin-bottom:8px}
 
@@ -2828,32 +2871,13 @@
         <div class="kicker anim">第二问深化：这笔采购为什么值得？</div>
         <div class="s-title anim" style="font-size:46px">从“出险后赔钱”到“日常有人管”，<span class="hl">五项价值</span>层层递进</div>
       </div>
-      <div class="cards anim2" style="grid-template-columns:repeat(5,1fr);gap:16px;flex:1;align-items:stretch;margin-top:18px">
-        <div class="card" style="justify-content:center;gap:8px">
-          <div class="n">一</div>
-          <h3 style="font-size:25px">把“出险后赔钱”升级为“日常有人管”</h3>
-          <p style="font-size:21px">传统团险低频、被动，员工生病理赔后企业才感知服务发生。健康管理把服务前置到体检管理、日常问诊、慢病随访、心理支持、用药就医协助、重疾专案管理——企业买到的是把员工医疗健康问题从“出事后处理”变成“日常可管理”。</p>
-        </div>
-        <div class="card" style="justify-content:center;gap:8px">
-          <div class="n">二</div>
-          <h3 style="font-size:25px">把分散福利变成一个统一入口</h3>
-          <p style="font-size:21px">企业往往已分别采购体检、团险、心理服务、工会福利、医务室、药品补贴，但员工找不到入口、HR也难协调。价值在于把资源收进一个员工服务入口、一个健康账户、一个服务团队、一套运营节奏、一份企业健康运营报告——买的是“福利整合和运营能力”，不是又多一个供应商。</p>
-        </div>
-        <div class="card warm" style="justify-content:center;gap:8px">
-          <div class="n">三</div>
-          <h3 style="font-size:25px">让员工真正感知福利</h3>
-          <p style="font-size:21px">多数企业福利的问题不是预算少，而是员工无感：不知道、不会用、想用时找不到。到企筛查、健康讲座、体检报告解读、家庭医生首访的作用，是让抽象权益变成一次真实服务体验。员工感知最终取决于三个瞬间：日常小问题能否迅速咨询、体检异常后是否有人跟进、重疾住院理赔时是否有人把事情办下来。</p>
-        </div>
-        <div class="card" style="justify-content:center;gap:8px">
-          <div class="n">四</div>
-          <h3 style="font-size:25px">降低HR的事务成本和服务风险</h3>
-          <p style="font-size:21px">HR真正担心的是：员工生病/理赔/投诉时谁处理、服务商是否响应、多地服务是否一致、项目是否被使用、年底能否向老板解释预算价值。产品必须明确提供专属客户经理、标准服务时效、异常升级机制、季度报告和年度复盘。对HR最有价值的不是权益最多，而是“有问题时有人接、有人办、有人给结果”。</p>
-        </div>
-        <div class="card" style="justify-content:center;gap:8px">
-          <div class="n">五</div>
-          <h3 style="font-size:25px">让健康福利支出更可控、更可解释</h3>
-          <p style="font-size:21px">企业不一定期待短期直接降低医疗费用，更需要看清支出、提升福利使用效率、避免不确定性。可感知的管理价值包括：理赔数据复盘、员工健康风险脱敏汇总、高风险人群服务覆盖、健康账户使用情况、服务使用率与满意度、下一年度优化建议。</p>
-        </div>
+      <div class="purchase-ladder anim2">
+        <div class="purchase-step s1"><div class="purchase-no">01</div><div class="purchase-level">基础价值</div><h3>日常可管理</h3><div class="purchase-core">服务从“出事后理赔”前置到员工的日常健康过程。</div><div class="purchase-tags"><span>体检管理</span><span>日常问诊</span><span>慢病随访</span></div><div class="purchase-result">从事后处理 → 事前与事中管理</div></div>
+        <div class="purchase-step s2"><div class="purchase-no">02</div><div class="purchase-level">整合价值</div><h3>福利有统一入口</h3><div class="purchase-core">把分散的团险、体检和健康服务收进同一套运营体系。</div><div class="purchase-tags"><span>一个账户</span><span>一个团队</span><span>一份报告</span></div><div class="purchase-result">从多个供应商 → 一个服务系统</div></div>
+        <div class="purchase-step s3"><div class="purchase-no">03</div><div class="purchase-level">感知价值</div><h3>员工真正用得上</h3><div class="purchase-core">权益不再停留在手册里，而是在关键时刻变成真实服务。</div><div class="purchase-tags"><span>小问题快速咨询</span><span>体检异常有跟进</span><span>重疾住院有协同</span></div><div class="purchase-result">从“知道有” → “关键时刻用得上”</div></div>
+        <div class="purchase-step s4"><div class="purchase-no">04</div><div class="purchase-level">管理价值</div><h3>HR 少操心</h3><div class="purchase-core">服务商承接响应、协调、投诉与复盘，不把事务重新推回 HR。</div><div class="purchase-tags"><span>专属经理</span><span>服务 SLA</span><span>异常升级</span></div><div class="purchase-result">有人接、有人办、有人给结果</div></div>
+        <div class="purchase-step s5"><div class="purchase-no">05</div><div class="purchase-level">经营价值</div><h3>支出可证明</h3><div class="purchase-core">用脱敏数据与服务结果，解释预算去向、使用效率与改进空间。</div><div class="purchase-tags"><span>使用率</span><span>满意度</span><span>覆盖率</span><span>优化建议</span></div><div class="purchase-result">预算有证据，续约有依据</div></div>
+        <div class="purchase-axis"><span>保障功能</span><b>→</b><span>服务体验</span><b>→</b><span>组织经营</span></div>
       </div>
       <div class="pagemark">74</div>
     </div>
@@ -3076,110 +3100,26 @@
         <div class="kicker anim">第五问：如何让四类角色都认可？</div>
         <div class="s-title anim" style="font-size:48px">同一套方案，需要转换成<span class="hl">四种价值语言</span></div>
       </div>
-      <div class="cards c4 anim2" style="flex:1;align-items:stretch;margin-top:30px">
-        <div class="card" style="justify-content:center;gap:12px">
-          <div class="n">01</div>
-          <h3 style="font-size:32px">对老板</h3>
-          <p style="font-size:26px;color:var(--orange);font-weight:800">人才与组织健康投资</p>
+      <div class="role-language-layout anim2">
+        <div class="role-tabs">
+          <div class="role-tab"><div class="role-no">01</div><div><h3>对老板</h3><p>人才与组织健康投资</p></div></div>
+          <div class="role-tab"><div class="role-no">02</div><div><h3>对 HR</h3><p>员工关怀运营外包</p></div></div>
+          <div class="role-tab"><div class="role-no">03</div><div><h3>对财务和采购</h3><p>可控预算下的一体化方案</p></div></div>
+          <div class="role-tab employee"><div class="role-no">04</div><div><h3>对员工</h3><p>你和家人随时能用的健康支持</p></div></div>
         </div>
-        <div class="card" style="justify-content:center;gap:12px">
-          <div class="n">02</div>
-          <h3 style="font-size:32px">对HR</h3>
-          <p style="font-size:26px;color:var(--orange);font-weight:800">员工关怀运营外包</p>
-        </div>
-        <div class="card" style="justify-content:center;gap:12px">
-          <div class="n">03</div>
-          <h3 style="font-size:32px">对财务和采购</h3>
-          <p style="font-size:26px;color:var(--orange);font-weight:800">可控预算下的一体化方案</p>
-        </div>
-        <div class="card warm" style="justify-content:center;gap:12px">
-          <div class="n">04</div>
-          <h3 style="font-size:32px">对员工</h3>
-          <p style="font-size:26px;font-weight:800">你和家人随时能用的健康支持</p>
+        <div class="role-connector"><span></span><span></span><span></span><span></span></div>
+        <div class="role-voices">
+          <div class="role-voice"><div class="voice-label">核心表达</div><blockquote>不是多一项福利成本，而是让员工在关键时刻感受关怀、让<b>核心人才更愿意留下</b>的组织健康基础设施。</blockquote><div class="voice-tags"><span>组织稳定</span><span>人才保留</span><span>风险可控</span></div></div>
+          <div class="role-voice"><div class="voice-label">核心表达</div><blockquote>企业无需自建医疗团队；我们承接触达、激活、执行、咨询、升级和复盘，<b>HR 只需看结果</b>。</blockquote><div class="voice-tags"><span>少做琐事</span><span>员工少投诉</span><span>服务商兜底</span></div></div>
+          <div class="role-voice"><div class="voice-label">核心表达</div><blockquote>不把钱分散在多个低使用率项目，而是按保障、服务和运营配置预算，用<b>数据与年度报告</b>评估投入产出。</blockquote><div class="voice-tags"><span>支出可控</span><span>责任清楚</span><span>合规可审计</span></div></div>
+          <div class="role-voice employee"><div class="voice-label">核心表达</div><blockquote>不只是公司买了一份保险；健康、就医、用药和体检遇到问题时，有一个<b>马上能找到、有人负责</b>的入口。</blockquote><div class="voice-tags"><span>日常用得上</span><span>少跑腿</span><span>少焦虑</span></div></div>
         </div>
       </div>
-      <div class="quote-box anim3" style="margin-top:30px"><p style="font-size:30px">接下来四页，逐一给出每类决策人的<b>核心表达</b>。</p></div>
       <div class="pagemark">82</div>
     </div>
   </section>
 
-  <!-- 83 对老板：人才与组织健康投资 -->
-  <section data-label="对老板：人才与组织健康投资">
-    <div class="slide slide--alt">
-      <div class="s-head tight">
-        <div class="kicker anim">第五问 · 对老板：为什么值得投？</div>
-        <div class="s-title anim" style="font-size:52px">包装成<span class="hl">“人才与组织健康投资”</span></div>
-      </div>
-      <div class="anim2" style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:22px;min-height:0">
-        <div class="kicker">核心表达</div>
-        <div class="quote" style="font-size:56px;max-width:1700px">不是多一项<span class="hl">福利成本</span>，而是让员工在关键时刻感受到企业关怀、让<span class="hl">核心人才更愿意留下</span>的基础设施。</div>
-      </div>
-      <div class="statrow anim3">
-        <div class="statchip"><div class="lab">老板的表面需求</div><div class="sval" style="font-size:30px;font-weight:800;color:var(--ink)">员工福利、雇主品牌</div></div>
-        <div class="statchip"><div class="lab">真正购买的价值</div><div class="sval" style="font-size:30px;font-weight:800;color:var(--orange)">组织稳定、人才吸引与保留、风险可控、管理层安心</div></div>
-      </div>
-      <div class="pagemark">83</div>
-    </div>
-  </section>
-
-  <!-- 84 对HR：员工关怀运营外包 -->
-  <section data-label="对HR：员工关怀运营外包">
-    <div class="slide ">
-      <div class="s-head tight">
-        <div class="kicker anim">第五问 · 对HR：谁替我运营？</div>
-        <div class="s-title anim" style="font-size:52px">包装成<span class="hl">“员工关怀运营外包”</span></div>
-      </div>
-      <div class="anim2" style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:22px;min-height:0">
-        <div class="kicker">核心表达</div>
-        <div class="quote" style="font-size:56px;max-width:1700px">企业不需要自己组建医疗服务团队；我们负责<span class="hl">员工触达、权益激活、活动执行、咨询承接、异常升级和数据复盘</span>，HR 只需看结果。</div>
-      </div>
-      <div class="statrow anim3">
-        <div class="statchip"><div class="lab">HR的表面需求</div><div class="sval" style="font-size:30px;font-weight:800;color:var(--ink)">落地员工关怀</div></div>
-        <div class="statchip"><div class="lab">真正购买的价值</div><div class="sval" style="font-size:30px;font-weight:800;color:var(--orange)">少做琐事、有可交付成果、员工少投诉、服务商能兜底</div></div>
-      </div>
-      <div class="pagemark">84</div>
-    </div>
-  </section>
-
-  <!-- 85 对财务和采购：可控预算 -->
-  <section data-label="对财务和采购：可控预算">
-    <div class="slide slide--alt">
-      <div class="s-head tight">
-        <div class="kicker anim">第五问 · 对财务和采购：预算如何控制？</div>
-        <div class="s-title anim" style="font-size:52px">包装成<span class="hl">“可控预算下的一体化方案”</span></div>
-      </div>
-      <div class="anim2" style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:22px;min-height:0">
-        <div class="kicker">核心表达</div>
-        <div class="quote" style="font-size:56px;max-width:1700px">不把钱分散花在多个<span class="hl">低使用率项目</span>上，而是以清楚的<span class="hl">保障、服务和运营模块</span>配置预算，并以服务数据和年度报告评估投入产出。</div>
-      </div>
-      <div class="statrow anim3">
-        <div class="statchip"><div class="lab">财务／采购的表面需求</div><div class="sval" style="font-size:30px;font-weight:800;color:var(--ink)">预算和合同</div></div>
-        <div class="statchip"><div class="lab">真正购买的价值</div><div class="sval" style="font-size:30px;font-weight:800;color:var(--orange)">支出可控、责任清楚、价格合理、服务可量化、合规可审计</div></div>
-      </div>
-      <div class="pagemark">85</div>
-    </div>
-  </section>
-
-  <!-- 86 对员工：随时能用的支持 -->
-  <section data-label="对员工：随时能用的支持">
-    <div class="slide ">
-      <div class="s-head tight">
-        <div class="kicker anim">第五问 · 对员工：我什么时候能用？</div>
-        <div class="s-title anim" style="font-size:52px">包装成<span class="hl">“你和家人随时能用的健康支持”</span></div>
-      </div>
-      <div class="anim2" style="flex:1;display:flex;flex-direction:column;justify-content:center;gap:22px;min-height:0">
-        <div class="kicker">核心表达</div>
-        <div class="quote" style="font-size:56px;max-width:1700px">不只是公司替你买了一份保险；你遇到健康、就医、用药和体检问题时，有一个<span class="hl">能马上找到、有人负责</span>的服务入口。</div>
-      </div>
-      <div class="statrow anim3">
-        <div class="statchip"><div class="lab">员工及家属的表面需求</div><div class="sval" style="font-size:30px;font-weight:800;color:var(--ink)">保险与健康权益</div></div>
-        <div class="statchip"><div class="lab">真正购买的价值</div><div class="sval" style="font-size:30px;font-weight:800;color:var(--orange)">生病时有人管、日常用得上、少跑腿、少垫钱、少焦虑</div></div>
-      </div>
-      <div class="pagemark">86</div>
-    </div>
-  </section>
-
-  <!-- 87 第六问：采购与续约证据 -->
+  <!-- 83 第六问：采购与续约证据 -->
   <section data-label="第六问：采购与续约证据">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3214,11 +3154,11 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:26px"><p style="font-size:29px">具备这五项，才能被理解为<b>可采购、可考核、可续约</b>的企业服务能力。</p></div>
-      <div class="pagemark">87</div>
+      <div class="pagemark">83</div>
     </div>
   </section>
 
-  <!-- 88 六问结论：最终产品定位 -->
+  <!-- 84 六问结论：最终产品定位 -->
   <section data-label="六问结论：最终产品定位">
     <div class="slide">
       <div class="s-head tight">
@@ -3238,11 +3178,11 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:28px"><p style="font-size:31px">这个定位差异，决定了企业是把它当成<span class="hl">一次性采购</span>，还是当成可以年年续约、逐步扩容的<span class="hl">基础设施</span>来对待。</p></div>
-      <div class="pagemark">88</div>
+      <div class="pagemark">84</div>
     </div>
   </section>
 
-  <!-- 89 分节·F端与B端的共同启发 -->
+  <!-- 85 分节·F端与B端的共同启发 -->
   <section data-label="F端与B端的共同启发">
     <div class="divider">
       <img class="bleed" src="imgs/86-div-chapter7.png" alt="">
@@ -3253,11 +3193,11 @@
         <div class="dtitle anim2">对富德联好健康的启发</div>
         <div class="dsub anim3">从卖“健康焦虑”走向交付“服务确定性”的五大认知升级。</div>
       </div>
-      <div class="pagemark">89</div>
+      <div class="pagemark">85</div>
     </div>
   </section>
 
-  <!-- 90 不要把异常发现率作为活动成功指标 -->
+  <!-- 86 不要把异常发现率作为活动成功指标 -->
   <section data-label="不要把异常发现率作为活动成功指标">
     <div class="slide">
       <div class="s-head tight">
@@ -3276,11 +3216,11 @@
         <div class="card" style="justify-content:center"><p style="font-size:29px"><b>30／90天</b>客户回访满意度</p></div>
         <div class="card warm" style="justify-content:center"><p style="font-size:29px"><b>加保、续保和转介绍率</b></p></div>
       </div>
-      <div class="pagemark">90</div>
+      <div class="pagemark">86</div>
     </div>
   </section>
 
-  <!-- 91 医学解释+服务承接 -->
+  <!-- 87 医学解释+服务承接 -->
   <section data-label="医学解释+服务承接">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3313,11 +3253,11 @@
           <p style="color:#FFF6EC"><b>最后才做</b>家庭保障缺口与服务方案沟通</p>
         </div>
       </div>
-      <div class="pagemark">91</div>
+      <div class="pagemark">87</div>
     </div>
   </section>
 
-  <!-- 92 分层会员权益 -->
+  <!-- 88 分层会员权益 -->
   <section data-label="分层会员权益">
     <div class="slide">
       <style>
@@ -3342,11 +3282,11 @@
         </tbody>
       </table>
       <div class="quote-box anim3" style="margin-top:22px"><p style="font-size:29px">用户才能理解：保费更高，不只是保额更高，<b>服务的响应能力、资源层级和家庭覆盖范围也不同</b>。</p></div>
-      <div class="pagemark">92</div>
+      <div class="pagemark">88</div>
     </div>
   </section>
 
-  <!-- 93 以家庭为单位 -->
+  <!-- 89 以家庭为单位 -->
   <section data-label="以家庭为单位">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3370,11 +3310,11 @@
           <div class="s-body" style="font-size:30px">或通过视频、线上家庭服务方案，让子女参与后续决策。</div>
         </div>
       </div>
-      <div class="pagemark">93</div>
+      <div class="pagemark">89</div>
     </div>
   </section>
 
-  <!-- 94 先卖服务确定性 -->
+  <!-- 90 先卖服务确定性 -->
   <section data-label="先卖服务确定性">
     <div class="slide">
       <div class="s-head tight">
@@ -3386,11 +3326,11 @@
       <div class="quote anim2" style="font-size:54px;max-width:1700px">用户未必会因为知道自己<span class="hl">有风险</span>而信任保险公司；<br>但会因为相信<span class="hl">“关键时刻有人能把事情办下来”</span>，而认可保险与健康服务的长期价值。</div>
             </div>
       <div class="quote-box anim3"><p style="font-size:31px">这也是平安能把健康、医疗、养老服务放进<b>高保费寿险和年金险</b>中的核心原因。</p></div>
-      <div class="pagemark">94</div>
+      <div class="pagemark">90</div>
     </div>
   </section>
 
-  <!-- 95 产品设计/用户价值感知 -->
+  <!-- 91 产品设计/用户价值感知 -->
   <section data-label="产品设计/用户价值感知">
     <div class="divider">
       <img class="bleed" src="imgs/29-div-chapter4.png" alt="">
@@ -3402,11 +3342,11 @@
         <div class="dsub anim3">从零散附赠服务，走向可经营、可交付、可复制的家庭健康产品体系。</div>
         <div class="case-scope anim3"><span>分层会员</span><span>支付与客户入口</span><span>场景化交付</span><span>服务网络履约</span></div>
       </div>
-      <div class="pagemark">95</div>
+      <div class="pagemark">91</div>
     </div>
   </section>
 
-  <!-- 96 设计前提与产品总架构 -->
+  <!-- 92 设计前提与产品总架构 -->
   <section data-label="设计前提与产品总架构">
     <div class="slide">
       <div class="s-head tight">
@@ -3435,11 +3375,11 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:16px"><p style="font-size:23px"><b>产品设计五大原则：</b>①先高频、后低频，先标准化、后重交付；②以家庭为最小经营单元（保单持有人、配偶、子女、父母共享一个家庭账户）；③服务分层，不做“一刀切”（免费基础权益用于激活，高价值服务以会员资格或次数包区分）；④先承诺服务确定性，再谈健康改善（不以疾病治愈、排队优先或理赔结果作不当承诺）；⑤保险与医疗独立决策（医疗建议由合格医疗人员提供，健康服务数据与核保、理赔、营销之间设置授权与用途隔离机制）。</p></div>
-      <div class="pagemark">96</div>
+      <div class="pagemark">92</div>
     </div>
   </section>
 
-  <!-- 97 保险产品设计 -->
+  <!-- 93 保险产品设计 -->
   <section data-label="保险产品设计">
     <div class="slide slide--alt" id="s094"><style>#s094 table.t th,#s094 table.t td{padding:8px 14px;font-size:20px;line-height:1.24}#s094 .card p{font-size:19px}#s094 .card h3{font-size:25px}#s094 .s-body{font-size:22px}</style>
       <div class="s-head tight">
@@ -3474,11 +3414,11 @@
           <p style="font-size:21px"><b>不得将健康服务数据用于拒保、拒赔或歧视性定价。</b></p>
         </div>
       </div>
-      <div class="pagemark">97</div>
+      <div class="pagemark">93</div>
     </div>
   </section>
 
-  <!-- 98 服务产品设计 -->
+  <!-- 94 服务产品设计 -->
   <section data-label="服务产品设计">
     <div class="slide">
       <div class="s-head tight">
@@ -3512,11 +3452,11 @@
           <p style="font-size:20px"><b>0—6个月</b>验证产品价值：选定1—2个重点城市和存量客群，上线基础会员/报告解读/咨询/就医导航，跑通权益激活与工单系统，不自建重资产医疗网络。<b>6—12个月</b>验证商业闭环：引入慢病管理和就医专项包，测试会员升级和服务包付费。<b>12—24个月</b>复制与协同：扩展城市与供应网络，连接康复、养老与理赔服务，形成客户分层运营。</p>
         </div>
       </div>
-      <div class="pagemark">98</div>
+      <div class="pagemark">94</div>
     </div>
   </section>
 
-  <!-- 99 平安案例对富德联好的核心启示 -->
+  <!-- 95 平安案例对富德联好的核心启示 -->
   <section data-label="平安案例对富德联好的核心启示">
     <div class="slide slide--alt" id="s096"><style>#s096 table.t th,#s096 table.t td{padding:8px 14px;font-size:20px;line-height:1.24}</style>
       <div class="s-head tight">
@@ -3535,11 +3475,11 @@
           <tr class="hotrow"><td class="lab">合规与风险边界</td><td>条款内服务成本≤净保险费20%；单独服务须明示合同与价格、不得强制捆绑；保险与医疗须独立决策</td><td>健康服务数据用于核保、理赔、营销前需另行明确授权，不得用于拒保拒赔或歧视性定价；合规责任应前置到产品设计和总部治理层面，而非压给一线代理人</td></tr>
         </tbody>
       </table>
-      <div class="pagemark">99</div>
+      <div class="pagemark">95</div>
     </div>
   </section>
 
-  <!-- 100 天使医生案例专项分析 -->
+  <!-- 96 天使医生案例专项分析 -->
   <section data-label="天使医生案例专项分析">
     <div class="divider">
       <img class="bleed" src="imgs/21-angel-doctor-ic.png" alt="">
@@ -3551,11 +3491,11 @@
         <div class="dsub anim3">不是保险集团大健康平台，而是以医院协同与设备数据为壁垒、从硬件公司转型而来的专病服务标杆。</div>
         <div class="case-scope anim3"><span>孕产专病</span><span>医院协同</span><span>设备数据</span><span>重运营交付</span></div>
       </div>
-      <div class="pagemark">100</div>
+      <div class="pagemark">96</div>
     </div>
   </section>
 
-  <!-- 101 公司与品牌基本情况 -->
+  <!-- 97 公司与品牌基本情况 -->
   <section data-label="公司与品牌基本情况">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3576,11 +3516,11 @@
         </tbody>
       </table>
       <div class="quote-box anim3" style="margin-top:20px"><p style="font-size:27px"><b>判断：</b>京柏医疗是一家从硬件设备转型而来的产业型公司，<b>不是资本驱动的纯互联网创业项目</b>——1998年成立、做了十几年医疗电子设备后才在2014年推出天使医生，2015—2016年完成两轮融资后再无新融资公开信息，说明其增长更依赖<b>医院合作收入和设备/系统销售的自我造血能力</b>，而非持续烧钱扩张。</p></div>
-      <div class="pagemark">101</div>
+      <div class="pagemark">97</div>
     </div>
   </section>
 
-  <!-- 102 发展脉络 -->
+  <!-- 98 发展脉络 -->
   <section data-label="发展脉络">
     <div class="slide">
       <div class="s-head tight">
@@ -3612,11 +3552,11 @@
         <div class="card" style="justify-content:center"><div class="n">02</div><h3 style="font-size:30px">医疗硬件设备的物联网化</h3><p>胎心监护仪、血压计等接入云端</p></div>
         <div class="card" style="justify-content:center"><div class="n">03</div><h3 style="font-size:30px">医院内部信息系统对接</h3><p>与医院 HIS／产科系统打通</p></div>
       </div>
-      <div class="pagemark">102</div>
+      <div class="pagemark">98</div>
     </div>
   </section>
 
-  <!-- 103 “1+N+S -->
+  <!-- 99 “1+N+S -->
   <section data-label="“1+N+S”分层守护体系">
     <div class="slide slide--alt" id="s100"><style>#s100 .card{padding:18px 22px}#s100 .statchip{padding:14px 20px;min-width:0}#s100 .statchip .v{font-size:30px}#s100 .statchip .l{font-size:20px}#s100 .scalebars .srow{grid-template-columns:230px 1fr 150px;gap:14px}#s100 .scalebars .srow .strack{height:28px}#s100 .scalebars .srow .sname{font-size:24px}#s100 .scalebars .srow .sval{font-size:26px}</style>
       <div class="s-head tight">
@@ -3646,11 +3586,11 @@
         <div class="srow"><div class="sname">剖宫产率</div><div class="strack"><div class="sfill" style="width:18.9%"></div></div><div class="sval">−12.1%</div></div>
       </div>
       <div class="s-body anim3" style="font-size:20px;color:var(--muted);margin-top:8px">数据来源：深圳科创委多中心研究与北京妇产医院队列研究。</div>
-      <div class="pagemark">103</div>
+      <div class="pagemark">99</div>
     </div>
   </section>
 
-  <!-- 104 商业模式与收入结构 -->
+  <!-- 100 商业模式与收入结构 -->
   <section data-label="商业模式与收入结构">
     <div class="slide">
       <div class="s-head tight">
@@ -3668,11 +3608,11 @@
         <p style="font-size:26px"><b>一个重要的核验提示：</b>市场上流传“普通产检约6000元，经VIP场景和院外服务升级至3—4万元”的说法，商业逻辑上成立（孕产是高焦虑、强时限、强信任、强家庭决策的典型场景），但<b>现有公开材料未能确认具体定价、收款主体、分成比例和转化率</b>，“平台按新增利润分成获得收入”这一推断也尚待核验——公开资料更明确指向的仍是设备、系统、项目/维护服务等收入。</p>
         <p style="font-size:26px;margin-top:10px">因此京柏医疗真正的壁垒，是把<b>“院外连续数据、异常预警与院内临床处置”嵌入产科流程</b>；若脱离医院、医生、设备和真实临床责任，只保留装修、礼品、稀缺专家和话术，就会退化为普通消费医疗营销，而非医疗基础设施。</p>
       </div>
-      <div class="pagemark">104</div>
+      <div class="pagemark">100</div>
     </div>
   </section>
 
-  <!-- 105 典型渠道与三类付费者 -->
+  <!-- 101 典型渠道与三类付费者 -->
   <section data-label="典型渠道与三类付费者">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3704,11 +3644,11 @@
         <span class="chip">⑥ 医院科室数字化管理系统</span>
         <span class="chip">⑦ 母婴保险附加健康管理服务</span>
       </div>
-      <div class="pagemark">105</div>
+      <div class="pagemark">101</div>
     </div>
   </section>
 
-  <!-- 106 市场定位与用户策略 -->
+  <!-- 102 市场定位与用户策略 -->
   <section data-label="市场定位与用户策略">
     <div class="slide">
       <div class="s-head tight">
@@ -3731,11 +3671,11 @@
         <div class="unit"><div class="num">04</div><h3 style="font-size:28px">买“安心感”</h3><p style="font-size:22px">孕产场景时间边界明确、风险后果严重、焦虑程度高、监测频率较高、医疗路径相对清晰——这是孕产用户比普通健康用户更愿意为持续服务付费的根本原因</p></div>
       </div>
       <div class="quote-box anim3" style="margin-top:18px"><p style="font-size:26px"><b>一句话总结：</b>孕产家庭买的是“对高风险孕产过程的连续监测、提前预警和及时干预”；而京柏医疗真正的客户——<b>医院</b>——买的是“用信息化和设备能力提升产科专科水平、改善患者体验、建立学科竞争力”。这是一套<b>以医院为核心杠杆、以设备数据为信任基础</b>的 B2B2C 模式。</p></div>
-      <div class="pagemark">106</div>
+      <div class="pagemark">102</div>
     </div>
   </section>
 
-  <!-- 107 服务交付与运营能力 -->
+  <!-- 103 服务交付与运营能力 -->
   <section data-label="服务交付与运营能力">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3749,11 +3689,11 @@
         <div class="card" style="justify-content:center;gap:10px"><div class="n">04</div><h3 style="font-size:28px">月嫂管理</h3><p style="font-size:24px">建立统一培训、考核、派遣机制，引入第三方背景调查和信用评价体系。</p></div>
       </div>
       <div class="quote-box anim3" style="margin-top:28px"><p style="font-size:30px">这种“重运营、强交付”模式<b>成本较高</b>，但换来了<b>高用户满意度和信任度</b>。</p></div>
-      <div class="pagemark">107</div>
+      <div class="pagemark">103</div>
     </div>
   </section>
 
-  <!-- 108 渠道拓展与生态构建 -->
+  <!-- 104 渠道拓展与生态构建 -->
   <section data-label="渠道拓展与生态构建">
     <div class="slide">
       <div class="s-head tight">
@@ -3767,11 +3707,11 @@
         <div class="card" style="justify-content:center;gap:10px"><h3 style="font-size:28px">跨界合作与生态联盟</h3><p style="font-size:24px">与商业保险公司合作开发“<b>母婴保险+健康管理</b>”产品，与产后健身、美体机构合作延伸服务链条。</p></div>
       </div>
       <div class="quote-box anim3" style="margin-top:28px"><p style="font-size:29px">渠道模式综合运用<b>直营（标杆示范）、加盟（规模版图）、OEM/技术合作（技术影响力）</b>三种形式，多管齐下扩大服务网络的深度和广度。</p></div>
-      <div class="pagemark">108</div>
+      <div class="pagemark">104</div>
     </div>
   </section>
 
-  <!-- 109 线下门店和运营实景 -->
+  <!-- 105 线下门店和运营实景 -->
   <section data-label="线下门店和运营实景">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3793,11 +3733,11 @@
           <p style="font-size:24px">商务招商团队、区域与院内团队、VIP客户服务中心、装修与施工团队、总部信息化与数据中心、医学服务中心、日常运营团队。</p>
         </div>
       </div>
-      <div class="pagemark">109</div>
+      <div class="pagemark">105</div>
     </div>
   </section>
 
-  <!-- 110 同赛道对标 -->
+  <!-- 106 同赛道对标 -->
   <section data-label="同赛道对标">
     <div class="slide">
       <div class="s-head tight">
@@ -3814,11 +3754,11 @@
         </tbody>
       </table>
       <div class="quote-box anim3" style="margin-top:24px"><p style="font-size:27px">这一图谱说明，“院内院外一体化”是慢病、肿瘤、母婴等多个专科垂直赛道正在<b>收敛的共同范式</b>，其共性是：选择<b>诊疗路径清晰、复购/复诊频率高</b>的专病场景切入医院临床流程，再向院外延伸监测与随访能力，最终把<b>专病数据沉淀为壁垒</b>。</p></div>
-      <div class="pagemark">110</div>
+      <div class="pagemark">106</div>
     </div>
   </section>
 
-  <!-- 111 与平安健康商业模式的对比 -->
+  <!-- 107 与平安健康商业模式的对比 -->
   <section data-label="与平安健康商业模式的对比">
     <div class="slide slide--alt" id="s108"><style>#s108 table.t td,#s108 table.t th{padding:12px 16px;font-size:21px;line-height:1.3}#s108 table.t thead th{font-size:21px}</style>
       <div class="s-head tight">
@@ -3862,11 +3802,11 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:12px;padding:16px 26px"><p style="font-size:24px"><b>一句话总结：</b>平安用户购买的是<b>医疗和保险之间的协调能力，以及家庭长期健康管理的确定性</b>；天使医生用户购买的是<b>对高风险孕产过程的连续监测、提前预警和及时干预</b>。前者靠“支付方+网络规模”，后者靠“专病深度+临床可信度”——这也是两者几乎不构成直接竞争、但都值得富德联好分别借鉴的原因。</p></div>
-      <div class="pagemark">111</div>
+      <div class="pagemark">107</div>
     </div>
   </section>
 
-  <!-- 112 风险提示与信息一致性 -->
+  <!-- 108 风险提示与信息一致性 -->
   <section data-label="风险提示与信息一致性">
     <div class="slide">
       <div class="s-head tight">
@@ -3890,11 +3830,11 @@
           <p style="font-size:24px">与长轻等纯C端消费医疗模式不同，公开检索未发现集中性消费者投诉——这与其 B2B2C 模式高度相关（孕产妇很少直接为App付费或产生退款纠纷），但也意味着该模式的<b>真实用户体验和满意度缺乏独立第三方渠道验证</b>，公开信息基本来自企业自述和合作方背书。</p>
         </div>
       </div>
-      <div class="pagemark">112</div>
+      <div class="pagemark">108</div>
     </div>
   </section>
 
-  <!-- 113 对富德联好的启示 -->
+  <!-- 109 对富德联好的启示 -->
   <section data-label="对富德联好的启示">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3909,11 +3849,11 @@
         <div class="card" style="justify-content:center;gap:10px"><div class="n">③</div><h3 style="font-size:28px">收入结构优先绑定B端</h3><p style="font-size:24px">优先绑定医院／保险／企业而非 C 端一次性收费，降低对营销转化率的依赖。</p></div>
         <div class="card warm" style="justify-content:center;gap:10px"><div class="n">④</div><h3 style="font-size:28px">保持渐进式转型节奏</h3><p style="font-size:24px">先在 1—2 个专病场景把“设备+医院+数据”模式验证扎实，再横向复制，而非一步追求平安级别的大生态。</p></div>
       </div>
-      <div class="pagemark">113</div>
+      <div class="pagemark">109</div>
     </div>
   </section>
 
-  <!-- 114 可借鉴的经验：跨平台综合启示 -->
+  <!-- 110 可借鉴的经验：跨平台综合启示 -->
   <section data-label="可借鉴的经验：跨平台综合启示">
     <div class="slide">
       <div class="dwrap" style="height:100%;display:flex;flex-direction:column;justify-content:center;gap:30px;max-width:1660px">
@@ -3926,11 +3866,11 @@
           <span class="chip">聚焦主战场</span>
         </div>
       </div>
-      <div class="pagemark">114</div>
+      <div class="pagemark">110</div>
     </div>
   </section>
 
-  <!-- 115 人货场逻辑 -->
+  <!-- 111 人货场逻辑 -->
   <section data-label="人货场逻辑">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -3949,11 +3889,11 @@
         </tbody>
       </table>
       <div class="quote-box anim3" style="margin-top:22px"><p style="font-size:25px">这不是谁优谁劣的问题，而是<b>两种组织能力和渠道设计完全不同的商业模式</b>：前者是“人货场三合一”的现场生意，后者是“销售现场与服务现场两段分离、监管红线倒逼产品权益化”的金融+服务组合生意。富德如果两种打法都想尝试，必须认识到这需要<b>两套完全不同的团队、考核机制和资源投入</b>——想做专科垂直的高客单价模式，就需要一支完全独立于保险代理人之外的专职线下队伍；想做保险生态型的规模化模式，就必须先把权益“标准化、对照表化”，把专业判断从销售环节剥离。</p></div>
-      <div class="pagemark">115</div>
+      <div class="pagemark">111</div>
     </div>
   </section>
 
-  <!-- 116 产品生命周期逻辑 -->
+  <!-- 112 产品生命周期逻辑 -->
   <section data-label="产品生命周期逻辑">
     <div class="slide">
       <div class="s-head tight">
@@ -3976,11 +3916,11 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:24px"><p style="font-size:27px"><b>对富德的启示：</b>任何健康管理产品的设计起点，都不应是“这次能卖多少钱”，而应是“<b>这个客户接下来三到五年会在什么时间点回到这个账户里</b>”——服务产品之间必须有转介链路（健康咨询 → 就医协助 → 慢病管理 → 养老健康），而不是互相孤立的功能堆砌。</p></div>
-      <div class="pagemark">116</div>
+      <div class="pagemark">112</div>
     </div>
   </section>
 
-  <!-- 117 聚焦主战场 -->
+  <!-- 113 聚焦主战场 -->
   <section data-label="聚焦主战场">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -4003,11 +3943,11 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:24px"><p style="font-size:26px">这与本报告“行业背景概览”一章提出的“行业未来的胜负手”判断相互印证：未来竞争不是“谁的 App 流量更大”，而是<b>谁能以更低成本、更可信赖地组织医疗健康服务，并让支付方愿意持续买单</b>。对富德而言，任何健康管理板块的立项，都应该先问“<b>我们能稳定掌握哪一类支付方、能用什么指标证明交付价值</b>”，再决定具体做哪些产品和服务。</p></div>
-      <div class="pagemark">117</div>
+      <div class="pagemark">113</div>
     </div>
   </section>
 
-  <!-- 118 参考链接 -->
+  <!-- 114 参考链接 -->
   <section data-label="参考链接">
     <div class="slide">
       <div class="dwrap" style="height:100%;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;gap:32px">
@@ -4019,11 +3959,11 @@
           <span class="chip">名称解释</span>
         </div>
       </div>
-      <div class="pagemark">118</div>
+      <div class="pagemark">114</div>
     </div>
   </section>
 
-  <!-- 119 参考链接 -->
+  <!-- 115 参考链接 -->
   <section data-label="参考链接">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -4037,11 +3977,11 @@
         <div class="source"><b>4高共管套餐【产品设计】</b>https://health.pingan.com/health_new/health-mall/detail-AM100000522</div>
         <div class="source" style="grid-column:1 / -1"><b>7个好王牌产品</b>https://www.pa18.com/official/strategyDetail/28164504</div>
       </div>
-      <div class="pagemark">119</div>
+      <div class="pagemark">115</div>
     </div>
   </section>
 
-  <!-- 120 内部素材来源说明 -->
+  <!-- 116 内部素材来源说明 -->
   <section data-label="内部素材来源说明">
     <div class="slide">
       <div class="s-head tight">
@@ -4063,11 +4003,11 @@
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:22px"><p style="font-size:26px">富德自身的战略诊断类内容（高净值客群结构、保险牌照资质审查、富德×联好融合战略诊断、合规边界与并表释义、核心逻辑与底层框架洞察等）<b>未纳入本报告</b>，将在独立的《富德健康管理战略诊断报告》中呈现。</p></div>
-      <div class="pagemark">120</div>
+      <div class="pagemark">116</div>
     </div>
   </section>
 
-  <!-- 121 名称解释 -->
+  <!-- 117 名称解释 -->
   <section data-label="名称解释">
     <div class="slide slide--alt">
       <div class="s-head tight">
@@ -4085,7 +4025,7 @@
         </div>
       </div>
       <div class="quote-box anim3"><p style="font-size:32px">核心目标是<b>控制药品成本、提高医保资金使用效率</b>。</p></div>
-      <div class="pagemark">121</div>
+      <div class="pagemark">117</div>
     </div>
   </section>
 
