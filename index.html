@@ -766,6 +766,25 @@
   section[data-label="第二问深化：五项采购价值"] .purchase-step.s5 .purchase-result{border-color:#C8DED6;color:#23876E}
   section[data-label="第二问深化：五项采购价值"] .purchase-axis{position:absolute;left:50%;bottom:1px;transform:translateX(-50%);display:flex;align-items:center;gap:14px;font-size:18px;font-weight:850;letter-spacing:.04em;color:var(--muted);white-space:nowrap}
   section[data-label="第二问深化：五项采购价值"] .purchase-axis b{font-size:28px;color:var(--orange);line-height:1}
+  /* ---- page 69: five-stage sales chain with scannable bullets and aligned takeaways ---- */
+  section[data-label="现场活动的销售流程"] .sales-flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:15px;flex:1;min-height:0;margin-top:16px}
+  section[data-label="现场活动的销售流程"] .sales-card{display:flex;flex-direction:column;min-height:0;padding:22px 20px 20px;border:1px solid var(--line);border-radius:19px;background:rgba(255,251,245,.96)}
+  section[data-label="现场活动的销售流程"] .sales-head{display:grid;grid-template-columns:43px 1fr;gap:12px;align-items:center;margin-bottom:15px}
+  section[data-label="现场活动的销售流程"] .sales-no{display:grid;place-items:center;width:43px;height:43px;border-radius:50%;background:#F6D4B4;font-size:19px;font-weight:900;color:#A65326}
+  section[data-label="现场活动的销售流程"] .sales-card h3{font-size:25px;line-height:1.15;color:var(--ink)}
+  section[data-label="现场活动的销售流程"] .sales-group{margin-top:11px}
+  section[data-label="现场活动的销售流程"] .sales-group:first-of-type{margin-top:0}
+  section[data-label="现场活动的销售流程"] .sales-eyebrow{margin-bottom:6px;font-size:16px;font-weight:900;letter-spacing:.07em;color:var(--orange)}
+  section[data-label="现场活动的销售流程"] .sales-list{display:flex;flex-direction:column;gap:6px;list-style:none}
+  section[data-label="现场活动的销售流程"] .sales-list li{position:relative;padding-left:16px;font-size:18px;line-height:1.32;color:var(--ink-soft)}
+  section[data-label="现场活动的销售流程"] .sales-list li::before{content:"";position:absolute;left:1px;top:.48em;width:7px;height:7px;border-radius:50%;background:var(--orange)}
+  section[data-label="现场活动的销售流程"] .sales-list b{color:var(--ink);font-weight:850}
+  section[data-label="现场活动的销售流程"] .sales-summary{margin-top:auto;padding-top:13px;border-top:1px solid #E5C8AA;font-size:19px;font-weight:900;line-height:1.34;color:var(--orange-deep)}
+  section[data-label="现场活动的销售流程"] .sales-card.warm{background:var(--orange);border-color:var(--orange-deep)}
+  section[data-label="现场活动的销售流程"] .sales-card.warm .sales-no{background:rgba(255,255,255,.2);color:#FFF9F1}
+  section[data-label="现场活动的销售流程"] .sales-card.warm h3,section[data-label="现场活动的销售流程"] .sales-card.warm .sales-eyebrow,section[data-label="现场活动的销售流程"] .sales-card.warm .sales-list li,section[data-label="现场活动的销售流程"] .sales-card.warm .sales-list b{color:#FFF8EF}
+  section[data-label="现场活动的销售流程"] .sales-card.warm .sales-list li::before{background:#FFF8EF}
+  section[data-label="现场活动的销售流程"] .sales-card.warm .sales-summary{border-color:rgba(255,255,255,.35);color:#FFF8EF}
   /* ---- page 82: four audiences, with the detailed value language consolidated ---- */
   section[data-label="第五问：多角色价值表达"] .role-language-layout{display:grid;grid-template-rows:minmax(0,1fr) 36px minmax(0,1fr);flex:1;min-height:0;margin-top:22px}
   section[data-label="第五问：多角色价值表达"] .role-tabs,section[data-label="第五问：多角色价值表达"] .role-voices{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:15px}
@@ -2733,39 +2752,35 @@
         <div class="kicker anim">现场活动的销售流程</div>
         <div class="s-title anim" style="font-size:46px">公开资料不披露话术与SOP，但可以把实际逻辑拆成<span class="hl">五段链路</span></div>
       </div>
-      <div class="cards anim2" style="grid-template-columns:repeat(5,1fr);gap:16px;flex:1;align-items:stretch;margin-top:16px">
-        <div class="card" style="justify-content:center;gap:8px">
-          <div class="n">1</div>
-          <h3 style="font-size:26px">分层邀约，而非泛邀约</h3>
-          <p style="font-size:21px">标签围绕：是否已有保单、家庭生命周期（新婚/育儿/中年/临近退休）、父母异地养老需求、体检异常与慢病重疾史、资产与年缴保费能力、是否企业主或HR、已拥有但未使用哪些权益。</p>
-          <p style="font-size:21px">主题按客群分：育儿家庭→少儿健康与家庭医生；中年→慢病、重疾就医、父母养老；高净值→高品质医疗、海外二诊、康养传承；银行客户→健康财富与家族照护；老年及子女→居家安全、陪诊、照护。</p>
-          <p style="font-size:21px;color:var(--orange);font-weight:800">健康检测只是邀约钩子，家庭议题才是成交议题。</p>
+      <div class="sales-flow anim2">
+        <div class="sales-card">
+          <div class="sales-head"><div class="sales-no">1</div><h3>分层邀约，而非泛邀约</h3></div>
+          <div class="sales-group"><div class="sales-eyebrow">客群标签</div><ul class="sales-list"><li><b>保单与权益：</b>是否已有保单，哪些权益已拥有但未使用</li><li><b>家庭周期：</b>新婚／育儿／中年／临近退休</li><li><b>健康与照护：</b>父母异地养老、体检异常、慢病重疾史</li><li><b>客户能力：</b>资产与年缴保费能力，是否企业主或 HR</li></ul></div>
+          <div class="sales-group"><div class="sales-eyebrow">主题匹配</div><ul class="sales-list"><li><b>育儿：</b>少儿健康、家庭医生；<b>中年：</b>慢病、重疾就医、父母养老</li><li><b>高净值：</b>高品质医疗、海外二诊、康养传承</li><li><b>银行客户：</b>健康财富与家族照护；<b>老年及子女：</b>居家安全、陪诊、照护</li></ul></div>
+          <div class="sales-summary">健康检测只是邀约钩子，家庭议题才是成交议题。</div>
         </div>
-        <div class="card" style="justify-content:center;gap:8px">
-          <div class="n">2</div>
-          <h3 style="font-size:26px">现场先体验“服务如何发生”</h3>
-          <p style="font-size:21px">四个连续体验：①测评/筛查（眼底、心电、血压、体成分、认知或跌倒风险）；②<b>专业解读</b>——由医生或健康管理师解释风险边界，避免“仪器一测必有病”；③服务路径展示——谁回访、线上找谁、线下去哪、父母不便出门怎么办、重疾住院谁协助；④保单权益匹配——先区分已拥有、可激活和需补足的权益。</p>
-          <p style="font-size:21px;color:var(--orange);font-weight:800">客户该感受到的不是恐惧，而是“原来我遇到这件事以后，服务链路是这样运行的”。</p>
+        <div class="sales-card">
+          <div class="sales-head"><div class="sales-no">2</div><h3>先体验“服务如何发生”</h3></div>
+          <div class="sales-group"><div class="sales-eyebrow">四个连续体验</div><ul class="sales-list"><li><b>测评／筛查：</b>眼底、心电、血压、体成分、认知或跌倒风险</li><li><b>专业解读：</b>医生或健康管理师解释风险边界，避免“仪器一测必有病”</li><li><b>路径展示：</b>谁回访、线上找谁、线下去哪，父母不便出门怎么办，重疾住院谁协助</li><li><b>权益匹配：</b>区分已拥有、可激活和需补足的保单权益</li></ul></div>
+          <div class="sales-summary">客户感受到的不是恐惧，而是“原来服务链路是这样运行的”。</div>
         </div>
-        <div class="card" style="justify-content:center;gap:8px">
-          <div class="n">3</div>
-          <h3 style="font-size:26px">从个人检测报告转向家庭服务方案</h3>
-          <p style="font-size:21px">这是普通健康营销与高客单保险销售的分水岭。<b>低客单话术</b>：“你的指标有风险，建议买一份重疾险/医疗险。”</p>
-          <p style="font-size:21px"><b>高价值话术</b>：“今天的报告只是一个信号。更重要的是，您家里谁负责父母养老、谁有慢病风险、孩子就医谁来安排、未来需要住院谁协调？”</p>
-          <p style="font-size:21px">讨论从“我有没有病”转向家庭保障缺口、家庭健康责任、父母养老责任、医疗资源可得性、长期财富与传承安排。</p>
+        <div class="sales-card">
+          <div class="sales-head"><div class="sales-no">3</div><h3>从个人报告转向家庭方案</h3></div>
+          <div class="sales-group"><div class="sales-eyebrow">普通健康营销</div><ul class="sales-list"><li><b>低客单话术：</b>“你的指标有风险，建议买一份重疾险／医疗险。”</li></ul></div>
+          <div class="sales-group"><div class="sales-eyebrow">高价值话术</div><ul class="sales-list"><li>“今天的报告只是一个信号。更重要的是，家里谁负责父母养老、谁有慢病风险、孩子就医谁安排、未来住院谁协调？”</li><li><b>讨论转向：</b>家庭保障缺口、健康责任、父母养老责任、医疗资源可得性、长期财富与传承安排</li></ul></div>
+          <div class="sales-summary">分水岭：从“我有没有病”转向“家庭责任如何承接”。</div>
         </div>
-        <div class="card warm" style="justify-content:center;gap:8px">
-          <div class="n">4</div>
-          <h3 style="font-size:26px">成交后立刻“激活权益”</h3>
-          <p style="font-size:21px">这是富德场景最值得补的一步。活动结束就让客户回家，权益停留在宣传册上，用户仍会觉得这是销售赠品。</p>
-          <p style="font-size:21px">理想闭环是投保后马上完成：下载/登录金管家或好医生、绑定保单和权益人、建立家庭健康档案、添加父母配偶子女、做一次家庭医生首访、预约一次可立刻使用的服务、展示服务入口和时效、由代理人做首次权益回访。</p>
-          <p style="font-size:21px;font-weight:800">用户不是“听说我有权益”，而是已经用过一次。</p>
+        <div class="sales-card warm">
+          <div class="sales-head"><div class="sales-no">4</div><h3>成交后立刻“激活权益”</h3></div>
+          <div class="sales-group"><div class="sales-eyebrow">富德最值得补的一步</div><ul class="sales-list"><li>活动结束就让客户回家，权益停在宣传册上，仍会被认为销售赠品</li></ul></div>
+          <div class="sales-group"><div class="sales-eyebrow">投保后马上完成</div><ul class="sales-list"><li>下载／登录金管家或好医生，绑定保单和权益人</li><li>建立家庭健康档案，添加父母、配偶和子女</li><li>完成一次家庭医生首访，预约一次可立刻使用的服务</li><li>展示服务入口和时效，由代理人完成首次权益回访</li></ul></div>
+          <div class="sales-summary">用户不是“听说我有权益”，而是已经用过一次。</div>
         </div>
-        <div class="card" style="justify-content:center;gap:8px">
-          <div class="n">5</div>
-          <h3 style="font-size:26px">用服务使用创造续保、加保与转介绍</h3>
-          <p style="font-size:21px">真正有效的增长飞轮：活动邀约 → 服务体验 → 投保 → 权益激活 → 服务使用 → 理赔/就医/养老关键时刻履约 → 客户认可 → 加保、续保、转介绍。</p>
-          <p style="font-size:21px">平安的逻辑是通过医疗养老服务提升金融业务<b>获客、黏客和二次转化</b>，而不是把健康服务当成一次性的签单礼。</p>
+        <div class="sales-card">
+          <div class="sales-head"><div class="sales-no">5</div><h3>用服务使用创造复购</h3></div>
+          <div class="sales-group"><div class="sales-eyebrow">增长飞轮</div><ul class="sales-list"><li>活动邀约 → 服务体验 → 投保 → 权益激活</li><li>服务使用 → 理赔／就医／养老关键时刻履约</li><li>客户认可 → 加保、续保、转介绍</li></ul></div>
+          <div class="sales-group"><div class="sales-eyebrow">平安的逻辑</div><ul class="sales-list"><li>用医疗养老服务提升金融业务的<b>获客、黏客和二次转化</b></li></ul></div>
+          <div class="sales-summary">把健康服务做成长期经营飞轮，而不是一次性签单礼。</div>
         </div>
       </div>
       <div class="pagemark">69</div>
