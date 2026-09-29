@@ -840,15 +840,17 @@
   #s075 .warm .sales-list li::before{background:#FFF8EF}
   #s075 .warm .sales-summary{border-color:rgba(255,255,255,.35)}
   #s075 .tier-note{font-size:18px;line-height:1.3;color:var(--muted);margin-top:8px}
-  #s076 .delivery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:24px;flex:1;min-height:0;margin-top:20px}
-  #s076 .sales-card{display:flex;flex-direction:column;min-height:0;padding:30px 34px;background:var(--cream);border:1px solid var(--line);border-radius:18px}
+  #s076 .delivery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:18px;flex:1;min-height:0;margin-top:14px}
+  #s076 .sales-card{display:flex;flex-direction:column;min-height:0;padding:17px 26px 15px;background:var(--cream);border:1px solid var(--line);border-radius:18px}
   #s076 .sales-card > *{flex-shrink:0}
-  #s076 .sales-no{width:46px;height:46px;font-size:21px}
-  #s076 h3{font-size:32px}
-  #s076 .sales-list{margin-top:24px;gap:13px}
-  #s076 .sales-list li{font-size:28px;line-height:1.35;padding-left:22px}
-  #s076 .quote-box{margin-top:24px;padding:22px 28px}
-  #s076 .quote-box p{font-size:30px}
+  #s076 .sales-no{width:38px;height:38px;font-size:18px}
+  #s076 .sales-list{margin-top:10px;gap:6px}
+  #s076 .sales-list li{font-size:22px;line-height:1.3}
+  #s076 .sales-summary{font-size:21px;padding-top:10px}
+  #s076 .delivery-budget{margin-top:16px;padding:13px 22px;background:#F7E9D8;border-left:4px solid var(--orange);font-size:21px;line-height:1.35;color:var(--ink-soft)}
+  #s076 .delivery-budget b{color:var(--ink)}
+  #s076 .delivery-source{margin-top:10px;font-size:18px;line-height:1.35;color:var(--muted)}
+  #s076 .quote-box{margin-top:12px;padding:15px 24px}
   /* ---- page 69: five-stage sales chain with scannable bullets and aligned takeaways ---- */
   section[data-label="现场活动的销售流程"] .sales-flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:15px;flex:1;min-height:0;margin-top:16px}
   section[data-label="现场活动的销售流程"] .sales-card{display:flex;flex-direction:column;min-height:0;padding:22px 20px 20px;border:1px solid var(--line);border-radius:19px;background:rgba(255,251,245,.96)}
@@ -3053,27 +3055,33 @@
         <div class="kicker anim">第三问之一：健康委托管理承接什么？</div>
         <div class="s-title anim" style="font-size:48px">企业把分散福利的<span class="hl">整合与运营</span>交给专业团队</div>
       </div>
-      <div class="s-lead anim2" style="margin-top:14px;font-size:28px;line-height:1.4">体检、问诊、心理、药品等健康福利，由专业团队统一组织。</div>
-      <div class="kicker anim2" style="margin-top:24px;font-size:24px;margin-bottom:0">服务项目，归为四类</div>
+      <div class="s-lead anim2" style="margin-top:8px;font-size:24px;line-height:1.4">第75页决定“覆盖谁、配置多深”；本页把三档服务归入同一交付框架，由专业团队按约整合与运营。</div>
+      <div class="kicker anim2" style="margin-top:16px;font-size:24px;margin-bottom:0">专业团队承接四类工作</div>
       <div class="delivery-grid anim2">
         <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">01</div><h3>档案与风险评估</h3></div>
-          <ul class="sales-list"><li>员工健康档案</li><li>员工健康测评</li><li>慢病风险分层</li></ul>
+          <div class="sales-head"><div class="sales-no">01</div><h3>识别健康风险</h3></div>
+          <ul class="sales-list"><li><b>建立底档：</b>员工健康档案、健康测评</li><li><b>体检管理：</b>检前、检中、检后管理与报告解读</li><li><b>分层识别：</b>慢病风险分层、重点人群识别</li><li><b>深度评估：</b>按需配置高端体检</li></ul>
+          <div class="sales-summary">了解员工情况，找到重点管理人群。</div>
         </div>
         <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">02</div><h3>体检管理</h3></div>
-          <ul class="sales-list"><li>体检前、中、后管理</li><li>报告解读</li></ul>
+          <div class="sales-head"><div class="sales-no">02</div><h3>持续健康管理</h3></div>
+          <ul class="sales-list"><li><b>日常入口：</b>在线问诊、家庭医生</li><li><b>持续跟进：</b>慢病与高风险人群随访</li><li><b>专项服务：</b>心理健康、抗衰或康复服务</li><li><b>专属支持：</b>高管专属健康顾问</li></ul>
+          <div class="sales-summary">从一次检查，延伸到持续服务。</div>
         </div>
         <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">03</div><h3>医疗与健康支持</h3></div>
-          <ul class="sales-list"><li>家庭医生</li><li>心理服务</li><li>就医绿色通道</li><li>药品福利</li></ul>
+          <div class="sales-head"><div class="sales-no">03</div><h3>协助就医用药</h3></div>
+          <ul class="sales-list"><li><b>就医协助：</b>就医绿色通道、专家门诊与住院协助</li><li><b>专业支持：</b>高端医疗服务、专家咨询、二次诊疗意见</li><li><b>复杂需求：</b>重疾专案协助、异地及海外特需医疗衔接</li><li><b>用药支持：</b>药品福利／购药服务</li></ul>
+          <div class="sales-summary">需要医疗服务时，有可调用的专业支持。</div>
         </div>
         <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">04</div><h3>健康教育与复盘</h3></div>
-          <ul class="sales-list"><li>健康宣教</li><li>急救培训</li><li>健康数据汇总报告</li></ul>
+          <div class="sales-head"><div class="sales-no">04</div><h3>权益激活与复盘</h3></div>
+          <ul class="sales-list"><li><b>运营触达：</b>员工服务入口、员工激活、专属服务团队</li><li><b>到企活动：</b>基础健康活动、企业健康日、健康宣教、急救培训</li><li><b>数据复盘：</b>健康看板、汇总报告、季度／年度健康报告</li><li><b>覆盖配置：</b>重点人群分层、家属扩展方案</li></ul>
+          <div class="sales-summary">让福利被使用，让企业能管理、能复盘。</div>
         </div>
       </div>
-      <div class="quote-box anim3"><p><b>把分散的健康福利，交给一个专业团队统一管理。</b></p></div>
+      <div class="delivery-budget anim3"><b>支付与预算单独配置：</b>基础团险，以及团体医疗、意外、重疾、高端医疗、补充医疗等保障；健康账户用于预算管理，委托管理用于服务组织与运营。保险保障不等于医疗服务。</div>
+      <div class="delivery-source anim3">公开依据：平安提到企业端“检前、检中、检后”的管家式健康服务。上方为结合第75页的归类与扩展建议，具体项目、服务边界及资源可用性以合同为准。</div>
+      <div class="quote-box anim3"><p><b>企业真正买的是：</b>HR 不必自己成为健康服务运营商，也能获得一套<b>可解释、可使用、可复盘</b>的方案。</p></div>
       <div class="pagemark">76</div>
     </div>
   </section>
@@ -3219,7 +3227,7 @@
           <tr class="hotrow"><td class="lab">年度福利复盘</td><td>有使用数据、满意度与优化建议，可以向管理层交代成果</td></tr>
         </tbody>
       </table>
-      <div class="quote anim3" style="font-size:32px;line-height:1.35;margin-top:24px;max-width:none;white-space:nowrap;text-wrap:nowrap">产品表达应从“我们提供什么”转成：<span class="hl">员工遇到什么问题，我们在多长时间内，由谁，用什么方式帮他解决。</span></div>
+      <div class="quote anim3" style="font-size:42px;margin-top:24px">产品表达应从“我们提供什么”转成：<span class="hl">员工遇到什么问题，我们在多长时间内，由谁，用什么方式帮他解决。</span></div>
       <div class="pagemark">81</div>
     </div>
   </section>

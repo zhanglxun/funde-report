@@ -811,44 +811,6 @@
   section[data-label="如何把健康服务叠加到保险中"] .quote-box{margin-top:32px;padding:18px 28px}
   section[data-label="如何把健康服务叠加到保险中"] .quote-box p{font-size:27px;line-height:1.35}
   section[data-label="如何把健康服务叠加到保险中"] .quote-box p + p{margin-top:8px;font-size:19px;line-height:1.4;color:var(--muted)}
-  /* ---- pages 75–76: configuration tiers and delivery categories ---- */
-  :is(#s075,#s076) > :not(.tier-grid):not(.delivery-grid){flex-shrink:0}
-  :is(#s075,#s076) .sales-head{display:flex;align-items:center;gap:13px}
-  :is(#s075,#s076) .sales-no{display:grid;place-items:center;width:43px;height:43px;flex-shrink:0;border-radius:50%;background:var(--orange-soft);font-size:19px;font-weight:900;color:var(--orange-deep)}
-  :is(#s075,#s076) h3{font-size:29px;line-height:1.2}
-  :is(#s075,#s076) .sales-list{list-style:none;display:flex;flex-direction:column;gap:13px;margin-top:18px}
-  :is(#s075,#s076) .sales-list li{position:relative;padding-left:18px;font-size:23px;line-height:1.35;color:var(--ink-soft)}
-  :is(#s075,#s076) .sales-list li::before{content:"";position:absolute;left:0;top:.48em;width:8px;height:8px;border-radius:50%;background:var(--orange)}
-  :is(#s075,#s076) .sales-list b{font-weight:850;color:var(--ink)}
-  :is(#s075,#s076) .sales-summary{margin-top:auto;padding-top:14px;border-top:1px solid var(--line);font-size:24px;line-height:1.3;font-weight:850;color:var(--orange-deep)}
-  :is(#s075,#s076) .quote-box{margin-top:16px;padding:18px 26px}
-  :is(#s075,#s076) .quote-box p{font-size:26px;line-height:1.35}
-  #s075 .t{margin-top:12px;font-size:23px}
-  #s075 .t :is(th,td){padding:12px 18px;line-height:1.25}
-  #s075 .product-base{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;margin-top:12px}
-  #s075 .product-base > div{padding:16px 22px;background:#F7E9D8;border:1px solid var(--line);border-radius:12px}
-  #s075 .product-base b{display:block;font-size:25px;line-height:1.2;color:var(--ink)}
-  #s075 .product-base span{display:block;margin-top:6px;font-size:22px;line-height:1.3;color:var(--ink-soft)}
-  #s075 .tier-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));grid-template-rows:minmax(0,1fr);gap:22px;flex:1;min-height:0;margin-top:14px}
-  #s075 .sales-card{display:flex;flex-direction:column;min-height:0;padding:24px 26px;background:var(--cream-2);border:1px solid var(--line);border-radius:18px}
-  #s075 .sales-card > *{flex-shrink:0}
-  #s075 .sales-value{font-size:28px;font-weight:850;color:var(--orange-deep);margin-top:11px;line-height:1.2}
-  #s075 .tier-audience{font-size:21px;line-height:1.35;color:var(--ink-soft);margin-top:10px;min-height:57px}
-  #s075 .sales-card.warm{background:var(--orange);border-color:var(--orange-deep)}
-  #s075 .warm :is(h3,.sales-value,.tier-audience,.sales-list li,.sales-list b,.sales-summary){color:#FFF8EF}
-  #s075 .warm .sales-no{background:rgba(255,255,255,.2);color:#FFF8EF}
-  #s075 .warm .sales-list li::before{background:#FFF8EF}
-  #s075 .warm .sales-summary{border-color:rgba(255,255,255,.35)}
-  #s075 .tier-note{font-size:18px;line-height:1.3;color:var(--muted);margin-top:8px}
-  #s076 .delivery-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(2,minmax(0,1fr));gap:24px;flex:1;min-height:0;margin-top:20px}
-  #s076 .sales-card{display:flex;flex-direction:column;min-height:0;padding:30px 34px;background:var(--cream);border:1px solid var(--line);border-radius:18px}
-  #s076 .sales-card > *{flex-shrink:0}
-  #s076 .sales-no{width:46px;height:46px;font-size:21px}
-  #s076 h3{font-size:32px}
-  #s076 .sales-list{margin-top:24px;gap:13px}
-  #s076 .sales-list li{font-size:28px;line-height:1.35;padding-left:22px}
-  #s076 .quote-box{margin-top:24px;padding:22px 28px}
-  #s076 .quote-box p{font-size:30px}
   /* ---- page 69: five-stage sales chain with scannable bullets and aligned takeaways ---- */
   section[data-label="现场活动的销售流程"] .sales-flow{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:15px;flex:1;min-height:0;margin-top:16px}
   section[data-label="现场活动的销售流程"] .sales-card{display:flex;flex-direction:column;min-height:0;padding:22px 20px 20px;border:1px solid var(--line);border-radius:19px;background:rgba(255,251,245,.96)}
@@ -3006,74 +2968,64 @@
 
   <!-- 75 第三问：三层产品架构 -->
   <section data-label="第三问：三层产品架构">
-    <div class="slide" id="s075">
+    <div class="slide">
       <div class="s-head tight">
         <div class="kicker anim">第三问：方案应该怎样组织？</div>
-        <div class="s-title anim" style="font-size:46px">同一产品底座，按<span class="hl">人群与管理深度</span>配置三档方案</div>
+        <div class="s-title anim" style="font-size:46px">产品由<span class="hl">保障层、服务层和运营层</span>共同承接</div>
       </div>
-      <div class="product-base anim2">
-        <div><b>保障层｜支付保障</b><span>风险发生时，有相应保险保障。</span></div>
-        <div><b>服务层｜解决问题</b><span>日常健康与就医，有服务承接。</span></div>
-        <div><b>运营层｜管理福利</b><span>员工权益可激活，服务效果可复盘。</span></div>
-      </div>
-      <div class="kicker anim3" style="margin-top:18px;font-size:24px;margin-bottom:0">覆盖范围、服务深度与资源层级，按需升级</div>
-      <div class="tier-grid anim3">
-        <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">01</div><h3>基础版</h3></div>
-          <div class="sales-value">全员可感知</div>
-          <div class="tier-audience">适合预算有限或首次合作企业；<br>重点不是低价，而是建立使用习惯。</div>
-          <ul class="sales-list"><li><b>健康入口：</b>在线问诊、健康测评、体检报告解读</li><li><b>基础福利：</b>基础团险、药品福利／购药服务</li><li><b>使用激活：</b>员工服务入口、基础健康活动、运营触达</li></ul>
-          <div class="sales-summary">先让全员知道、<br>找得到、用起来。</div>
+      <table class="t dense anim2" style="margin-top:16px;font-size:26px">
+        <thead><tr><th style="width:14%">产品层</th><th style="width:28%">客户买到什么</th><th class="hot">核心模块</th></tr></thead>
+        <tbody>
+          <tr><td class="lab">保障层</td><td>风险发生时的支付保障</td><td>团体医疗、意外、重疾、高端医疗、补充医疗</td></tr>
+          <tr><td class="lab">服务层</td><td>日常健康和就医问题的解决能力</td><td>家庭医生、体检、心理、慢病、购药、就医协助、重疾专案</td></tr>
+          <tr class="hotrow"><td class="lab">运营层</td><td>企业福利可管理、可交付、可复盘</td><td>员工激活、到企活动、专属服务团队、健康看板、季度/年度报告</td></tr>
+        </tbody>
+      </table>
+      <div class="kicker anim3" style="margin-top:30px">对应到具体客群，可再分三档</div>
+      <div class="cards c3 anim3" style="flex:1;align-items:stretch;margin-top:16px">
+        <div class="card" style="justify-content:center;gap:8px">
+          <h3 style="font-size:30px">基础版：全员可感知</h3>
+          <p style="font-size:24px">适合预算有限或首次合作企业，重点不是“低价”而是建立统一入口和使用习惯：在线问诊、健康测评、基础健康活动、体检报告解读、药品福利或购药服务、基础团险、员工服务入口与运营触达。</p>
         </div>
-        <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">02</div><h3>进阶版</h3></div>
-          <div class="sales-value">持续健康管理</div>
-          <div class="tier-audience">适合已有团险，希望提升员工体验<br>和健康管理能力的企业。</div>
-          <ul class="sales-list"><li><b>连续管理：</b>家庭医生、检前中后管理、慢病与高风险随访</li><li><b>专项支持：</b>心理健康服务、就医协助</li><li><b>预算与运营：</b>健康账户／委托管理、季度健康报告、企业健康日</li></ul>
-          <div class="sales-summary">从单次福利，<br>走向持续管理。</div>
+        <div class="card" style="justify-content:center;gap:8px">
+          <h3 style="font-size:30px">进阶版：健康管理闭环</h3>
+          <p style="font-size:24px">适合已有团险、希望提升员工体验和健康管理能力的企业：家庭医生、检前检中检后管理、慢病和高风险人群随访、心理健康服务、就医协助、健康账户/委托管理、季度健康报告与企业健康日。</p>
         </div>
-        <div class="sales-card warm">
-          <div class="sales-head"><div class="sales-no">03</div><h3>高端版</h3></div>
-          <div class="sales-value">核心人才保障</div>
-          <div class="tier-audience">适合总部、高管、核心人才<br>及高价值人群。</div>
-          <ul class="sales-list"><li><b>专业医疗：</b>高端医疗、专家咨询、二次诊疗意见；专家门诊、住院与重疾专案协助</li><li><b>专属管理：</b>高管健康顾问、高端体检、抗衰或康复服务</li><li><b>扩展支持：</b>家属方案、异地及海外特需医疗资源衔接</li></ul>
-          <div class="sales-summary">对重点人群，<br>提供更深的专属支持。</div>
+        <div class="card warm" style="justify-content:center;gap:8px">
+          <h3 style="font-size:30px">高端版：核心人才与高管</h3>
+          <p style="font-size:24px">适合总部、高管、核心人才及高价值人群：高端医疗、专家咨询与二次诊疗意见、专家门诊住院重疾专案协助、家属扩展方案、高端体检抗衰或康复服务、高管专属健康顾问、异地海外特需医疗资源衔接。</p>
         </div>
       </div>
       <div class="quote-box anim3" style="margin-top:18px"><p><b>关键原则：</b>全员有基本获得感，重点人群有明确升级路径，企业有清楚的预算边界。</p></div>
-      <div class="tier-note">三档为方案配置建议，并非平安官方统一套餐；项目按合同选配，不代表逐档自动包含。</div>
       <div class="pagemark">75</div>
     </div>
   </section>
 
   <!-- 76 第三问之一：健康委托管理 -->
   <section data-label="第三问之一：健康委托管理">
-    <div class="slide slide--alt" id="s076">
+    <div class="slide slide--alt">
       <div class="s-head tight">
         <div class="kicker anim">第三问之一：健康委托管理承接什么？</div>
         <div class="s-title anim" style="font-size:48px">企业把分散福利的<span class="hl">整合与运营</span>交给专业团队</div>
       </div>
-      <div class="s-lead anim2" style="margin-top:14px;font-size:28px;line-height:1.4">体检、问诊、心理、药品等健康福利，由专业团队统一组织。</div>
-      <div class="kicker anim2" style="margin-top:24px;font-size:24px;margin-bottom:0">服务项目，归为四类</div>
-      <div class="delivery-grid anim2">
-        <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">01</div><h3>档案与风险评估</h3></div>
-          <ul class="sales-list"><li>员工健康档案</li><li>员工健康测评</li><li>慢病风险分层</li></ul>
-        </div>
-        <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">02</div><h3>体检管理</h3></div>
-          <ul class="sales-list"><li>体检前、中、后管理</li><li>报告解读</li></ul>
-        </div>
-        <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">03</div><h3>医疗与健康支持</h3></div>
-          <ul class="sales-list"><li>家庭医生</li><li>心理服务</li><li>就医绿色通道</li><li>药品福利</li></ul>
-        </div>
-        <div class="sales-card">
-          <div class="sales-head"><div class="sales-no">04</div><h3>健康教育与复盘</h3></div>
-          <ul class="sales-list"><li>健康宣教</li><li>急救培训</li><li>健康数据汇总报告</li></ul>
-        </div>
+      <div class="s-lead anim2" style="margin-top:24px;font-size:32px;max-width:1560px">企业不是自己采购体检、问诊、心理、药品、健康讲座和保险，而是将一部分员工健康福利交给平安整合和运营。</div>
+      <div class="kicker anim2" style="margin-top:34px">通常包括</div>
+      <div class="chiprow lg anim2" style="margin-top:14px">
+        <span class="chip">员工健康档案</span>
+        <span class="chip">员工健康测评</span>
+        <span class="chip">体检前、中、后管理</span>
+        <span class="chip">报告解读</span>
+        <span class="chip">慢病风险分层</span>
+        <span class="chip">家庭医生</span>
+        <span class="chip">心理服务</span>
+        <span class="chip">健康宣教</span>
+        <span class="chip">急救培训</span>
+        <span class="chip">就医绿色通道</span>
+        <span class="chip">药品福利</span>
+        <span class="chip">健康数据的汇总报告</span>
       </div>
-      <div class="quote-box anim3"><p><b>把分散的健康福利，交给一个专业团队统一管理。</b></p></div>
+      <div class="s-body anim3" style="margin-top:34px;font-size:29px">平安公开提到，企业端会为员工提供<b>“检前、检中、检后”</b>的管家式健康服务。</div>
+      <div class="quote-box anim3" style="margin-top:auto"><p><b>企业真正买的是：</b>不需要 HR 自己成为健康服务运营商，也能把分散福利变成一套<b>可解释、可使用、可复盘</b>的员工健康方案。</p></div>
       <div class="pagemark">76</div>
     </div>
   </section>
@@ -3219,7 +3171,7 @@
           <tr class="hotrow"><td class="lab">年度福利复盘</td><td>有使用数据、满意度与优化建议，可以向管理层交代成果</td></tr>
         </tbody>
       </table>
-      <div class="quote anim3" style="font-size:32px;line-height:1.35;margin-top:24px;max-width:none;white-space:nowrap;text-wrap:nowrap">产品表达应从“我们提供什么”转成：<span class="hl">员工遇到什么问题，我们在多长时间内，由谁，用什么方式帮他解决。</span></div>
+      <div class="quote anim3" style="font-size:42px;margin-top:24px">产品表达应从“我们提供什么”转成：<span class="hl">员工遇到什么问题，我们在多长时间内，由谁，用什么方式帮他解决。</span></div>
       <div class="pagemark">81</div>
     </div>
   </section>
