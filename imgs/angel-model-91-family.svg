@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="孕产家庭在就医协调、持续跟进和按需选择中获得确定的体验">
+  <g font-family="Arial,'Noto Sans CJK SC',sans-serif" text-anchor="middle" font-weight="700">
+    <path d="M22 104L94 49l72 55v88H22z" fill="#FFF8ED" stroke="#D9AD85" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M69 191v-48h52v48" fill="#F6E4D1" stroke="#D9AD85" stroke-width="2"/>
+    <circle cx="80" cy="123" r="11" fill="#E6BD97"/><circle cx="108" cy="124" r="10" fill="#E6BD97"/>
+    <path d="M61 153q20-24 39 0M91 153q17-21 31 0" fill="none" stroke="#B46D3F" stroke-width="3" stroke-linecap="round"/>
+    <text x="94" y="214" font-size="18" fill="#96532E">孕产家庭</text>
+    <path d="M167 122h24" stroke="#C4773E" stroke-width="3" stroke-dasharray="5 5"/>
+    <g font-size="17" fill="#6A4A3A">
+      <rect x="199" y="26" width="180" height="49" rx="12" fill="#F8E3CD" stroke="#D9AD85"/>
+      <circle cx="225" cy="50" r="12" fill="#C4773E"/><path d="M219 50l4 4 8-9" fill="none" stroke="#FFF9F1" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="300" y="57">就医更顺畅</text>
+      <rect x="199" y="86" width="180" height="49" rx="12" fill="#E6F1EA" stroke="#8ABCA9"/>
+      <circle cx="225" cy="110" r="12" fill="#599F8B"/><path d="M219 110l4 4 8-9" fill="none" stroke="#FFF9F1" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="300" y="117">异常有人跟进</text>
+      <rect x="199" y="146" width="180" height="49" rx="12" fill="#F8E3CD" stroke="#D9AD85"/>
+      <circle cx="225" cy="170" r="12" fill="#C4773E"/><path d="M219 170l4 4 8-9" fill="none" stroke="#FFF9F1" stroke-width="2.5" stroke-linecap="round"/>
+      <text x="300" y="177">服务按需选择</text>
+    </g>
+  </g>
+</svg>

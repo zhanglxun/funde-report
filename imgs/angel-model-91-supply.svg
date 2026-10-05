@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="医院场景把专家、特需、监测和产后资源组织为增量服务供给">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#BE713C" stroke-width="1.8"/></marker></defs>
+  <g font-family="Arial,'Noto Sans CJK SC',sans-serif" text-anchor="middle">
+    <rect x="18" y="48" width="105" height="119" rx="14" fill="#FFF8ED" stroke="#D9AD85" stroke-width="2"/>
+    <path d="M49 126V77h43v49M39 126h63M70 84v17M61 92h18" fill="none" stroke="#BA6B36" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="70" y="153" font-size="18" font-weight="700" fill="#96532E">医院场景</text>
+    <path d="M127 107h29" fill="none" stroke="#BE713C" stroke-width="3" marker-end="url(#a)"/>
+    <g font-size="18" font-weight="700" fill="#6A4A3A">
+      <rect x="169" y="31" width="100" height="53" rx="11" fill="#F8E3CD" stroke="#D9AD85"/><text x="219" y="64">专家门诊</text>
+      <rect x="280" y="31" width="100" height="53" rx="11" fill="#E6F1EA" stroke="#8ABCA9"/><text x="330" y="64">特需空间</text>
+      <rect x="169" y="94" width="100" height="53" rx="11" fill="#E6F1EA" stroke="#8ABCA9"/><text x="219" y="127">连续监测</text>
+      <rect x="280" y="94" width="100" height="53" rx="11" fill="#F8E3CD" stroke="#D9AD85"/><text x="330" y="127">产后资源</text>
+    </g>
+    <path d="M219 148v12M330 148v12M219 160h111" fill="none" stroke="#B88C6C" stroke-width="2"/>
+    <rect x="169" y="170" width="211" height="37" rx="18" fill="#C4773E"/>
+    <text x="275" y="195" font-size="19" font-weight="700" fill="#FFF9F1">新增服务供给</text>
+  </g>
+</svg>

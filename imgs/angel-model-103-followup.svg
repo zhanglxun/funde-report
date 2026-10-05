@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="驻点、管家与专业团队接力交付，再将结果反馈医院">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#BE713C" stroke-width="1.8"/></marker></defs>
+  <g font-family="Arial,'Noto Sans CJK SC',sans-serif" text-anchor="middle" font-weight="700">
+    <g font-size="18" fill="#6A4A3A">
+      <rect x="19" y="75" width="78" height="66" rx="12" fill="#F8E3CD" stroke="#D9AD85" stroke-width="2"/><text x="58" y="115">驻点</text>
+      <rect x="114" y="75" width="78" height="66" rx="12" fill="#FFF8ED" stroke="#D9AD85" stroke-width="2"/><text x="153" y="115">管家</text>
+      <rect x="209" y="75" width="78" height="66" rx="12" fill="#E6F1EA" stroke="#8ABCA9" stroke-width="2"/><text x="248" y="115">团队</text>
+      <rect x="304" y="75" width="78" height="66" rx="12" fill="#F8E3CD" stroke="#D9AD85" stroke-width="2"/><text x="343" y="115">反馈</text>
+    </g>
+    <path d="M97 108h14M192 108h14M287 108h14" stroke="#BE713C" stroke-width="2.5" marker-end="url(#a)"/>
+    <path d="M343 149v27H59v-27" fill="none" stroke="#8ABCA9" stroke-width="2.5" stroke-dasharray="6 5"/>
+    <circle cx="59" cy="176" r="6" fill="#599F8B"/>
+    <rect x="145" y="16" width="111" height="35" rx="17" fill="#E6F1EA"/>
+    <text x="200" y="40" font-size="18" fill="#3F806D">持续履约</text>
+    <text x="201" y="204" font-size="18" fill="#3F806D">结果回到医院，改进下一轮合作</text>
+  </g>
+</svg>

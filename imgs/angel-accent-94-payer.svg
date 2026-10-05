@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-label="孕产家庭选择并支付服务">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <circle cx="68" cy="62" r="17" fill="#F4D2B1" stroke="#C4773E" stroke-width="3"/>
+    <circle cx="109" cy="67" r="14" fill="#E6F1EA" stroke="#599F8B" stroke-width="3"/>
+    <path d="M39 130q28-54 58 0M87 129q20-43 43 0" stroke="#C4773E" stroke-width="3"/>
+    <path d="M136 101h41" stroke="#C4773E" stroke-width="3" stroke-dasharray="5 5"/>
+    <path d="M170 95l8 6-8 6" stroke="#C4773E" stroke-width="3"/>
+    <rect x="190" y="38" width="105" height="91" rx="13" fill="#FFF8ED" stroke="#C4773E" stroke-width="3"/>
+    <path d="M210 61h65M210 78h36" stroke="#D9AD85" stroke-width="3"/>
+    <circle cx="250" cy="101" r="17" fill="#E6F1EA" stroke="#599F8B" stroke-width="3"/>
+    <path d="M242 101l5 5 11-12" stroke="#599F8B" stroke-width="3"/>
+  </g>
+</svg>

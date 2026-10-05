@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="特需、监测、筛查和产后资源组合为可选服务">
+  <g font-family="Arial,'Noto Sans CJK SC',sans-serif" text-anchor="middle" font-weight="700">
+    <g font-size="18" fill="#6A4A3A">
+      <rect x="24" y="30" width="105" height="58" rx="11" fill="#F8E3CD" stroke="#D9AD85" stroke-width="2"/><text x="76" y="66">特需产检</text>
+      <rect x="147" y="30" width="105" height="58" rx="11" fill="#E6F1EA" stroke="#8ABCA9" stroke-width="2"/><text x="199" y="66">居家监测</text>
+      <rect x="270" y="30" width="105" height="58" rx="11" fill="#F8E3CD" stroke="#D9AD85" stroke-width="2"/><text x="322" y="66">产前筛查</text>
+    </g>
+    <path d="M76 91v32M199 91v32M322 91v32M76 123h246M199 123v19" fill="none" stroke="#C4773E" stroke-width="2.5" stroke-linecap="round"/>
+    <circle cx="199" cy="123" r="7" fill="#C4773E"/>
+    <rect x="71" y="151" width="258" height="54" rx="15" fill="#C4773E"/>
+    <text x="200" y="186" font-size="23" fill="#FFF9F1">可选服务组合</text>
+    <rect x="287" y="119" width="91" height="26" rx="13" fill="#E6F1EA" stroke="#8ABCA9"/>
+    <text x="332" y="137" font-size="16" fill="#3F806D">产后延伸</text>
+  </g>
+</svg>

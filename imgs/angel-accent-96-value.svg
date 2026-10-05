@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 170" role="img" aria-label="发现风险、持续监测、专业响应、获得安心的四个简洁图标">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5">
+    <g transform="translate(180 85)" stroke="#C4773E">
+      <circle cx="-9" cy="-12" r="35" fill="#FFF8ED"/>
+      <path d="M-39-10h15l8-12 11 24 8-12h20M17 16l27 28"/>
+    </g>
+    <g transform="translate(540 85)" stroke="#C4773E">
+      <rect x="-37" y="-58" width="74" height="116" rx="11" fill="#FFF8ED"/>
+      <path d="M-27-1h12l8-15 10 29 8-14h16M-10 44h20"/>
+    </g>
+    <g transform="translate(900 85)" stroke="#FFF8ED">
+      <path d="M-54-37h88v63h-31l-20 18V26h-37z" fill="none"/>
+      <path d="M-36-6l13 13 28-31" stroke-width="5"/>
+      <path d="M38-14h28v46H44l-13 13V32h-8" stroke-width="3"/>
+    </g>
+    <g transform="translate(1260 85)" stroke="#C4773E">
+      <path d="M0-58q31 18 54 18v36q0 38-54 63-54-25-54-63v-36q23 0 54-18z" fill="#FFF8ED"/>
+      <path d="M0 24c-28-20-31-35-16-41 8-4 14 0 16 6 2-6 8-10 16-6 15 6 12 21-16 41z" fill="#F4D2B1"/>
+    </g>
+  </g>
+</svg>

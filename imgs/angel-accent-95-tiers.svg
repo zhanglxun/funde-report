@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 170" role="img" aria-label="基础监测、专项管理和高端体验三个服务深度的简洁图标">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="3.5">
+    <g transform="translate(240 86)" stroke="#C4773E">
+      <rect x="-36" y="-57" width="72" height="112" rx="11" fill="#FFF8ED"/>
+      <path d="M-25 2h13l8-16 10 31 8-16h12"/>
+      <path d="M-10 42h20"/>
+    </g>
+    <g transform="translate(720 86)" stroke="#C4773E">
+      <rect x="-48" y="-49" width="67" height="86" rx="9" fill="#FFF8ED"/>
+      <path d="M-36-7h11l7-13 8 24 7-11h10"/>
+      <circle cx="27" cy="13" r="24" fill="#E6F1EA" stroke="#599F8B"/>
+      <path d="M13 13h28M27-1v28" stroke="#599F8B"/>
+      <path d="M-54 49q46 24 86-6" stroke="#599F8B"/>
+    </g>
+    <g transform="translate(1200 86)" stroke="#C4773E">
+      <circle cx="-22" cy="-20" r="17" fill="#F4D2B1"/>
+      <path d="M-54 38q32-54 64 0"/>
+      <rect x="16" y="-43" width="55" height="72" rx="9" fill="#FFF8ED"/>
+      <path d="M29-23h29M29-9h22M29 6h29"/>
+      <path d="M45 45l5 11 12 1-9 8 3 12-11-6-11 6 3-12-9-8 12-1z" fill="#F8E3CD"/>
+    </g>
+  </g>
+</svg>

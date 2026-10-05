@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 160" role="img" aria-label="平台连接医院与家庭的服务">
+  <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M24 102V61h67v41M17 102h81M55 67v20M45 77h20" fill="#FFF8ED" stroke="#C4773E" stroke-width="3"/>
+    <path d="M222 75l41-34 41 34v41h-82zM246 115V87h35v28" fill="#FFF8ED" stroke="#599F8B" stroke-width="3"/>
+    <path d="M96 87h41M183 87h36" stroke="#C4773E" stroke-width="3" stroke-dasharray="5 6"/>
+    <circle cx="160" cy="86" r="33" fill="#F8E3CD" stroke="#C4773E" stroke-width="3"/>
+    <path d="M146 84h28M150 73h20M150 96h20" stroke="#C4773E" stroke-width="3"/>
+    <path d="M129 128c20 14 42 14 62 0" stroke="#599F8B" stroke-width="3"/>
+    <circle cx="129" cy="128" r="4" fill="#599F8B" stroke="none"/><circle cx="191" cy="128" r="4" fill="#599F8B" stroke="none"/>
+  </g>
+</svg>

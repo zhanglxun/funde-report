@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="平台连接医院资源与家庭需求，完成组合、标准和交付">
+  <defs><marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto"><path d="M1 1L9 5L1 9" fill="none" stroke="#BE713C" stroke-width="1.8"/></marker></defs>
+  <g font-family="Arial,'Noto Sans CJK SC',sans-serif" text-anchor="middle" font-weight="700">
+    <rect x="16" y="35" width="103" height="58" rx="11" fill="#FFF8ED" stroke="#D9AD85" stroke-width="2"/>
+    <path d="M41 68h22M52 57v22" stroke="#C4773E" stroke-width="3" stroke-linecap="round"/>
+    <text x="84" y="69" font-size="17" fill="#79503A">医院</text>
+    <rect x="16" y="125" width="103" height="58" rx="11" fill="#FFF8ED" stroke="#D9AD85" stroke-width="2"/>
+    <circle cx="48" cy="148" r="8" fill="#E6BD97"/><path d="M33 168q15-19 30 0" fill="none" stroke="#C4773E" stroke-width="3"/>
+    <text x="84" y="160" font-size="17" fill="#79503A">家庭</text>
+    <path d="M124 64h35M124 153h35" fill="none" stroke="#BE713C" stroke-width="3" marker-end="url(#a)"/>
+    <rect x="167" y="53" width="91" height="115" rx="16" fill="#F9E1C8" stroke="#C4773E" stroke-width="2.5"/>
+    <circle cx="212" cy="90" r="19" fill="#FFF9F1" stroke="#C4773E" stroke-width="2"/>
+    <path d="M204 90h16M212 82v16" stroke="#C4773E" stroke-width="3" stroke-linecap="round"/>
+    <text x="212" y="139" font-size="22" fill="#97552D">平台</text>
+    <path d="M263 110h25" fill="none" stroke="#BE713C" stroke-width="3" marker-end="url(#a)"/>
+    <g font-size="17" fill="#566E63">
+      <rect x="298" y="29" width="84" height="47" rx="11" fill="#E6F1EA" stroke="#8ABCA9"/><text x="340" y="59">组合</text>
+      <rect x="298" y="87" width="84" height="47" rx="11" fill="#E6F1EA" stroke="#8ABCA9"/><text x="340" y="117">标准</text>
+      <rect x="298" y="145" width="84" height="47" rx="11" fill="#E6F1EA" stroke="#8ABCA9"/><text x="340" y="175">交付</text>
+    </g>
+  </g>
+</svg>

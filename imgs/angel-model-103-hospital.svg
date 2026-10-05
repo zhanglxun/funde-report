@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 220" role="img" aria-label="医院临床职责与平台驻点职责在合作场景中衔接">
+  <g font-family="Arial,'Noto Sans CJK SC',sans-serif" text-anchor="middle" font-weight="700">
+    <path d="M32 77h140v112H32zM48 59h108v18H48" fill="#FFF8ED" stroke="#D9AD85" stroke-width="2.5" stroke-linejoin="round"/>
+    <path d="M84 77v52h36V77M102 91v24M91 103h22" fill="none" stroke="#C4773E" stroke-width="4" stroke-linecap="round"/>
+    <path d="M54 143h29v26H54zM120 143h29v26h-29z" fill="#E6F1EA" stroke="#8ABCA9" stroke-width="2"/>
+    <text x="102" y="212" font-size="19" fill="#96532E">医院诊疗</text>
+    <path d="M184 131h40" stroke="#C4773E" stroke-width="3" stroke-dasharray="6 5"/>
+    <circle cx="205" cy="131" r="6" fill="#C4773E"/>
+    <rect x="235" y="89" width="137" height="100" rx="15" fill="#E6F1EA" stroke="#8ABCA9" stroke-width="2.5"/>
+    <circle cx="276" cy="121" r="14" fill="#C1DEC9" stroke="#599F8B" stroke-width="2"/>
+    <path d="M253 156q23-33 46 0M313 119h38M313 137h31" fill="none" stroke="#599F8B" stroke-width="3" stroke-linecap="round"/>
+    <text x="304" y="212" font-size="19" fill="#3F806D">驻点服务</text>
+    <rect x="171" y="34" width="73" height="32" rx="16" fill="#F8E3CD"/>
+    <text x="207" y="55" font-size="16" fill="#96532E">职责衔接</text>
+  </g>
+</svg>
