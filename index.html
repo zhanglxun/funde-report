@@ -908,6 +908,21 @@
   section[data-label="用户如何使用"] .usage-compare{display:grid;grid-template-columns:1fr 1fr;gap:28px;flex:1;min-height:0;margin-top:18px}section[data-label="用户如何使用"] .usage-card{position:relative;display:flex;flex-direction:column;padding:27px 30px;border:1.5px solid #D9AC80;border-radius:21px;background:rgba(255,252,247,.96)}section[data-label="用户如何使用"] .usage-card .usage-no{display:flex;align-items:center;gap:9px;font-size:19px;font-weight:900;letter-spacing:.08em;color:var(--orange)}section[data-label="用户如何使用"] .usage-card .usage-no i{display:grid;place-items:center;width:27px;height:27px;border-radius:50%;background:#F5D4B6;font-style:normal;font-size:15px;color:#9E5127}section[data-label="用户如何使用"] .usage-card h3{margin:10px 0 17px;font-size:39px;line-height:1.1;color:var(--ink)}section[data-label="用户如何使用"] .usage-block{padding:13px 0;border-top:1px solid #E8D2BA}section[data-label="用户如何使用"] .usage-block b{display:block;margin-bottom:7px;font-size:19px;letter-spacing:.06em;color:#A65326}section[data-label="用户如何使用"] .usage-block p{font-size:21px;line-height:1.42;color:var(--ink-soft)}section[data-label="用户如何使用"] .usage-points{display:flex;flex-wrap:wrap;gap:8px;list-style:none}section[data-label="用户如何使用"] .usage-points li{padding:6px 10px;border-radius:9px;background:#F8E6D4;font-size:18px;line-height:1.2;color:var(--ink-soft)}section[data-label="用户如何使用"] .usage-takeaway{margin-top:auto;padding:13px 15px;border-left:4px solid var(--orange);background:#FFF3E5;font-size:21px;font-weight:850;line-height:1.38;color:#A65326}
 .scene-layout{display:grid;grid-template-columns:.82fr 1fr .82fr;gap:0;align-items:stretch;flex:1}.scene-layout .scene-box{padding:34px;border:1px solid var(--line);background:var(--cream-2)}.scene-layout .scene-box:first-child{border-radius:22px 0 0 22px}.scene-layout .scene-box:last-child{border-radius:0 22px 22px 0}.scene-layout .scene-box.hot{background:var(--orange);border-color:var(--orange-deep)}.scene-layout .tag{font-size:22px;font-weight:800;letter-spacing:.12em;color:var(--orange)}.scene-layout .hot .tag,.scene-layout .hot p{color:#FFF6EC}.scene-layout p{font-size:31px;line-height:1.45;color:var(--ink-soft);margin-top:16px}.source-list{display:grid;grid-template-columns:1fr 1fr;gap:20px;flex:1}.source-list .source{padding:26px;border:1px solid var(--line);border-radius:18px;background:var(--cream-2);font-size:30px;line-height:1.42;color:var(--ink-soft)}.source-list b{display:block;color:var(--orange);font-size:23px;margin-bottom:8px}
 
+
+  /* ---- 第08章公共组件 ---- */
+  .c8 .ev{display:inline-block;padding:3px 11px;border-radius:999px;font-size:16px;font-weight:800;letter-spacing:.04em;line-height:1.4;vertical-align:middle;white-space:nowrap}
+  .c8 .ev-pub{background:#DFF0EA;color:#1F7A63}
+  .c8 .ev-hyp{background:#FCE3CF;color:#B4541C}
+  .c8 .ev-rec{background:#E9E1F3;color:#5F4589}
+  .c8 .ev-int{background:#E8DFD2;color:#6B5A45}
+  .c8 .c8-lead{font-size:25px;font-weight:600;line-height:1.45;color:var(--ink-soft);margin-top:10px;text-wrap:pretty}
+  .c8 .c8-lead b{color:var(--ink)}
+  .c8 .c8-bar{display:flex;align-items:center;gap:20px;margin-top:16px;padding:14px 26px;background:var(--ink);color:#fff}
+  .c8 .c8-bar>b{flex:0 0 auto;font-size:23px;color:#FFC99D;letter-spacing:.04em}
+  .c8 .c8-bar p{font-size:23px;line-height:1.42}
+  .c8 .c8-bar p b{color:#FFC99D}
+  .c8 .c8-src{display:flex;align-items:center;gap:14px;margin-top:14px;padding:12px 22px;border-left:5px solid #2FA98C;background:#EFF6F1;font-size:21px;line-height:1.42;color:var(--ink-soft)}
+  .c8 .c8-src b{color:var(--ink)}
 </style>
 </head>
 <body>
@@ -3058,7 +3073,7 @@
       <div class="delivery-grid anim2">
         <div class="sales-card">
           <div class="sales-head"><div class="sales-no">01</div><h3>档案与风险评估</h3></div>
-          <ul class="sales-list"><li>员工健康档案</li><li>健康测评</li><li>慢病及高风险人群识别</li></ul>
+          <ul class="sales-list"><li>员工健康档案</li><li>健康测评</li><li>设备筛查(设备体验)</li><li>慢病及高风险人群识别</li></ul>
         </div>
         <div class="sales-card">
           <div class="sales-head"><div class="sales-no">02</div><h3>体检与后续管理</h3></div>
@@ -3070,7 +3085,7 @@
         </div>
         <div class="sales-card">
           <div class="sales-head"><div class="sales-no">04</div><h3>健康活动与运营</h3></div>
-          <ul class="sales-list"><li>健康宣教、急救培训</li><li>企业健康日</li><li>员工权益宣导与使用激活</li><li>季度／年度健康汇总报告</li></ul>
+          <ul class="sales-list"><li>健康宣教、急救、异常预警</li><li>企业健康日</li><li>员工权益宣导与使用激活</li><li>季度／年度健康汇总报告</li></ul>
         </div>
       </div>
       <div class="quote-box anim3"><p><b>把分散的健康福利，交给一个专业团队统一管理。</b></p></div>
@@ -4491,271 +4506,614 @@
   </template>
 
   <!-- 108 第八章封面 -->
-  <section data-label="产品设计与联合经营">
+  <section data-label="经验借鉴与协同思考">
     <div class="divider">
       <img class="bleed" src="imgs/86-div-chapter7.png" alt="">
       <div class="scrim"></div>
       <div class="dwrap">
-        <div class="dpart anim">第 08 章 · 产 品 设 计 与 联 合 经 营</div>
+        <div class="dpart anim">第 08 章 · 经 验 借 鉴 与 协 同 思 考</div>
         <div class="dnum anim">08</div>
-        <div class="dtitle anim2">产品设计与<br><span class="hl">联合经营</span></div>
-        <div class="dsub anim3">把对标研究收束为富德的经营选择：服务谁、创造什么增量价值、怎样持续经营，以及如何验证后再复制。</div>
-        <div class="case-scope anim3"><span>增量收入</span><span>用户经营</span><span>场景产品</span><span>专业接力</span><span>试点验证</span></div>
+        <div class="dtitle anim2">对标经验的<br><span class="hl">借鉴与协同思考</span></div>
+        <div class="dsub anim3">把平安健康与天使医生的实践，对照富德与联好的已有基础，梳理值得借鉴的做法和可以共同探索的方向，供大家交流讨论。</div>
+        <div class="case-scope anim3"><span>经验借鉴</span><span>关键环节</span><span>协同经营</span><span>首期场景</span><span>共同讨论</span></div>
       </div>
       <div class="pagemark">108</div>
     </div>
   </section>
 
-  <!-- 109 对标后的核心结论 -->
-  <section data-label="对标后的核心结论">
+  <!-- 109 双案例经营飞轮 -->
+  <section data-label="双案例经营飞轮">
     <div class="slide slide--alt" id="chapter08-conclusion"><style>
-      #chapter08-conclusion .logic-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;flex:1;margin-top:30px}
-      #chapter08-conclusion .logic-case{display:flex;flex-direction:column;padding:34px 38px;border-top:7px solid var(--orange-soft);background:var(--cream-2)}
-      #chapter08-conclusion .logic-case.hot{border-top-color:var(--orange);background:#FFF0DF}
-      #chapter08-conclusion .logic-case h3{font-size:36px;margin:0 0 18px}
-      #chapter08-conclusion .logic-case p{font-size:27px;line-height:1.48;color:var(--ink-soft)}
-      #chapter08-conclusion .logic-case strong{color:var(--ink)}
-      #chapter08-conclusion .logic-result{margin-top:auto;padding-top:24px;font-size:25px;color:var(--orange-deep);font-weight:900}
+      #chapter08-conclusion .flywheel-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;flex:1;min-height:0;margin-top:18px}
+      #chapter08-conclusion .flywheel-card{position:relative;display:flex;flex-direction:column;min-height:0;padding:20px 26px 18px;border:1px solid var(--line);border-top:6px solid var(--orange-soft);background:rgba(255,255,255,.72);overflow:hidden}
+      #chapter08-conclusion .flywheel-card.hot{border-top-color:var(--orange);background:#FFF8EF}
+      #chapter08-conclusion .flywheel-head{display:flex;align-items:flex-start;justify-content:space-between;gap:18px;min-height:60px}
+      #chapter08-conclusion .flywheel-head h3{font-size:29px;line-height:1.15;margin:0;color:var(--ink)}
+      #chapter08-conclusion .flywheel-head p{max-width:430px;margin:3px 0 0;font-size:18px;line-height:1.35;text-align:right;color:var(--ink-soft)}
+      #chapter08-conclusion .wheel{position:relative;flex:1;min-height:470px;margin-top:4px}
+      #chapter08-conclusion .wheel-ring{position:absolute;left:50%;top:50%;width:350px;height:350px;transform:translate(-50%,-50%);border:4px solid #F3B98B;border-radius:50%}
+      #chapter08-conclusion .wheel-ring::before{content:"";position:absolute;right:8px;top:42px;width:0;height:0;border-left:17px solid var(--orange);border-top:10px solid transparent;border-bottom:10px solid transparent;transform:rotate(42deg)}
+      #chapter08-conclusion .wheel-ring::after{content:"顺时针持续经营";position:absolute;left:50%;bottom:-33px;transform:translateX(-50%);width:150px;text-align:center;font-size:15px;font-weight:800;letter-spacing:.06em;color:var(--orange-deep);background:var(--cream-2)}
+      #chapter08-conclusion .hot .wheel-ring{border-color:var(--orange)}
+      #chapter08-conclusion .hot .wheel-ring::after{background:#FFF8EF}
+      #chapter08-conclusion .wheel-hub{position:absolute;left:50%;top:50%;display:flex;flex-direction:column;align-items:center;justify-content:center;width:180px;height:180px;padding:16px;transform:translate(-50%,-50%);border-radius:50%;background:var(--ink);color:#fff;text-align:center;box-shadow:0 12px 30px rgba(56,39,28,.14)}
+      #chapter08-conclusion .hot .wheel-hub{background:var(--orange)}
+      #chapter08-conclusion .hub-kicker{font-size:15px;font-weight:800;letter-spacing:.12em;color:#FFD1AD}
+      #chapter08-conclusion .wheel-hub b{display:block;margin-top:8px;font-size:27px;line-height:1.12}
+      #chapter08-conclusion .wheel-node{position:absolute;display:flex;align-items:center;gap:9px;width:206px;min-height:70px;padding:10px 13px;border:1px solid #E8D4C0;border-radius:12px;background:#FFFDF9;box-shadow:0 8px 20px rgba(76,51,35,.07);font-size:18px;font-weight:800;line-height:1.22;color:var(--ink)}
+      #chapter08-conclusion .hot .wheel-node{border-color:#F5C89F;background:#fff}
+      #chapter08-conclusion .wheel-node i{display:grid;place-items:center;flex:0 0 29px;width:29px;height:29px;border-radius:50%;background:#F8D5B5;color:var(--orange-deep);font-style:normal;font-size:15px;font-weight:900}
+      #chapter08-conclusion .hot .wheel-node i{background:var(--orange);color:#fff}
+      #chapter08-conclusion .p1{left:50%;top:0;transform:translateX(-50%)}
+      #chapter08-conclusion .p2{right:3px;top:92px}
+      #chapter08-conclusion .p3{right:3px;bottom:52px}
+      #chapter08-conclusion .p4{left:50%;bottom:0;transform:translateX(-50%)}
+      #chapter08-conclusion .p5{left:3px;bottom:52px}
+      #chapter08-conclusion .p6{left:3px;top:92px}
+      #chapter08-conclusion .flywheel-return{margin-top:9px;padding:10px 14px;border-left:4px solid var(--orange-soft);background:var(--cream-deep);font-size:18px;line-height:1.3;color:var(--ink-soft)}
+      #chapter08-conclusion .flywheel-return b{color:var(--orange-deep)}
+      #chapter08-conclusion .shared-loop{display:flex;align-items:center;gap:18px;margin-top:16px;padding:12px 22px;background:var(--ink);color:#fff}
+      #chapter08-conclusion .shared-loop b{flex:0 0 auto;font-size:20px;color:#FFC99D}
+      #chapter08-conclusion .shared-loop p{font-size:21px;line-height:1.3}
     </style>
-      <div class="s-head tight"><div class="kicker anim">对标后的核心结论</div><div class="s-title anim" style="font-size:50px">复制<span class="hl">经营机制</span>，不复制服务目录和资源规模</div></div>
-      <div class="logic-grid anim2">
-        <div class="logic-case">
-          <div class="n">天使医生</div>
-          <h3>围绕医院与孕产家庭做深一个场景</h3>
-          <p>补充院外管理、连续监测和多学科服务，帮助医院延伸产科服务能力，并把临床场景转化为可购买的分层产品。</p>
-          <div class="logic-result">强项：专科深度、院内院外连续履约</div>
+      <div class="s-head tight"><div class="kicker anim">双案例经营飞轮</div><div class="s-title anim" style="font-size:48px">两种客户入口，形成同一种<span class="hl">增量经营飞轮</span></div></div>
+      <div class="flywheel-grid anim2">
+        <div class="flywheel-card">
+          <div class="flywheel-head"><h3>天使医生｜专科深耕</h3><p>以医院产科为入口，经营孕产家庭全周期</p></div>
+          <div class="wheel">
+            <div class="wheel-ring"></div>
+            <div class="wheel-hub"><span class="hub-kicker">核心资产</span><b>孕产<br>用户池</b></div>
+            <div class="wheel-node p1"><i>1</i><span>医院临床入口</span></div>
+            <div class="wheel-node p2"><i>2</i><span>家庭建档与信任</span></div>
+            <div class="wheel-node p3"><i>3</i><span>院内外连续管理</span></div>
+            <div class="wheel-node p4"><i>4</i><span>用户分层与产品升级</span></div>
+            <div class="wheel-node p5"><i>5</i><span>客单与医院收入提升</span></div>
+            <div class="wheel-node p6"><i>6</i><span>结算并反哺专科供给</span></div>
+          </div>
+          <div class="flywheel-return"><b>收入回流：</b>医院新增服务收入 + 平台服务收入</div>
         </div>
-        <div class="logic-case hot">
-          <div class="n">平安健康</div>
-          <h3>围绕保险与企业客户组织规模化服务</h3>
-          <p>依托稳定支付方和客户入口，以家庭医生、健康管家和服务网络持续经营客户，把健康服务嵌入续期、升级和企业续约。</p>
-          <div class="logic-result">强项：支付入口、客户池、服务控制塔</div>
+        <div class="flywheel-card hot">
+          <div class="flywheel-head"><h3>平安健康｜规模经营</h3><p>以保单与企业账户为入口，持续经营F端与B端</p></div>
+          <div class="wheel">
+            <div class="wheel-ring"></div>
+            <div class="wheel-hub"><span class="hub-kicker">核心资产</span><b>F端与B端<br>用户池</b></div>
+            <div class="wheel-node p1"><i>1</i><span>保单与企业入口</span></div>
+            <div class="wheel-node p2"><i>2</i><span>权益激活与首服</span></div>
+            <div class="wheel-node p3"><i>3</i><span>高频健康触达</span></div>
+            <div class="wheel-node p4"><i>4</i><span>关键时刻履约</span></div>
+            <div class="wheel-node p5"><i>5</i><span>客户分层与权益升级</span></div>
+            <div class="wheel-node p6"><i>6</i><span>续期 / 升单 / 续约并再投入</span></div>
+          </div>
+          <div class="flywheel-return"><b>收入回流：</b>续期 / 升单 / 企业续约 + 健康服务收入</div>
         </div>
       </div>
-      <div class="quote-box anim3" style="margin-top:24px"><p style="font-size:28px"><b>共同机制：</b>先帮助合作方创造新的客户价值和收入，再通过专业交付、服务采购或项目结算获得自身收入。</p></div>
+      <div class="shared-loop anim3"><b>共同机制</b><p>先为合作方创造原来没有的收入，再按合同分享增量；稳定入口沉淀用户池，持续服务推动分层升级，增量再反哺下一轮供给。</p></div>
       <div class="pagemark">109</div>
     </div>
   </section>
 
-  <!-- 110 为B/F端创造增量收入 -->
-  <section data-label="为B端和F端创造增量收入">
-    <div class="slide" id="chapter08-revenue-logic"><style>
-      #chapter08-revenue-logic .revenue-chain{display:grid;grid-template-columns:1.05fr 54px 1.15fr 54px 1.15fr 54px 1.15fr 54px 1.05fr;align-items:stretch;gap:8px;flex:1;margin-top:30px}
-      #chapter08-revenue-logic .chain-node{display:flex;flex-direction:column;justify-content:center;padding:24px;border:1px solid var(--line);background:var(--cream-2)}
-      #chapter08-revenue-logic .chain-node.hot{background:#F47B20;color:#fff;border-color:#F47B20}
-      #chapter08-revenue-logic .chain-node .step{font-size:18px;font-weight:900;letter-spacing:.1em;color:var(--orange-deep)}
-      #chapter08-revenue-logic .chain-node.hot .step{color:#FFE0C2}
-      #chapter08-revenue-logic .chain-node h3{font-size:30px;line-height:1.18;margin:14px 0}
-      #chapter08-revenue-logic .chain-node p{font-size:22px;line-height:1.42;color:var(--ink-soft)}
-      #chapter08-revenue-logic .chain-node.hot p{color:#fff}
-      #chapter08-revenue-logic .chain-arrow{display:grid;place-items:center;font-size:42px;color:var(--orange)}
-      #chapter08-revenue-logic .case-proof{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:24px}
-      #chapter08-revenue-logic .proof{padding:20px 26px;border-left:5px solid var(--orange-soft);background:var(--cream-deep);font-size:23px;line-height:1.42}
-      #chapter08-revenue-logic .proof.hot{border-left-color:var(--orange)}
+  <!-- 110 对标诊断一：两套经营操作系统 -->
+  <section data-label="平安经验对照">
+    <div class="slide c8" id="c8-os"><style>
+      #c8-os .os-table{width:100%;flex:1;margin-top:18px;border-collapse:separate;border-spacing:0 7px}
+      #c8-os .os-table th{padding:6px 18px;font-size:19px;text-align:left;color:var(--muted);font-weight:800;letter-spacing:.06em}
+      #c8-os .os-table td{padding:13px 18px;font-size:22px;line-height:1.38;color:var(--ink-soft);background:var(--cream-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line);vertical-align:middle}
+      #c8-os .os-table td:first-child{width:11%;font-weight:900;color:var(--ink);border-left:5px solid var(--orange-soft)}
+      #c8-os .os-table td:nth-child(2){width:31%}
+      #c8-os .os-table td:nth-child(3){width:33%}
+      #c8-os .os-table td:last-child{width:25%;background:#FFF0DF;color:var(--orange-deep);font-weight:800;border-right:1px solid var(--line)}
     </style>
-      <div class="s-head tight"><div class="kicker anim">共同商业逻辑</div><div class="s-title anim" style="font-size:49px">先为B端和F端<span class="hl">创造增量收入</span>，再参与价值分配</div></div>
-      <div class="s-lead anim2" style="margin-top:16px;font-size:29px">合作成立的前提，是医院、企业或保险主体获得原来没有的产品能力、客户价值或经营收入。</div>
-      <div class="revenue-chain anim2">
-        <div class="chain-node"><div class="step">01 既有客户</div><h3>医院与保险客户池</h3><p>医院掌握患者场景，保险与企业掌握客户关系和支付预算。</p></div>
-        <div class="chain-arrow">→</div>
-        <div class="chain-node"><div class="step">02 补充供给</div><h3>医疗外延与健康管理</h3><p>增加院外管理、持续监测、家庭医生、就医与照护服务。</p></div>
-        <div class="chain-arrow">→</div>
-        <div class="chain-node"><div class="step">03 产品组合</div><h3>保障与服务共同定价</h3><p>把零散能力组合成分层会员、专项服务包或企业方案。</p></div>
-        <div class="chain-arrow">→</div>
-        <div class="chain-node hot"><div class="step">04 增量价值</div><h3>提升客单与持续收入</h3><p>形成服务升级、会员付费、续期、企业续约或高价值产品销售。</p></div>
-        <div class="chain-arrow">→</div>
-        <div class="chain-node"><div class="step">05 价值分配</div><h3>按合同获得收入</h3><p>通过服务采购、项目结算或增量收益安排分配价值。</p></div>
-      </div>
-      <div class="case-proof anim3">
-        <div class="proof"><b>天使医生：</b>为医院补充院外孕产管理和分层服务产品，医院获得服务延伸与新增收入空间。</div>
-        <div class="proof hot"><b>平安健康：</b>为保险和企业客户提供医疗健康服务能力，增强产品差异化、续期与企业续约价值。</div>
-      </div>
+      <div class="s-head tight"><div class="kicker anim">对标观察 · 一</div><div class="s-title anim" style="font-size:48px">平安经验：让健康服务<span class="hl">融入保险经营的全流程</span></div></div>
+      <div class="c8-lead anim2">平安的“我中有你”，是<b>保单天然包含服务资格，服务又能带动续期、加保等保险经营动作</b>。对照来看，富德与联好已经具备不少基础，下一步可以重点探讨如何让服务与保单经营衔接得更紧密。</div>
+      <table class="os-table anim2">
+        <thead><tr><th>维度</th><th>平安的做法</th><th>富德 + 联好的已有基础</th><th>可借鉴的方向</th></tr></thead>
+        <tbody>
+          <tr><td>战略定位</td><td>医疗养老与综合金融并列为集团双轮，服务用于获客、留存与加保</td><td>已形成“AI科技＋保险保障＋健康管理”的全生命周期健康战略</td><td>让健康服务更多进入保险经营的日常语言</td></tr>
+          <tr><td>产品</td><td>保单是主商品，权益挂接险种和累计保费门槛</td><td>九德、三好、六联等专业供给已较为丰富</td><td>把服务进一步沉淀为与保单关联的权益</td></tr>
+          <tr><td>销售</td><td>代理人讲保障方案与权益，专业团队独立履约</td><td>代理人网络与联好专业团队均已具备</td><td>明确销售与专业交付的分工和衔接</td></tr>
+          <tr><td>履约</td><td>家庭医生、养老管家统一编排到线、到院、到家、到企</td><td>三好共管与医院、康养等合作资源已有布局</td><td>逐步形成统一调度、SLA与异常升级机制</td></tr>
+          <tr><td>数据归因</td><td>服务使用、客户分层与经营结果形成反馈</td><td>健康档案、CRM、IoT等平台已有规划</td><td>在合规前提下建立效果验证与经营回流</td></tr>
+          <tr><td>组织协同</td><td>总部统一权益与标准，渠道与服务团队分别考核</td><td>保险与健康主体已具备协同基础</td><td>形成共同目标与统一的权益、标准管理</td></tr>
+        </tbody>
+      </table>
+      <div class="c8-src anim3"><span class="ev ev-pub">公开披露</span><p><b>平安参照：</b>2025年末个人客户2.51亿，寿险使用医疗养老服务客户1,829.8万；享有医养权益的客户人均合同3.37份、AUM约6.14万元，分别为无权益客户的1.5倍和4.1倍。<b>该数据反映相关性，并非服务效果的因果证明。</b></p></div>
       <div class="pagemark">110</div>
     </div>
   </section>
 
-  <!-- 111 围绕F/B端沉淀用户池 -->
-  <section data-label="围绕F端和B端持续经营用户">
-    <div class="slide slide--alt" id="chapter08-user-pool"><style>
-      #chapter08-user-pool .pool-layout{display:grid;grid-template-columns:1.28fr .72fr;gap:34px;flex:1;margin-top:24px;min-height:0}
-      #chapter08-user-pool .pool-flow{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;align-content:center}
-      #chapter08-user-pool .pool-step{min-height:190px;padding:24px;border:1px solid var(--line);background:var(--cream-2)}
-      #chapter08-user-pool .pool-step.hot{background:#FFF0DF;border-color:var(--orange-soft)}
-      #chapter08-user-pool .pool-step b{display:block;font-size:27px;margin-bottom:12px;color:var(--ink)}
-      #chapter08-user-pool .pool-step p{font-size:22px;line-height:1.4;color:var(--ink-soft)}
-      #chapter08-user-pool .pool-visual{position:relative;overflow:hidden;border-radius:18px;background:#F9E5E7}
-      #chapter08-user-pool .pool-visual img{width:100%;height:100%;object-fit:cover;object-position:center}
-      #chapter08-user-pool .pool-caption{position:absolute;left:18px;right:18px;bottom:18px;padding:16px 18px;background:rgba(255,255,255,.92);font-size:20px;line-height:1.35;color:var(--ink)}
+  <!-- 111 对标诊断二：为什么服务很好仍然卖不动 -->
+  <section data-label="关键时刻的服务感知">
+    <div class="slide slide--alt c8" id="c8-trust"><style>
+      #c8-trust .trust-layout{display:grid;grid-template-columns:.92fr 1.08fr;gap:30px;flex:1;min-height:0;margin-top:22px}
+      #c8-trust .voices{display:flex;flex-direction:column;gap:14px}
+      #c8-trust .voice{padding:24px 28px;border:1px solid var(--line);background:#fff}
+      #c8-trust .voice .who{font-size:19px;font-weight:900;letter-spacing:.08em;color:var(--muted)}
+      #c8-trust .voice h3{font-size:34px;line-height:1.25;margin:8px 0 10px;color:var(--ink)}
+      #c8-trust .voice p{font-size:24px;line-height:1.45;color:var(--ink-soft)}
+      #c8-trust .voice.hot{border-color:var(--orange-soft);border-left:7px solid var(--orange);background:#FFF0DF}
+      #c8-trust .voice.hot h3{color:var(--orange-deep)}
+      #c8-trust .verdict{margin-top:auto;padding:22px 28px;background:var(--cream-deep);font-size:25px;line-height:1.45;color:var(--ink)}
+      #c8-trust .moments{display:flex;flex-direction:column;gap:10px;padding:22px 26px;border:1px solid var(--line);background:var(--cream)}
+      #c8-trust .moments h3{font-size:28px;margin:0 0 4px}
+      #c8-trust .moment{flex:1;display:grid;grid-template-columns:48px 150px 1fr;gap:16px;align-items:center;padding:12px 18px;background:#fff;border:1px solid var(--line)}
+      #c8-trust .moment i{display:grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--orange);color:#fff;font-style:normal;font-weight:900;font-size:20px}
+      #c8-trust .moment b{font-size:27px;color:var(--ink)}
+      #c8-trust .moment span{font-size:23px;line-height:1.38;color:var(--ink-soft)}
     </style>
-      <div class="s-head tight"><div class="kicker anim">共同客户经营逻辑</div><div class="s-title anim" style="font-size:48px">围绕核心F端与B端，沉淀<span class="hl">可持续经营的用户池</span></div></div>
-      <div class="s-lead anim2" style="margin-top:14px;font-size:28px">健康服务承担高频连接，关键时刻的专业履约建立信任，再按价值与需求对客户持续分层。</div>
-      <div class="pool-layout anim2">
-        <div class="pool-flow">
-          <div class="pool-step"><b>客户进入</b><p>从保单生效、企业签约、医院建档等真实关系进入，而不是依赖外部流量购买。</p></div>
-          <div class="pool-step hot"><b>激活与建档</b><p>完成身份绑定、权益确认、家庭账户和第一次有效服务，形成真实服务关系。</p></div>
-          <div class="pool-step"><b>高频健康触达</b><p>通过咨询、报告解读、监测、任务和随访维持服务联系。</p></div>
-          <div class="pool-step"><b>关键时刻履约</b><p>在体检异常、慢病、就医、康复和照护阶段解决具体问题。</p></div>
-          <div class="pool-step hot"><b>用户分层经营</b><p>依据服务需求、使用行为、家庭结构和支付资格匹配不同权益与产品。</p></div>
-          <div class="pool-step"><b>价值回流</b><p>提升服务感知、会员升级、续期、续约和转介绍，再投入下一轮经营。</p></div>
+      <div class="s-head tight"><div class="kicker anim">对标观察 · 二</div><div class="s-title anim" style="font-size:48px">两个标杆的共同体会：健康服务在<span class="hl">关键时刻</span>最能被客户感知</div></div>
+      <div class="trust-layout anim2">
+        <div class="voices">
+          <div class="voice"><div class="who">能力视角</div><h3>“我们能提供什么”</h3><p>专业中心、服务团队、AI和医疗康养资源是重要基础；但对客户和一线伙伴来说，能力清单本身较难直接转化为购买理由。</p></div>
+          <div class="voice hot"><div class="who">客户视角</div><h3>“在我需要的时候，谁来帮我？”</h3><p>我有什么资格？需要时找谁？多久有人响应？谁会一直跟进？</p></div>
+          <div class="verdict"><b>体会：</b>把能力表达为“触发场景＋服务承诺＋权益资格”，客户更容易理解价值，一线伙伴也更容易讲清楚。</div>
         </div>
-        <div class="pool-visual"><img src="jumper/天使医生2.png" alt="天使医生以App任务和真人团队持续经营孕产用户"><div class="pool-caption"><b>案例启发：</b>数字化承担日常任务和提醒，真人团队负责专业判断、异常处理与持续跟进。</div></div>
+        <div class="moments">
+          <h3>客户最能感知服务价值的五个时刻</h3>
+          <div class="moment"><i>1</i><b>确诊前</b><span>体检异常、六高指标偏高、睡眠问题：希望有人看懂、有人持续管</span></div>
+          <div class="moment"><i>2</i><b>就医时</b><span>挂不上号、选错医院、家属焦虑：愿意为确定性付费</span></div>
+          <div class="moment"><i>3</i><b>出院后</b><span>用药、康复、复发风险：需要长期陪伴，而不是一次咨询</span></div>
+          <div class="moment"><i>4</i><b>父母养老</b><span>居家安全、照护排班、紧急响应：需要交付，而不是资讯</span></div>
+          <div class="moment"><i>5</i><b>企业续约</b><span>HR需要参与率、风险改善和员工体验的可量化报告</span></div>
+        </div>
       </div>
+      <div class="c8-bar anim3"><b>共同体会</b><p>健康服务未必需要高频日活：<b>持续轻触达维持联系，关键时刻的专业履约建立信任</b>。后者留下的服务记忆，往往更能影响续期、加保与转介绍。</p></div>
       <div class="pagemark">111</div>
     </div>
   </section>
 
-  <!-- 112 富德起点与核心缺口 -->
-  <section data-label="富德现有基础与核心缺口">
-    <div class="slide" id="chapter08-gap"><style>
-      #chapter08-gap .gap-table{width:100%;margin-top:26px;flex:1;border-collapse:separate;border-spacing:0 12px}
-      #chapter08-gap .gap-table th{padding:10px 22px;font-size:21px;text-align:left;color:var(--muted)}
-      #chapter08-gap .gap-table td{padding:20px 22px;font-size:23px;line-height:1.38;background:var(--cream-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
-      #chapter08-gap .gap-table td:first-child{width:20%;font-weight:900;border-left:5px solid var(--orange-soft)}
-      #chapter08-gap .gap-table td:nth-child(2){width:38%}
-      #chapter08-gap .gap-table td:last-child{background:#FFF0DF;border-right:1px solid var(--line);color:var(--ink)}
+  <!-- 112 方向纠偏 -->
+  <section data-label="五点经验借鉴">
+    <div class="slide c8" id="c8-reset"><style>
+      #c8-reset .reset-layout{display:grid;grid-template-columns:1.32fr .68fr;gap:28px;flex:1;min-height:0;margin-top:22px}
+      #c8-reset .shifts{display:flex;flex-direction:column;gap:10px}
+      #c8-reset .shift{flex:1;display:grid;grid-template-columns:96px 1fr 44px 1.18fr;align-items:center;gap:14px;padding:14px 20px;border:1px solid var(--line);background:var(--cream-2)}
+      #c8-reset .shift .tag{font-size:26px;font-weight:900;color:var(--orange-deep)}
+      #c8-reset .shift .from{font-size:22px;line-height:1.38;color:var(--muted)}
+      #c8-reset .shift .arrow{font-size:30px;color:var(--orange);text-align:center}
+      #c8-reset .shift .to{font-size:25px;line-height:1.38;font-weight:800;color:var(--ink)}
+      #c8-reset .donts{display:flex;flex-direction:column;padding:24px 26px;background:var(--ink);color:#fff}
+      #c8-reset .dont i{font-size:28px;line-height:1}
+      #c8-reset .donts h3{font-size:29px;margin:0 0 14px;color:#FFC99D}
+      #c8-reset .dont{flex:1;display:grid;grid-template-columns:30px 1fr;gap:10px;align-content:center;padding:10px 0;border-top:1px solid rgba(255,255,255,.14);font-size:21px;line-height:1.42;color:#F3E8DC}
+      #c8-reset .dont i{font-style:normal;font-weight:900;color:#FF9A5A}
+      #c8-reset .dont b{color:#fff}
     </style>
-      <div class="s-head tight"><div class="kicker anim">富德的经营起点</div><div class="s-title anim" style="font-size:50px">资源已经具备，核心缺口是<span class="hl">把资源接成一条经营链</span></div></div>
-      <table class="gap-table anim2">
-        <thead><tr><th>经营环节</th><th>已有基础</th><th>下一步必须补齐</th></tr></thead>
-        <tbody>
-          <tr><td>客户与支付</td><td>保险客户、代理人、企业账户和集团协同入口</td><td>明确首期客群、真实预算、合同关系和续费责任</td></tr>
-          <tr><td>产品与供给</td><td>九德能力、三好团队、互联网医院及医疗康养资源</td><td>把能力组合成少量SKU，写清周期、价格、交付物和边界</td></tr>
-          <tr><td>服务与调度</td><td>健康管理、医学服务和线下触点已有规划</td><td>统一服务经理、工单、响应时限、异常升级和失败补救</td></tr>
-          <tr><td>客户经营</td><td>CRM、健康档案、IoT和营销平台蓝图</td><td>完成资格激活、持续触达、客户分层和合规结果回流</td></tr>
-          <tr><td>经营核算</td><td>保险与健康主体具备合作基础</td><td>建立预算、内部结算、渠道激励、联合项目P&amp;L和价值归因</td></tr>
-        </tbody>
-      </table>
-      <div class="quote-box anim3" style="margin-top:18px"><p style="font-size:26px"><b>判断标准：</b>客户是否知道何时找谁，服务是否有人负责到底，合作方是否能看见收入、体验和成本变化。</p></div>
+      <div class="s-head tight"><div class="kicker anim">经验借鉴</div><div class="s-title anim" style="font-size:48px">从对标中提炼的<span class="hl">五点经验</span>与几项审慎事项</div></div>
+      <div class="reset-layout anim2">
+        <div class="shifts">
+          <div class="shift"><div class="tag">定位</div><div class="from">平安把健康服务作为保险经营的重要支撑</div><div class="arrow">→</div><div class="to">健康服务可定位为富德保险客户经营与风险减量的助力</div></div>
+          <div class="shift"><div class="tag">入口</div><div class="from">标杆都在投保、体检、就医等时刻触发服务</div><div class="arrow">→</div><div class="to">在保单生效、体检、续期、理赔等节点嵌入服务</div></div>
+          <div class="shift"><div class="tag">产品</div><div class="from">服务以分层权益呈现，门槛与标准清晰</div><div class="arrow">→</div><div class="to">把专业能力组合为少量场景产品，挂接保单权益</div></div>
+          <div class="shift"><div class="tag">客户</div><div class="from">平安以F端、B端为主，天使医生深耕单一场景</div><div class="arrow">→</div><div class="to">F端、B端先行并分层经营，C端在强需求场景补充</div></div>
+          <div class="shift"><div class="tag">节奏</div><div class="from">平安的网络与资产建立在长期规模积累之上</div><div class="arrow">→</div><div class="to">先在一城一场景验证模式，再逐步复制网点</div></div>
+        </div>
+        <div class="donts">
+          <h3>几项可审慎推进的事项</h3>
+          <div class="dont"><i>·</i><span><b>互联网医院与AI问答</b>：在支付方和医生运营成熟前，宜作为支撑工具，而非独立业务</span></div>
+          <div class="dont"><i>·</i><span><b>线下小屋与展厅</b>：建议结合单位成本与实际使用情况分步布局</span></div>
+          <div class="dont"><i>·</i><span><b>对外表述</b>：采用风险识别、依从性管理、就医协助等可验证表达，避免疗效承诺</span></div>
+          <div class="dont"><i>·</i><span><b>真人服务</b>：优先投向高价值与高风险客群，其他客群以数字化服务为主</span></div>
+          <div class="dont"><i>·</i><span><b>养老等重资产</b>：可优先考虑存量盘活与外部合作</span></div>
+        </div>
+      </div>
+      <div class="c8-bar anim3"><b>共同思考</b><p>平安的路径建立在长期资本投入与自有医疗体系之上；结合富德的实际，<b>轻资产、合作履约、验证后投入</b>，可能是更稳妥的节奏。</p></div>
       <div class="pagemark">112</div>
     </div>
   </section>
 
-  <!-- 113 市场与支付优先级 -->
-  <section data-label="F端与B端优先">
-    <div class="slide slide--alt" id="chapter08-market"><style>
-      #chapter08-market .market-main{display:grid;grid-template-columns:1fr 1fr;gap:26px;flex:1;margin-top:28px}
-      #chapter08-market .market-card{display:flex;flex-direction:column;padding:34px 38px;border-top:7px solid var(--orange-soft);background:var(--cream-2)}
-      #chapter08-market .market-card.hot{border-top-color:var(--orange);background:#FFF0DF}
-      #chapter08-market .market-card h3{font-size:39px;margin:10px 0 22px}
-      #chapter08-market .market-card p{font-size:25px;line-height:1.48;color:var(--ink-soft)}
-      #chapter08-market .market-card .market-pay{margin-top:auto;padding-top:24px;font-size:24px;font-weight:900;color:var(--orange-deep)}
-      #chapter08-market .market-c{margin-top:22px;padding:20px 28px;border:1px solid var(--line);background:var(--cream-deep);font-size:24px;line-height:1.42}
+  <!-- 113 五个经营卡点 -->
+  <section data-label="五个关键环节">
+    <div class="slide slide--alt c8" id="c8-blocks"><style>
+      #c8-blocks .chain{display:grid;grid-template-columns:repeat(6,1fr);gap:0;margin-top:22px}
+      #c8-blocks .chain div{position:relative;padding:14px 10px;text-align:center;font-size:23px;font-weight:900;color:var(--ink);background:var(--cream-deep);border-right:3px solid var(--cream-2)}
+      #c8-blocks .chain div:last-child{background:var(--orange);color:#fff}
+      #c8-blocks .chain div:not(:last-child)::after{content:"▶";position:absolute;right:-11px;top:50%;transform:translateY(-50%);font-size:15px;color:var(--orange);z-index:2}
+      #c8-blocks .block-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px;flex:1;min-height:0;margin-top:16px}
+      #c8-blocks .block{display:flex;flex-direction:column;padding:20px 20px 18px;border:1px solid var(--line);border-top:7px solid var(--orange-soft);background:#fff}
+      #c8-blocks .block.hot{border-top-color:var(--orange);background:#FFF5EA}
+      #c8-blocks .block .no{font-size:20px;font-weight:900;color:var(--orange-deep);letter-spacing:.06em}
+      #c8-blocks .block h3{font-size:34px;line-height:1.2;margin:6px 0 12px;color:var(--ink)}
+      #c8-blocks .block dl{margin:0}
+      #c8-blocks .block dt{margin-top:14px;font-size:18px;font-weight:900;letter-spacing:.1em;color:var(--muted)}
+      #c8-blocks .block dd{margin:4px 0 0;font-size:22px;line-height:1.42;color:var(--ink-soft)}
+      #c8-blocks .block .fix{margin-top:auto;padding-top:14px;border-top:1px dashed var(--line);font-size:21px;line-height:1.4;font-weight:800;color:var(--orange-deep)}
     </style>
-      <div class="s-head tight"><div class="kicker anim">市场与支付优先级</div><div class="s-title anim" style="font-size:50px"><span class="hl">F端与B端先行</span>，共用一套服务底座</div></div>
-      <div class="market-main anim2">
-        <div class="market-card hot"><div class="n">F端 · 保险客户与家庭</div><h3>依托保单和客户等级经营</h3><p>从投保生效、体检异常、续期、理赔和父母照护等时刻触发服务。基础权益负责激活，周期服务和高端资源按客户资格升级。</p><div class="market-pay">支付来源：保险预算、专项权益预算、客户自费升级</div></div>
-        <div class="market-card"><div class="n">B端 · 企业客户与员工</div><h3>先获得企业账户，再持续运营员工</h3><p>围绕员工健康福利、体检后管理和核心人才医疗支持形成模块化方案。企业活动用于激活与交付证明，不承担主要获客任务。</p><div class="market-pay">支付来源：企业福利、团险、专项健康管理预算</div></div>
+      <div class="s-head tight"><div class="kicker anim">关键环节</div><div class="s-title anim" style="font-size:48px">从客户资格到经营结果，有<span class="hl">五个值得共同关注的环节</span></div></div>
+      <div class="chain anim2"><div>客户资格</div><div>服务关系</div><div>权益产品</div><div>履约调度</div><div>价值分配</div><div>续期 · 续约 · 升级</div></div>
+      <div class="block-grid anim2">
+        <div class="block"><div class="no">环节 ①</div><h3>从资格<br>到服务关系</h3><dl><dt>常见情况</dt><dd>权益已经发放，但客户不一定知道或会使用</dd><dt>关键在于</dt><dd>有人负责激活和第一次有效服务</dd><dt>做好后的价值</dt><dd>客户在续期时能真切感受到服务</dd></dl><div class="fix">展开：激活旅程 → P114</div></div>
+        <div class="block"><div class="no">环节 ②</div><h3>从服务<br>到权益产品</h3><dl><dt>常见情况</dt><dd>服务内容丰富，客户和一线不易说清买到了什么</dd><dt>关键在于</dt><dd>服务挂接保单档位、预算和SLA，客群分层配置</dd><dt>做好后的价值</dt><dd>服务投入更好地支持保单经营</dd></dl><div class="fix">展开：权益与客群分层 → P115—118</div></div>
+        <div class="block"><div class="no">环节 ③</div><h3>从资源<br>到统一调度</h3><dl><dt>常见情况</dt><dd>医院、团队、线下触点各有分工，客户需要清晰的服务入口</dd><dt>关键在于</dt><dd>统一服务经理、工单与升级规则</dd><dt>做好后的价值</dt><dd>关键时刻的服务稳定可靠</dd></dl><div class="fix">展开：协同经营模型 → P119</div></div>
+        <div class="block hot"><div class="no">环节 ④ · 需多方协同</div><h3>从协同<br>到共同核算</h3><dl><dt>常见情况</dt><dd>保险、健康、渠道三方的价值与成本分属不同主体</dd><dt>关键在于</dt><dd>约定价值归属、成本承担与内部定价</dd><dt>做好后的价值</dt><dd>各方都有持续投入的动力</dd></dl><div class="fix">展开：价值共享与核算 → P120</div></div>
+        <div class="block"><div class="no">环节 ⑤</div><h3>从投入<br>到效果验证</h3><dl><dt>常见情况</dt><dd>服务对续期、续约的贡献较难量化</dd><dt>关键在于</dt><dd>对照验证、共同报表和阶段目标</dd><dt>做好后的价值</dt><dd>投入可复盘，扩大有依据</dd></dl><div class="fix">展开：效果验证 → P121</div></div>
       </div>
-      <div class="market-c anim3"><b>C端定位：</b>在慢病、就医、孕产等强需求场景中承接个人自费升级。首期不依赖大规模C端买量，也不单独建设一套供应链。</div>
+      <div class="c8-bar anim3"><b>说明</b><p>五个环节相互关联：①②关系到客户是否使用，③关系到服务能否交付，<b>④关系到各方能否持续投入</b>，⑤关系到能否放心扩大。其中④涉及多方，最需要共同商量。</p></div>
       <div class="pagemark">113</div>
     </div>
   </section>
 
-  <!-- 114 产品总架构 -->
-  <section data-label="场景产品与能力底座">
-    <div class="slide" id="chapter08-product-system"><style>
-      #chapter08-product-system .product-stack{display:grid;grid-template-rows:1fr 1fr .92fr;gap:18px;flex:1;margin-top:28px}
-      #chapter08-product-system .stack-row{display:grid;grid-template-columns:210px 1fr;gap:22px;align-items:stretch}
-      #chapter08-product-system .stack-label{display:grid;place-items:center;padding:20px;background:var(--orange);color:#fff;font-size:27px;font-weight:900;text-align:center}
-      #chapter08-product-system .stack-body{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
-      #chapter08-product-system .stack-body.three{grid-template-columns:repeat(3,1fr)}
-      #chapter08-product-system .stack-item{padding:22px 28px;border:1px solid var(--line);background:var(--cream-2)}
-      #chapter08-product-system .stack-item h3{font-size:30px;margin:0 0 10px}
-      #chapter08-product-system .stack-item p{font-size:22px;line-height:1.42;color:var(--ink-soft)}
-      #chapter08-product-system .stack-row:last-child .stack-label{background:var(--ink)}
+  <!-- 114 卡点①：客户关系移交 -->
+  <section data-label="环节一：客户关系建立">
+    <div class="slide c8" id="c8-activate"><style>
+      #c8-activate .journey{display:grid;grid-template-columns:repeat(5,1fr);gap:12px;flex:1;min-height:0;margin-top:20px}
+      #c8-activate .stage{display:flex;flex-direction:column;border:1px solid var(--line);background:var(--cream-2)}
+      #c8-activate .stage .when{padding:16px 20px;background:var(--cream-deep);font-size:27px;font-weight:900;color:var(--ink)}
+      #c8-activate .stage.hot .when{background:var(--orange);color:#fff}
+      #c8-activate .stage .body{display:flex;flex-direction:column;gap:14px;padding:18px 20px;flex:1}
+      #c8-activate .stage .act{font-size:24px;line-height:1.42;color:var(--ink)}
+      #c8-activate .stage .own{font-size:21px;line-height:1.35;color:var(--muted)}
+      #c8-activate .stage .own b{color:var(--ink-soft)}
+      #c8-activate .stage .kpi{margin-top:auto;padding:8px 10px;background:#fff;font-size:19px;line-height:1.35;font-weight:700;color:var(--ink-soft)}
+      #c8-activate .stage .out{padding-top:12px;border-top:1px dashed var(--line);font-size:23px;font-weight:900;color:var(--orange-deep)}
+      #c8-activate .bottom{display:grid;grid-template-columns:1.25fr .75fr;gap:16px;margin-top:14px}
+      #c8-activate .funnel{padding:16px 22px;border:1px solid var(--line);background:#fff}
+      #c8-activate .funnel h4,#c8-activate .redline h4{font-size:22px;margin:0 0 10px;color:var(--ink)}
+      #c8-activate .funnel-row{display:flex;align-items:center;gap:8px;flex-wrap:nowrap}
+      #c8-activate .funnel-row span{flex:1;padding:10px 6px;text-align:center;font-size:19px;font-weight:800;line-height:1.25;color:var(--ink);background:#FFF0DF}
+      #c8-activate .funnel-row span:nth-child(n+7){background:var(--orange);color:#fff}
+      #c8-activate .funnel-row em{font-style:normal;color:var(--orange);font-weight:900}
+      #c8-activate .redline{padding:16px 22px;border-left:6px solid #C9483B;background:#FBEDEA}
+      #c8-activate .redline p{font-size:20px;line-height:1.45;color:var(--ink-soft)}
     </style>
-      <div class="s-head tight"><div class="kicker anim">产品总架构</div><div class="s-title anim" style="font-size:50px">前台销售<span class="hl">场景解决方案</span>，后台调用九德与医疗资源</div></div>
-      <div class="product-stack anim2">
-        <div class="stack-row"><div class="stack-label">前台产品</div><div class="stack-body"><div class="stack-item"><h3>体检异常解释与就医承接</h3><p>解决客户看不懂报告、不知道是否复查和去哪里就医的问题。</p></div><div class="stack-item"><h3>三高或体重90天管理</h3><p>用周期服务验证持续触达、依从性、服务成本和续约价值。</p></div></div></div>
-        <div class="stack-row"><div class="stack-label">产品容器</div><div class="stack-body three"><div class="stack-item"><h3>基础权益</h3><p>低门槛激活和第一次有效服务。</p></div><div class="stack-item"><h3>升级会员</h3><p>家庭医生、周期管理与就医导航。</p></div><div class="stack-item"><h3>专项服务</h3><p>重疾、康复、养老与高端医疗按资格提供。</p></div></div></div>
-        <div class="stack-row"><div class="stack-label">后台能力</div><div class="stack-body three"><div class="stack-item"><h3>专业团队</h3><p>医师、营养师、健康管理师和服务经理。</p></div><div class="stack-item"><h3>医疗网络</h3><p>医院、互联网医院、体检、康复和养老供给。</p></div><div class="stack-item"><h3>运营平台</h3><p>身份授权、权益、工单、SLA、结算与经营分析。</p></div></div></div>
+      <div class="s-head tight"><div class="kicker anim">环节 ① · 客户关系建立</div><div class="s-title anim" style="font-size:48px">借鉴平安做法：让保单生效成为<span class="hl">第一次服务体验</span></div></div>
+      <div class="c8-lead anim2">权益如果没有被激活，客户往往要到需要时才想起入口。标杆的做法是把<b>激活与第一次有效服务</b>设计进服务流程，尽早让客户感受到服务价值。</div>
+      <div class="journey anim2">
+        <div class="stage"><div class="when">T日 · 生效</div><div class="body"><div class="act">保单生效或企业签约时，展示服务资格，完成一键授权与账号绑定</div><div class="own"><b>第一责任人：</b>代理人／保险系统</div><div class="kpi">关注：资格触达率、授权完成率</div><div class="out">资格可见</div></div></div>
+        <div class="stage"><div class="when">T+1—7日</div><div class="body"><div class="act">家庭成员绑定、需求问卷、指定健康联系人</div><div class="own"><b>第一责任人：</b>联好健康管家</div><div class="kpi">关注：账号激活率、家庭建档率</div><div class="out">服务关系建立</div></div></div>
+        <div class="stage hot"><div class="when">T+7—30日</div><div class="body"><div class="act">完成一次咨询、报告解读或健康评估；未使用客户二次触达</div><div class="own"><b>第一责任人：</b>联好专业团队</div><div class="kpi">关注：首次有效服务率、满意度</div><div class="out">首次价值感知</div></div></div>
+        <div class="stage"><div class="when">T+30—90日</div><div class="body"><div class="act">慢病、银发、高风险客户进入连续随访，异常按规则升级</div><div class="own"><b>第一责任人：</b>三好团队＋合作医院</div><div class="kpi">关注：随访完成率、异常闭环率</div><div class="out">留存与高价值识别</div></div></div>
+        <div class="stage"><div class="when">T+90日后</div><div class="body"><div class="act">按客户主动表达的需求做保障检视；季度提醒与年度回顾</div><div class="own"><b>第一责任人：</b>保险顾问＋联好</div><div class="kpi">关注：90天关系保持率、投诉率</div><div class="out">合规回流保险经营</div></div></div>
       </div>
-      <div class="quote-box anim3" style="margin-top:20px"><p style="font-size:25px"><b>产品原则：</b>九德作为能力池，不作为九条同时推进的销售线；家庭作为F端最小经营单元，员工账户作为B端激活入口。</p></div>
+      <div class="bottom anim3">
+        <div class="funnel"><h4>激活参考口径：逐级关注转化，而不只看触达量和下载量</h4><div class="funnel-row"><span>资格触达</span><em>›</em><span>账号激活</span><em>›</em><span>家庭建档</span><em>›</em><span>首次有效服务</span><em>›</em><span>30天二次使用</span><em>›</em><span>90天关系保持</span></div></div>
+        <div class="redline"><h4>合规提示</h4><p>建议保单生效时不以授权健康数据用于营销、核保、理赔为前提；健康档案单独授权，并与销售数据隔离。</p></div>
+      </div>
+      <div class="c8-src anim3" style="margin-top:12px"><span class="ev ev-pub">公开披露</span><span class="ev ev-rec">建议设计</span><p>平安家医服务手册已写明“权益激活、首访、建档”；“每张保单现场统一激活”未见公开资料，此处旅程为参考设计，可在试点中调整。</p></div>
       <div class="pagemark">114</div>
     </div>
   </section>
 
-  <!-- 115 首期两款标准产品 -->
-  <section data-label="首期两款标准产品">
-    <div class="slide slide--alt" id="chapter08-first-products"><style>
-      #chapter08-first-products .sku-grid{display:grid;grid-template-columns:1fr 1fr;gap:28px;flex:1;margin-top:26px}
-      #chapter08-first-products .sku{display:flex;flex-direction:column;padding:32px 36px;border:1px solid var(--line);border-top:7px solid var(--orange-soft);background:var(--cream-2)}
-      #chapter08-first-products .sku.hot{border-top-color:var(--orange);background:#FFF0DF}
-      #chapter08-first-products .sku h3{font-size:36px;margin:8px 0 20px}
-      #chapter08-first-products .sku dl{display:grid;grid-template-columns:125px 1fr;gap:12px 16px;margin:0}
-      #chapter08-first-products .sku dt{font-size:21px;font-weight:900;color:var(--orange-deep)}
-      #chapter08-first-products .sku dd{margin:0;font-size:22px;line-height:1.38;color:var(--ink-soft)}
-      #chapter08-first-products .sku .boundary{margin-top:auto;padding-top:20px;font-size:20px;color:var(--muted)}
+  <!-- 115 卡点②：权益产品化 -->
+  <section data-label="环节二：权益产品化">
+    <div class="slide slide--alt c8" id="c8-rights"><style>
+      #c8-rights .rights-table{width:100%;margin-top:18px;border-collapse:separate;border-spacing:0 7px}
+      #c8-rights .rights-table th{padding:6px 16px;font-size:18px;text-align:left;color:var(--muted);font-weight:800;letter-spacing:.06em}
+      #c8-rights .rights-table td{padding:22px 16px;font-size:22px;line-height:1.4;color:var(--ink-soft);background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+      #c8-rights .rights-table td:first-child{width:11%;font-size:26px;font-weight:900;color:var(--ink);border-left:6px solid var(--orange-soft)}
+      #c8-rights .rights-table tr.mid td:first-child{border-left-color:var(--orange)}
+      #c8-rights .rights-table tr.top td:first-child{border-left-color:var(--ink)}
+      #c8-rights .rights-table td:nth-child(2){width:21%}
+      #c8-rights .rights-table td:nth-child(3){width:28%;color:var(--ink);font-weight:700}
+      #c8-rights .rights-table td:nth-child(4){width:19%}
+      #c8-rights .rights-table td:last-child{width:21%;border-right:1px solid var(--line)}
+      #c8-rights .rights-foot{display:grid;grid-template-columns:1fr 1fr 1fr;gap:14px;flex:1;min-height:0;margin-top:14px}
+      #c8-rights .rf{display:flex;flex-direction:column;justify-content:center}
+      #c8-rights .rf{padding:18px 22px;border:1px solid var(--line);background:var(--cream)}
+      #c8-rights .rf h4{display:flex;align-items:center;gap:10px;font-size:25px;margin:0 0 10px;color:var(--ink)}
+      #c8-rights .rf p{font-size:23px;line-height:1.5;color:var(--ink-soft)}
+      #c8-rights .rf p b{color:var(--ink)}
+      #c8-rights .rf.hot{background:#FFF0DF;border-color:var(--orange-soft)}
     </style>
-      <div class="s-head tight"><div class="kicker anim">首期产品选择</div><div class="s-title anim" style="font-size:50px">用两款标准产品验证<span class="hl">首次价值与持续经营</span></div></div>
-      <div class="sku-grid anim2">
-        <div class="sku hot"><div class="n">主产品</div><h3>体检异常解释与就医承接</h3><dl><dt>目标客群</dt><dd>保险客户、企业员工及其家庭</dd><dt>触发时刻</dt><dd>体检报告出现异常，客户不知道下一步怎么做</dd><dt>服务周期</dt><dd>一次解释起步，跟踪至复查、就医或风险关闭</dd><dt>核心交付</dt><dd>报告解释、风险分层、复查建议、科室导航、就医协助和回访</dd><dt>经营价值</dt><dd>快速形成服务感知，连接F端续期与B端年度运营报告</dd></dl><div class="boundary">边界：不替代诊断，不承诺挂号结果或治疗效果。</div></div>
-        <div class="sku"><div class="n">辅产品</div><h3>三高或体重90天管理</h3><dl><dt>目标客群</dt><dd>有明确指标风险、愿意持续参与的客户</dd><dt>触发时刻</dt><dd>体检异常、慢病识别、用药或生活方式管理需求</dd><dt>服务周期</dt><dd>90天，设定评估、计划、随访、复检和结案节点</dd><dt>核心交付</dt><dd>建档评估、营养与运动计划、指标记录、专业随访、异常升级</dd><dt>经营价值</dt><dd>验证用户留存、服务成本、会员升级和企业续约逻辑</dd></dl><div class="boundary">边界：不使用“慢病逆转”等疗效承诺，医疗决策由合格机构完成。</div></div>
+      <div class="s-head tight"><div class="kicker anim">环节 ② · 权益产品化</div><div class="s-title anim" style="font-size:48px">参考分层权益：<span class="hl">档位 → 权益包 → 预算 → 服务承诺</span></div></div>
+      <div class="c8-lead anim2">分层权益的价值，在于客户能清楚理解<b>“我有什么资格、需要时找谁、多久有人响应”</b>。九德能力可作为后台能力池，按场景灵活组合。<span class="ev ev-rec" style="margin-left:8px">参考设计</span></div>
+      <table class="rights-table anim2">
+        <thead><tr><th>档位</th><th>绑定条件</th><th>权益包（前台场景）</th><th>预算口径</th><th>服务承诺</th></tr></thead>
+        <tbody>
+          <tr><td>普惠层</td><td>全部有效保单客户、团险员工</td><td>在线咨询、体检报告解读、健康档案、服务导航</td><td>基础会员预算，按人年计</td><td>线上响应时限；数字化为主</td></tr>
+          <tr class="mid"><td>升级层</td><td>指定长期险种或累计保费门槛；家庭客户</td><td>家庭医生／健康管家、体检异常承接、90天周期管理、就医导航</td><td>高价值客户权益预算：资格人数＋实际使用结算</td><td>指定责任人；异常升级时限；家庭成员覆盖</td></tr>
+          <tr class="top"><td>高端层</td><td>高保额或高累计保费，资格审核</td><td>重疾就医协助、专家二诊、康复与居家照护协调</td><td>专项服务预算：按次、按项目结算</td><td>按城市和病种公布可兑现范围、时效与备援方案</td></tr>
+        </tbody>
+      </table>
+      <div class="rights-foot anim3">
+        <div class="rf"><h4>权益六要素</h4><p>每项权益写清：<b>服务对象、生效条件、服务内容（做什么／不做什么）、服务标准（次数／时效／地区）、支付边界、风险边界</b>。便于客户理解和一线讲解。</p></div>
+        <div class="rf hot"><h4>监管边界 <span class="ev ev-pub">公开披露</span></h4><p>2021年原银保监会通知：健康险中<b>支出类服务成本不超过保费10%、咨询类不超过2%</b>；服务不得成为保险对价，不得强制搭售。寿险、年金的高端权益靠“门槛＋向上销售”，不是同一产品加价。</p></div>
+        <div class="rf"><h4>产品三层结构</h4><p><b>前台</b>呈现场景解决方案；<b>中间</b>是产品容器（基础权益、升级会员、专项服务）；<b>后台</b>调用九德能力、三好团队和医疗网络。预算建议在产品设计阶段一并确定。</p></div>
       </div>
       <div class="pagemark">115</div>
     </div>
   </section>
 
-  <!-- 116 连续服务与角色接力 -->
-  <section data-label="连续服务与专业接力">
-    <div class="slide" id="chapter08-delivery"><style>
-      #chapter08-delivery .delivery-layout{display:grid;grid-template-columns:1.04fr .96fr;gap:32px;flex:1;margin-top:24px;min-height:0}
-      #chapter08-delivery .relay-list{display:flex;flex-direction:column;justify-content:center;gap:13px}
-      #chapter08-delivery .relay{display:grid;grid-template-columns:62px 230px 1fr;gap:16px;align-items:center;padding:18px 22px;border:1px solid var(--line);background:var(--cream-2)}
-      #chapter08-delivery .relay.hot{background:#FFF0DF;border-color:var(--orange-soft)}
-      #chapter08-delivery .relay .num{font-size:26px;font-weight:900;color:var(--orange)}
-      #chapter08-delivery .relay b{font-size:23px}
-      #chapter08-delivery .relay span{font-size:21px;line-height:1.35;color:var(--ink-soft)}
-      #chapter08-delivery .delivery-image{position:relative;overflow:hidden;border-radius:18px;background:#F9E5E7}
-      #chapter08-delivery .delivery-image img{width:100%;height:100%;object-fit:contain;background:#FCECEF}
-      #chapter08-delivery .delivery-note{position:absolute;left:18px;right:18px;bottom:18px;padding:15px 18px;background:rgba(255,255,255,.93);font-size:20px;line-height:1.36}
+  <!-- 116 卡点②：客群分层 -->
+  <section data-label="环节二：客群分层">
+    <div class="slide c8" id="c8-tiers"><style>
+      #c8-tiers .tier-layout{display:grid;grid-template-columns:1.38fr .62fr;gap:24px;flex:1;min-height:0;margin-top:18px}
+      #c8-tiers .tiers{display:flex;flex-direction:column;gap:9px}
+      #c8-tiers .tier-head,#c8-tiers .tier{display:grid;grid-template-columns:170px 1fr 120px 140px 1fr;gap:14px;align-items:center}
+      #c8-tiers .tier-head{padding:0 18px;font-size:17px;font-weight:800;letter-spacing:.06em;color:var(--muted)}
+      #c8-tiers .tier{flex:1;padding:12px 18px;border:1px solid var(--line);background:var(--cream-2)}
+      #c8-tiers .tier .lv{font-size:25px;font-weight:900;color:var(--ink);line-height:1.25}
+      #c8-tiers .tier .lv small{display:block;font-size:18px;color:var(--muted);font-weight:800}
+      #c8-tiers .tier .rule,#c8-tiers .tier .play{font-size:21px;line-height:1.42;color:var(--ink-soft)}
+      #c8-tiers .tier .pct{font-size:32px;font-weight:900;color:var(--orange-deep);text-align:center}
+      #c8-tiers .tier .cnt{font-size:23px;font-weight:800;color:var(--ink);text-align:center}
+      #c8-tiers .tier.a{margin:0 0;background:#3A2E23}
+      #c8-tiers .tier.a .lv,#c8-tiers .tier.a .cnt{color:#fff}
+      #c8-tiers .tier.a .lv small{color:#D9C6B1}
+      #c8-tiers .tier.a .rule,#c8-tiers .tier.a .play{color:#EADBC9}
+      #c8-tiers .tier.a .pct{color:#FFB37A}
+      #c8-tiers .tier.b{background:#FFE7D2;border-color:var(--orange-soft)}
+      #c8-tiers .side{display:flex;flex-direction:column;gap:12px}
+      #c8-tiers .side .box{flex:1;padding:20px 22px;border:1px solid var(--line);background:#fff}
+      #c8-tiers .side .box.hot{background:var(--orange);border-color:var(--orange);color:#fff}
+      #c8-tiers .side h4{font-size:24px;margin:0 0 8px}
+      #c8-tiers .side p{font-size:21px;line-height:1.5}
+      #c8-tiers .side .big{font-size:52px;font-weight:900;line-height:1;margin:4px 0 8px}
+      #c8-tiers .side .box:not(.hot) p{color:var(--ink-soft)}
     </style>
-      <div class="s-head tight"><div class="kicker anim">连续服务与专业接力</div><div class="s-title anim" style="font-size:49px">销售负责建立机会，专业团队负责<span class="hl">把服务做完</span></div></div>
-      <div class="delivery-layout anim2">
-        <div class="relay-list">
-          <div class="relay"><div class="num">01</div><b>代理人／企业客户经理</b><span>识别需求、解释资格、完成预约，不做医学判断</span></div>
-          <div class="relay hot"><div class="num">02</div><b>联好服务经理</b><span>激活建档、分诊、建立工单、指定责任人并跟踪进度</span></div>
-          <div class="relay"><div class="num">03</div><b>专业团队</b><span>医师、营养师、健管师按SOP完成评估、方案和随访</span></div>
-          <div class="relay"><div class="num">04</div><b>医疗与照护机构</b><span>承担复查、诊疗、康复、护理和异常处置</span></div>
-          <div class="relay hot"><div class="num">05</div><b>经营结果回流</b><span>只回传激活、完成、满意度、成本和是否需要客户关怀</span></div>
+      <div class="s-head tight"><div class="kicker anim">环节 ② · 客群分层</div><div class="s-title anim" style="font-size:48px">参考思路：按客户价值与需求<span class="hl">分层配置服务资源</span></div></div>
+      <div class="tier-layout anim2">
+        <div class="tiers">
+          <div class="tier-head"><span>层级</span><span>筛选规则（满足其一后人工校准）</span><span>占比</span><span>对应人数</span><span>参考服务方式</span></div>
+          <div class="tier a"><div class="lv">A 战略高价值<small>一客一案</small></div><div class="rule">家庭保费前1—3%、高AUM或企业主，且有养老、重疾、跨境医疗需求</div><div class="pct">1—3%</div><div class="cnt">7—24万</div><div class="play">家族健康服务：就医协助、居家照护、高端资源按资格调用</div></div>
+          <div class="tier b"><div class="lv">B 可升级中高价值<small>真人＋数字</small></div><div class="rule">家庭保费前3—10%、长期缴费能力；或45—65岁慢病、父母照护需求</div><div class="pct">5—10%</div><div class="cnt">35—80万</div><div class="play">家庭医生＋慢病管理＋就医协助，作为年金、终身寿、重疾组合的权益</div></div>
+          <div class="tier"><div class="lv">C 风险经营<small>标准化周期服务</small></div><div class="rule">有效保单，六高指标、睡眠、结节等可干预风险</div><div class="pct">15—25%</div><div class="cnt">105—200万</div><div class="play">筛查—六高单病管理或多病共管—复诊协同，目标是续期与风险减量</div></div>
+          <div class="tier"><div class="lv">D 普惠维护<small>数字化为主</small></div><div class="rule">其余长尾、低保费或服务意愿弱的客户</div><div class="pct">62—79%</div><div class="cnt">434—632万</div><div class="play">数字内容、AI分诊、社群运营，以数字化服务为主</div></div>
         </div>
-        <div class="delivery-image"><img src="jumper/院内院外一体化.png" alt="院内诊疗与院外管理的连续服务闭环"><div class="delivery-note"><b>天使医生的关键启发：</b>院外管理必须与院内专业判断和异常处置连接，数据和设备只是服务触发工具。</div></div>
+        <div class="side">
+          <div class="box hot"><h4>可承接升级的核心客群</h4><div class="big">6—13%</div><p>A＋B层。实际成交还要乘以触达率、需求触发率、权益理解率、负担能力和转化率，<b>从符合画像到实际成交仍有转化过程</b>。</p></div>
+          <div class="box"><h4>先统一数据口径</h4><p>“8,000万客户”与“700—800万活跃用户”统计口径不同，建议先统一口径，再确定高价值客户的基数。</p></div>
+          <div class="box"><h4>建议先形成的客户底表</h4><p>去重个人／家庭ID → 在保状态 → 保费、保额、缴费期 → 家庭关系 → 服务资格与使用 → 合规授权的渠道与资产标签。</p></div>
+        </div>
       </div>
-      <div class="quote-box anim3" style="margin-top:20px"><p style="font-size:24px"><b>接力标准：</b>每一段都要写清接单人、响应时限、升级条件、交付结果和失败补救；原始健康数据留在健康服务域。</p></div>
+      <div class="c8-src anim3" style="border-left-color:var(--orange);background:#FFF3E6"><span class="ev ev-hyp">工作假设</span><p>占比与人数以“700—800万可经营客户”为待验证分母推算，仅用于试点抽样和资源分配，<b>不用于对外宣传或预算承诺</b>。</p></div>
       <div class="pagemark">116</div>
     </div>
   </section>
 
-  <!-- 117 首期验证与复制门槛 -->
-  <section data-label="首期试点与复制门槛">
-    <div class="slide slide--alt" id="chapter08-pilot"><style>
-      #chapter08-pilot .pilot-top{display:grid;grid-template-columns:1fr 1fr 1fr 1fr;gap:14px;margin-top:26px}
-      #chapter08-pilot .pilot-scope{padding:24px 22px;border-top:6px solid var(--orange-soft);background:var(--cream-2);text-align:center}
-      #chapter08-pilot .pilot-scope.hot{border-top-color:var(--orange);background:#FFF0DF}
-      #chapter08-pilot .pilot-scope strong{display:block;font-size:36px;color:var(--orange);margin-bottom:8px}
-      #chapter08-pilot .pilot-scope span{font-size:22px;line-height:1.3;color:var(--ink)}
-      #chapter08-pilot .pilot-bottom{display:grid;grid-template-columns:.92fr 1.08fr;gap:26px;flex:1;margin-top:24px;min-height:0}
-      #chapter08-pilot .mechanism{padding:28px 32px;background:var(--cream-deep);border-left:6px solid var(--orange)}
-      #chapter08-pilot .mechanism h3,#chapter08-pilot .metrics h3{font-size:30px;margin:0 0 18px}
-      #chapter08-pilot .mechanism p{font-size:22px;line-height:1.5;color:var(--ink-soft)}
-      #chapter08-pilot .metrics{padding:28px 32px;border:1px solid var(--line);background:var(--cream-2)}
-      #chapter08-pilot .metric-grid{display:grid;grid-template-columns:1fr 1fr;gap:13px}
-      #chapter08-pilot .metric{padding:15px 18px;background:#fff;border-left:4px solid var(--orange-soft);font-size:20px;line-height:1.35}
-      #chapter08-pilot .metric.hot{border-left-color:var(--orange);background:#FFF0DF}
+  <!-- 117 首期楔子选择 -->
+  <section data-label="首期场景选择">
+    <div class="slide slide--alt c8" id="c8-wedge"><style>
+      #c8-wedge .wedge-table{width:100%;flex:1;margin-top:18px;border-collapse:separate;border-spacing:0 6px}
+      #c8-wedge .wedge-table th{padding:6px 8px;font-size:19px;font-weight:800;color:var(--muted);text-align:center;letter-spacing:.02em;line-height:1.25}
+      #c8-wedge .wedge-table th:first-child,#c8-wedge .wedge-table th:last-child{text-align:left;padding-left:16px}
+      #c8-wedge .wedge-table td{padding:14px 8px;background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line);text-align:center;font-size:26px;line-height:1;color:var(--orange)}
+      #c8-wedge .wedge-table td:first-child{text-align:left;padding-left:16px;width:25%;font-size:24px;font-weight:900;line-height:1.3;color:var(--ink);border-left:6px solid var(--line)}
+      #c8-wedge .wedge-table td:last-child{text-align:left;width:25%;font-size:21px;font-weight:800;line-height:1.35;color:var(--ink-soft);border-right:1px solid var(--line)}
+      #c8-wedge .wedge-table td .p{color:#E7B18A}
+      #c8-wedge .wedge-table td .o{color:#D8CBBB}
+      #c8-wedge .wedge-table tr.main td{background:#FFF0DF}
+      #c8-wedge .wedge-table tr.main td:first-child{border-left-color:var(--orange)}
+      #c8-wedge .wedge-table tr.main td:last-child{color:var(--orange-deep)}
+      #c8-wedge .wedge-table tr.sub td:first-child{border-left-color:var(--orange-soft)}
+      #c8-wedge .wedge-table tr.sub td:last-child{color:var(--orange-deep)}
+      #c8-wedge .legend{display:flex;gap:22px;align-items:center;margin-top:6px;font-size:19px;color:var(--muted)}
+      #c8-wedge .legend b{color:var(--orange);font-size:20px}
     </style>
-      <div class="s-head tight"><div class="kicker anim">首期试点与复制门槛</div><div class="s-title anim" style="font-size:50px">先证明一个<span class="hl">可经营单元</span>，再扩产品、城市和网点</div></div>
-      <div class="pilot-top anim2">
-        <div class="pilot-scope hot"><strong>1</strong><span>个F端重点客群</span></div>
-        <div class="pilot-scope"><strong>1</strong><span>个B端企业账户</span></div>
-        <div class="pilot-scope"><strong>1—2</strong><span>个重点城市</span></div>
-        <div class="pilot-scope hot"><strong>2</strong><span>款标准服务产品</span></div>
-      </div>
-      <div class="pilot-bottom anim2">
-        <div class="mechanism"><h3>试点开始前先补齐联合经营机制</h3><p><b>客户移交：</b>资格、授权、激活和第一次有效服务。</p><p><b>预算结算：</b>基础权益、专项服务、渠道运营分别核算。</p><p><b>责任归因：</b>谁拥有客户、谁承担成本、谁获得转化与续约贡献。</p><p><b>数据边界：</b>经营状态白名单回流，原始健康数据隔离。</p></div>
-        <div class="metrics"><h3>复制前必须同时看五类结果</h3><div class="metric-grid"><div class="metric"><b>客户使用</b><br>触达、激活、首次有效服务</div><div class="metric"><b>服务完成</b><br>周期完成、响应、异常闭环</div><div class="metric"><b>客户价值</b><br>满意度、复用、转介绍意愿</div><div class="metric"><b>渠道持续性</b><br>代理人转介、企业续约意愿</div><div class="metric hot"><b>经营结果</b><br>续期、升级、续约或自费收入</div><div class="metric hot"><b>单位经济</b><br>单客成本、服务毛利与预算效率</div></div></div>
-      </div>
-      <div class="quote-box anim3" style="margin-top:20px"><p style="font-size:25px"><b>本章最终选择：</b>从资源清单走向客户问题的完整解决，从零散权益走向联合经营，从规模建设走向验证后复制。</p></div>
+      <div class="s-head tight"><div class="kicker anim">首期场景选择</div><div class="s-title anim" style="font-size:48px">参考七个维度，首期<span class="hl">初步建议一主一辅</span></div></div>
+      <table class="wedge-table anim2">
+        <thead><tr><th>候选场景</th><th>客户密度</th><th>痛点强度</th><th>价值可见</th><th>可标准化</th><th>单位经济</th><th>经营关联</th><th>6—12月<br>可验证</th><th>初步建议</th></tr></thead>
+        <tbody>
+          <tr class="main"><td>体检异常解释与就医承接</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>主产品：F端、B端通用，首次价值感知最快</td></tr>
+          <tr class="sub"><td>六高90天管理（单病／多病共管）</td><td>●</td><td><span class="p">◐</span></td><td><span class="p">◐</span></td><td>●</td><td><span class="p">◐</span></td><td>●</td><td>●</td><td>辅产品：验证持续运营、依从性与续费</td></tr>
+          <tr><td>企业员工体检后异常管理</td><td><span class="p">◐</span></td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>●</td><td>并入主产品，作为B端版本</td></tr>
+          <tr><td>重疾确诊后二诊—就医—康复</td><td><span class="o">○</span></td><td>●</td><td>●</td><td><span class="p">◐</span></td><td><span class="p">◐</span></td><td>●</td><td><span class="p">◐</span></td><td>A／B层定向能力，按资格提供</td></tr>
+          <tr><td>银发慢病＋居家照护</td><td><span class="p">◐</span></td><td>●</td><td><span class="p">◐</span></td><td><span class="o">○</span></td><td><span class="o">○</span></td><td>●</td><td><span class="o">○</span></td><td>后续方向：可选城市试点上门服务</td></tr>
+          <tr><td>孕产院内院外周期服务</td><td><span class="o">○</span></td><td>●</td><td>●</td><td><span class="p">◐</span></td><td><span class="p">◐</span></td><td><span class="o">○</span></td><td><span class="p">◐</span></td><td>借鉴天使医生方法，可作为后续方向</td></tr>
+        </tbody>
+      </table>
+      <div class="legend anim3"><span><b>●</b> 满足</span><span><b style="color:#E7B18A">◐</b> 部分满足</span><span><b style="color:#D8CBBB">○</b> 较弱</span><span class="ev ev-rec">初步判断</span><span>基于对客户结构、现有能力与履约难度的理解，供业务团队讨论校准</span></div>
+      <div class="c8-bar anim3"><b>选择思路</b><p>主产品侧重<b>首次价值感知快、F端和B端通用</b>；辅产品侧重<b>验证持续服务、依从性、单位成本和续费</b>。高端就医、重疾和养老可面向A／B层客户逐步建设。</p></div>
       <div class="pagemark">117</div>
+    </div>
+  </section>
+
+  <!-- 118 首期两款标准产品 -->
+  <section data-label="首期两款标准产品">
+    <div class="slide c8" id="chapter08-first-products"><style>
+      #chapter08-first-products .sku-grid{display:grid;grid-template-columns:1fr 1fr;gap:26px;flex:1;min-height:0;margin-top:20px}
+      #chapter08-first-products .sku{display:flex;flex-direction:column;padding:24px 30px;border:1px solid var(--line);border-top:7px solid var(--orange-soft);background:var(--cream-2)}
+      #chapter08-first-products .sku.hot{border-top-color:var(--orange);background:#FFF0DF}
+      #chapter08-first-products .sku .n{font-size:19px;font-weight:900;letter-spacing:.1em;color:var(--orange-deep)}
+      #chapter08-first-products .sku h3{font-size:38px;margin:6px 0 20px}
+      #chapter08-first-products .sku .def{margin:-10px 0 16px;font-size:19px;font-weight:700;color:var(--muted)}
+      #chapter08-first-products .sku dl{display:grid;grid-template-columns:128px 1fr;gap:16px 16px;margin:0}
+      #chapter08-first-products .sku dt{font-size:22px;font-weight:900;color:var(--orange-deep);line-height:1.4}
+      #chapter08-first-products .sku dd{margin:0;font-size:23px;line-height:1.4;color:var(--ink-soft)}
+      #chapter08-first-products .sku dd b{color:var(--ink)}
+      #chapter08-first-products .sku .boundary{margin-top:auto;padding-top:16px;border-top:1px dashed var(--line);font-size:21px;line-height:1.4;color:var(--muted)}
+    </style>
+      <div class="s-head tight"><div class="kicker anim">首期产品设想</div><div class="s-title anim" style="font-size:48px">两款标准产品：验证<span class="hl">首次价值与持续服务</span></div></div>
+      <div class="sku-grid anim2">
+        <div class="sku hot"><div class="n">主产品 · F端／B端通用</div><h3>体检异常解释与就医承接</h3><dl><dt>目标客群</dt><dd>B、C层保险客户，企业员工及其家庭</dd><dt>触发时刻</dt><dd>体检报告出现异常，客户不知道下一步怎么做</dd><dt>服务路径</dt><dd>报告解释 → 风险分层 → 复查建议 → 科室导航 → 就医协助 → 回访结案</dd><dt>服务承诺</dt><dd>试点前共同确定：解读响应时限、复查提醒节点、就医协助完成率</dd><dt>交付分工</dt><dd>代理人／HR识别转介 → 联好健管师解读 → 医师复核 → 合作医院复查</dd><dt>单位经济</dt><dd>单客解读与承接成本，对照<b>续期率、企业年度报告与续约</b></dd><dt>经营价值</dt><dd>最快形成服务记忆，连接F端续期与B端续约证据</dd></dl><div class="boundary">边界：不替代诊断，不承诺挂号结果或治疗效果。</div></div>
+        <div class="sku"><div class="n">辅产品 · 周期服务</div><h3>六高90天管理</h3><div class="def">六高：高血压、高血糖、高血脂、高尿酸、高同型半胱氨酸、高体重</div><dl><dt>目标客群</dt><dd>C层中有一项或多项六高指标偏高、愿意持续参与的客户</dd><dt>触发时刻</dt><dd>体检异常、慢病识别、用药或生活方式管理需求</dd><dt>服务节点</dt><dd>D0评估 → D7计划 → D30／D60随访 → D90复检与结案</dd><dt>管理方式</dt><dd>按客户实际情况：<b>单项指标单病管理，多项并存多病共管</b></dd><dt>核心交付</dt><dd>营养与运动计划、指标记录、专业随访、异常升级就医；睡眠、肠道管理作为可选模块</dd><dt>交付分工</dt><dd>健管师＋营养师主责，医师复核方案，异常按规则转诊</dd><dt>单位经济</dt><dd>单客90天服务成本、完成率，对照<b>续费、升级和续期</b></dd><dt>经营价值</dt><dd>验证留存、服务成本、会员升级和企业续约逻辑</dd></dl><div class="boundary">首期可从客户最集中的2—3项指标起步。边界：不使用“慢病逆转”等疗效承诺，医疗决策由合格机构完成。</div></div>
+      </div>
+      <div class="pagemark">118</div>
+    </div>
+  </section>
+
+  <!-- 119 卡点③：服务控制塔与联合经营模型 -->
+  <section data-label="环节三：协同经营模型">
+    <div class="slide slide--alt c8" id="c8-tower"><style>
+      #c8-tower .tower-layout{display:grid;grid-template-columns:1.4fr .6fr;gap:24px;flex:1;min-height:0;margin-top:18px}
+      #c8-tower .model{display:flex;flex-direction:column;gap:10px}
+      #c8-tower .committee{padding:14px 20px;background:var(--ink);color:#fff;text-align:center;font-size:21px;line-height:1.35}
+      #c8-tower .committee b{font-size:23px;color:#FFC99D;margin-right:12px}
+      #c8-tower .domains{display:grid;grid-template-columns:1fr 1.1fr 1fr;gap:10px;flex:1;min-height:0}
+      #c8-tower .domain{display:flex;flex-direction:column;padding:16px 18px;border:1px solid var(--line);background:#fff}
+      #c8-tower .domain h4{font-size:27px;margin:0 0 4px;color:var(--ink)}
+      #c8-tower .domain .role{font-size:19px;font-weight:800;color:var(--orange-deep);margin-bottom:8px}
+      #c8-tower .domain ul{display:flex;flex-direction:column;justify-content:space-around;flex:1}
+      #c8-tower .domain li{list-style:none;position:relative;padding-left:16px;font-size:23px;line-height:1.45;color:var(--ink-soft)}
+      #c8-tower .domain li::before{content:"";position:absolute;left:0;top:13px;width:7px;height:7px;border-radius:50%;background:var(--orange-soft)}
+      #c8-tower .domain.tower{background:var(--orange);border-color:var(--orange)}
+      #c8-tower .domain.tower h4,#c8-tower .domain.tower li{color:#fff}
+      #c8-tower .domain.tower .role{color:#FFE2C6}
+      #c8-tower .domain.tower li::before{background:#fff}
+      #c8-tower .domain .limit{padding-top:10px;border-top:1px dashed var(--line);font-size:19px;line-height:1.4;color:var(--muted)}
+      #c8-tower .supply{padding:12px 18px;background:var(--cream-deep);text-align:center;font-size:21px;font-weight:800;color:var(--ink);letter-spacing:.04em}
+      #c8-tower .relay{display:grid;grid-template-columns:repeat(4,1fr);gap:8px}
+      #c8-tower .relay span{padding:12px 10px;text-align:center;font-size:20px;font-weight:800;line-height:1.3;background:#FFF0DF;color:var(--ink)}
+      #c8-tower .rights{display:flex;flex-direction:column;gap:10px;padding:18px 20px;border:2px solid var(--orange);background:#fff}
+      #c8-tower .rights h3{font-size:27px;margin:0;color:var(--ink);line-height:1.3}
+      #c8-tower .rights .sub{font-size:19px;color:var(--muted);line-height:1.4}
+      #c8-tower .right{flex:1;padding:12px 16px;background:var(--cream-2);border-left:5px solid var(--orange)}
+      #c8-tower .right b{display:block;font-size:24px;color:var(--orange-deep)}
+      #c8-tower .right span{font-size:20px;line-height:1.4;color:var(--ink-soft)}
+    </style>
+      <div class="s-head tight"><div class="kicker anim">环节 ③ · 服务协同</div><div class="s-title anim" style="font-size:48px">参考思路：两个主体协同经营，<span class="hl">流程衔接，责任与数据分域</span></div></div>
+      <div class="tower-layout anim2">
+        <div class="model">
+          <div class="committee"><b>联合经营委员会（建议）</b>年度客群与产品选择 · 预算与内部采购 · 收益归因 · 数据白名单 · 试点推进与调整</div>
+          <div class="domains">
+            <div class="domain"><h4>富德生命业务域</h4><div class="role">权益发行方：持有客户关系并付费</div><ul><li>保险产品、客户等级与服务资格</li><li>投保、保全、续期、理赔流程触发服务</li><li>代理人激活、转介与客户关怀</li><li>按合同采购基础会员与保单权益</li></ul><div class="limit">不介入医学判断，不默认访问原始健康数据</div></div>
+            <div class="domain tower"><h4>共享服务控制塔</h4><div class="role">双方协同的服务中枢</div><ul><li>统一身份、分主体授权、权益规则</li><li>工单、分诊、升级与供应商调度</li><li>SLA监控、结算、投诉质控、回访</li><li>经营状态白名单回流与经营分析</li><li>投诉处理与服务补救</li></ul></div>
+            <div class="domain"><h4>联好健康运营域</h4><div class="role">受托履约方：对结果负责</div><ul><li>激活建档、首次服务与健康管理</li><li>三好团队、医院与康养供应网络</li><li>对SLA、成本、满意度和投诉负责</li><li>授权范围内承接客户自费升级</li></ul><div class="limit">不以疾病信息推动保险营销</div></div>
+          </div>
+          <div class="supply">医院 ｜ 互联网医院 ｜ 体检 ｜ 药房 ｜ 康复 ｜ 护理 ｜ 养老服务网络</div>
+          <div class="relay"><span>代理人：识别需求、解释资格</span><span>服务经理：接单、建工单、定责任人</span><span>专业团队：按SOP评估与随访</span><span>结果回流：激活、完成、满意度</span></div>
+        </div>
+        <div class="rights">
+          <h3>服务融入保险经营的四个条件</h3>
+          <div class="sub">对标来看，服务入口放在哪里并非关键，更重要的是以下四个条件。</div>
+          <div class="right"><b>流程衔接</b><span>投保、体检、续期、理赔、企业入职等节点能自动触发服务</span></div>
+          <div class="right"><b>客户服务授权</b><span>在授权范围内持续触达和服务已激活客户</span></div>
+          <div class="right"><b>稳定预算</b><span>基础权益和专项服务有年度预算与结算规则</span></div>
+          <div class="right"><b>结果责任</b><span>联好对激活、履约、满意度、成本和质量负责</span></div>
+        </div>
+      </div>
+      <div class="pagemark">119</div>
+    </div>
+  </section>
+
+  <!-- 120 卡点④：利益分配与联合P&L -->
+  <section data-label="环节四：价值共享与核算">
+    <div class="slide c8" id="c8-pnl"><style>
+      #c8-pnl .pnl-layout{display:grid;grid-template-columns:1fr 1fr;gap:24px;flex:1;min-height:0;margin-top:18px}
+      #c8-pnl .col{display:flex;flex-direction:column;gap:12px;min-height:0}
+      #c8-pnl .who-table{width:100%;border-collapse:separate;border-spacing:0 6px}
+      #c8-pnl .who-table th{padding:4px 14px;font-size:17px;text-align:left;color:var(--muted);font-weight:800;letter-spacing:.06em}
+      #c8-pnl .who-table td{padding:12px 14px;font-size:20px;line-height:1.38;color:var(--ink-soft);background:var(--cream-2);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+      #c8-pnl .who-table td:first-child{width:21%;font-weight:900;color:var(--ink);border-left:5px solid var(--orange-soft)}
+      #c8-pnl .who-table td:last-child{background:#FFF0DF;color:var(--ink);border-right:1px solid var(--line)}
+      #c8-pnl .budgets{padding:14px 18px;border:1px solid var(--line);background:#fff}
+      #c8-pnl .budgets h4,#c8-pnl .formula h4,#c8-pnl .pa h4{font-size:21px;margin:0 0 10px;color:var(--ink);display:flex;align-items:center;gap:10px}
+      #c8-pnl .budget-row{display:grid;grid-template-columns:repeat(5,1fr);gap:8px}
+      #c8-pnl .budget-row span{padding:10px 6px;text-align:center;font-size:19px;font-weight:800;line-height:1.3;color:var(--ink);background:var(--cream-2);border-top:4px solid var(--orange-soft)}
+      #c8-pnl .formula{padding:16px 20px;background:var(--ink);color:#fff}
+      #c8-pnl .formula h4{color:#FFC99D}
+      #c8-pnl .formula p{font-size:20px;line-height:1.55;color:#F3E8DC}
+      #c8-pnl .formula p b{color:#fff}
+      #c8-pnl .formula .warn{margin-top:8px;font-size:19px;color:#FFC99D}
+      #c8-pnl .pa{padding:14px 18px;border-left:5px solid #2FA98C;background:#EFF6F1}
+      #c8-pnl .pa p{font-size:19px;line-height:1.5;color:var(--ink-soft)}
+      #c8-pnl .pa p b{color:var(--ink)}
+      #c8-pnl .rules{padding:14px 18px;border:1px solid var(--line);background:var(--cream-2);flex:1}
+      #c8-pnl .rules h4{font-size:21px;margin:0 0 8px}
+      #c8-pnl .rules li{list-style:none;position:relative;padding-left:16px;font-size:19px;line-height:1.45;color:var(--ink-soft);margin-top:4px}
+      #c8-pnl .rules li::before{content:"";position:absolute;left:0;top:10px;width:7px;height:7px;border-radius:50%;background:var(--orange)}
+    </style>
+      <div class="s-head tight"><div class="kicker anim">环节 ④ · 价值共享与核算</div><div class="s-title anim" style="font-size:48px">参考思路：<span class="hl">价值共创、成本共担</span>，让各方都有持续投入的动力</div></div>
+      <div class="pnl-layout anim2">
+        <div class="col">
+          <table class="who-table">
+            <thead><tr><th>价值获得方</th><th>获得的价值</th><th>参考承担方式</th></tr></thead>
+            <tbody>
+              <tr><td>富德生命</td><td>保单价值感、续期、升单、转介绍、客户分层经营</td><td>采购基础会员和特定保单权益</td></tr>
+              <tr><td>企业客户</td><td>员工福利感知、运营外包、健康风险支持</td><td>人年费、项目费、驻场费、委托资金池</td></tr>
+              <tr><td>个人家庭</td><td>超出基础权益的高阶、家属或专项服务</td><td>会员费、周期包、按次自费</td></tr>
+              <tr><td>联好健康</td><td>服务收入、供应链规模和客户关系</td><td>对交付、成本、满意度和转化负责</td></tr>
+              <tr><td>代理人／渠道</td><td>更强的客户经营与销售工具</td><td>激活与首次服务纳入客户经营和继续率考核</td></tr>
+            </tbody>
+          </table>
+          <div class="budgets"><h4>建议分为五类预算，便于分别核算</h4><div class="budget-row"><span>基础会员</span><span>高价值客户权益</span><span>专项服务</span><span>渠道激活与运营</span><span>企业委托与实付</span></div></div>
+        </div>
+        <div class="col">
+          <div class="formula"><h4>联合项目P&amp;L（每个产品或试点单独核算）</h4><p><b>价值</b> ＝ 寿险采购收入 ＋ 企业服务收入 ＋ 客户自费收入 ＋ 经对照验证的续期、升级增量<br><b>成本</b> ＝ 医生与健康管理人力 ＋ 第三方履约 ＋ 渠道激活与运营 ＋ 技术与客服分摊 ＋ 投诉、退款与质量损失</p><div class="warn">内部结算、外部收入与保险协同价值建议分开计算，便于客观评估集团整体价值。</div></div>
+          <div class="pa"><h4>平安参照：内部协同同样有结算机制 <span class="ev ev-pub">公开披露</span></h4><p>平安健康2020年与集团的关连交易框架（2021—2023年度上限，已过期，仅看结构）：集团向平安健康采购服务上限<b>50／64／87亿元</b>；平安健康向集团支付咨询、推广、<b>客户转介与流量导入</b>上限<b>8.9／12.6／16.4亿元</b>。对集团定价按成本加成，且不低于第三方价格。</p></div>
+          <div class="rules"><h4>内部定价与激励（供讨论） <span class="ev ev-rec">参考设计</span></h4><ul><li>标准服务按市场可比价或成本加成；高成本服务按次数、限额或实际履约结算</li><li>对未激活、未履约、未达SLA的服务约定结算调整规则</li><li>代理人激励优先并入既有继续率考核，与“服务不作为保险对价”的监管要求保持一致</li><li>可将外部收入占比作为参考指标，持续提升市场化能力</li></ul></div>
+        </div>
+      </div>
+      <div class="pagemark">120</div>
+    </div>
+  </section>
+
+  <!-- 121 卡点⑤：价值证明与阶段门槛 -->
+  <section data-label="环节五：效果验证与阶段推进">
+    <div class="slide slide--alt c8" id="c8-proof"><style>
+      #c8-proof .scope{display:grid;grid-template-columns:repeat(5,1fr);gap:10px;margin-top:18px}
+      #c8-proof .scope div{padding:10px 12px;text-align:center;background:#fff;border:1px solid var(--line);border-top:5px solid var(--orange-soft);font-size:20px;font-weight:800;color:var(--ink-soft)}
+      #c8-proof .scope div b{display:block;font-size:30px;line-height:1.1;color:var(--orange)}
+      #c8-proof .proof-layout{display:grid;grid-template-columns:.9fr 1.1fr;gap:22px;flex:1;min-height:0;margin-top:14px}
+      #c8-proof .col{display:flex;flex-direction:column;justify-content:flex-start;gap:12px;min-height:0}
+      #c8-proof .gates{flex:1 1 auto}
+      #c8-proof .reports{margin-top:auto}
+      #c8-proof .layers{padding:16px 20px;border:1px solid var(--line);background:#fff}
+      #c8-proof h4{font-size:23px;margin:0 0 8px;color:var(--ink)}
+      #c8-proof .layer{display:grid;grid-template-columns:128px 1fr;gap:10px;padding:11px 0;border-top:1px solid var(--line);font-size:21px;line-height:1.4;color:var(--ink-soft)}
+      #c8-proof .layer b{color:var(--orange-deep);font-size:21px}
+      #c8-proof .method{padding:16px 20px;background:var(--ink);color:#F3E8DC;flex:1}
+      #c8-proof .method h4{color:#FFC99D}
+      #c8-proof .method li{list-style:none;position:relative;padding-left:16px;font-size:21px;line-height:1.48;margin-top:9px}
+      #c8-proof .method li::before{content:"";position:absolute;left:0;top:10px;width:7px;height:7px;border-radius:50%;background:#FF9A5A}
+      #c8-proof .method li b{color:#fff}
+      #c8-proof .gates{width:100%;border-collapse:separate;border-spacing:0 6px}
+      #c8-proof .gates th{padding:4px 14px;font-size:17px;text-align:left;color:var(--muted);font-weight:800;letter-spacing:.06em}
+      #c8-proof .gates td{padding:20px 14px;font-size:21px;line-height:1.4;color:var(--ink-soft);background:#fff;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+      #c8-proof .gates td:first-child{width:22%;font-weight:900;color:var(--ink);border-left:5px solid var(--orange-soft)}
+      #c8-proof .gates td:nth-child(2){width:42%}
+      #c8-proof .gates td:last-child{color:#A2402F;background:#FBEDEA;border-right:1px solid var(--line)}
+      #c8-proof .gates tr.key td:first-child{border-left-color:var(--orange)}
+      #c8-proof .gates tr.key td:nth-child(2){color:var(--ink);font-weight:800}
+      #c8-proof .reports{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+      #c8-proof .reports span{padding:12px;text-align:center;font-size:19px;line-height:1.35;background:#FFF0DF;color:var(--ink)}
+      #c8-proof .reports span b{display:block;font-size:22px;color:var(--orange-deep)}
+    </style>
+      <div class="s-head tight"><div class="kicker anim">环节 ⑤ · 效果验证</div><div class="s-title anim" style="font-size:48px">以试点验证效果，<span class="hl">分阶段稳步推进</span></div></div>
+      <div class="scope anim2"><div><b>1</b>个F端重点客群</div><div><b>1</b>个B端企业账户</div><div><b>1—2</b>个重点城市</div><div><b>2</b>款标准产品</div><div><b>3</b>张共同报表</div></div>
+      <div class="proof-layout anim2">
+        <div class="col">
+          <div class="layers"><h4>四层指标</h4>
+            <div class="layer"><b>激活层</b><span>资格触达、账号激活、家庭建档、首次有效服务</span></div>
+            <div class="layer"><b>服务层</b><span>响应、完成、异常闭环、满意度、投诉、单位成本</span></div>
+            <div class="layer"><b>经营层</b><span>续期、升级、转介绍、企业续约、家属付费</span></div>
+            <div class="layer"><b>健康风险层</b><span>随访、复诊、依从性、风险变化；需长周期和对照验证</span></div>
+          </div>
+          <div class="method"><h4>验证方法与表述提示</h4><ul><li>同客群、同产品、同渠道设<b>试点组与对照组</b>；比较“被邀请但未使用”的客户，降低选择偏差</li><li>事先约定<b>阶段目标与调整条件</b>，让复盘更客观</li><li><b>内部采购收入、外部收入、保险协同价值</b>分开计算；续期、赔付类结果留足观察周期</li><li>赔付改善、续期提升等结果，建议在验证后再对外表述；异常发现数不宜直接等同于健康改善</li></ul></div>
+        </div>
+        <div class="col">
+          <table class="gates">
+            <thead><tr><th>阶段</th><th>阶段目标</th><th>未达预期时的调整</th></tr></thead>
+            <tbody>
+              <tr><td>0—3个月<br>机制准备</td><td>权责、合同、数据白名单、联合P&amp;L、SOP与试点客群就绪</td><td>先完善机制，再扩大触达</td></tr>
+              <tr><td>3—6个月<br>关系建立</td><td>客户愿意用，首次价值明确，单位成本可计算</td><td>调整入口、话术、权益或客群</td></tr>
+              <tr class="key"><td>6—12个月<br>商业验证</td><td>续期／续约、升级、自费中至少一项增量稳定出现</td><td>优化权益组合，聚焦高价值场景</td></tr>
+              <tr><td>12—24个月<br>按单元复制</td><td>扩张后SLA、单位成本和客户体验保持稳定</td><td>适当调整扩张节奏</td></tr>
+            </tbody>
+          </table>
+          <div class="reports"><span><b>客户经营表</b>资格、激活、首用、留存、续期、升级</span><span><b>服务运营表</b>工单、SLA、成本、满意度、投诉</span><span><b>联合财务表</b>内部采购、外部收入、履约成本、增量贡献</span></div>
+        </div>
+      </div>
+      <div class="pagemark">121</div>
+    </div>
+  </section>
+
+  <!-- 122 本章结论：管理层六项选择 -->
+  <section data-label="本章小结与讨论方向">
+    <div class="slide c8" id="c8-decide"><style>
+      #c8-decide .choices{display:grid;grid-template-columns:repeat(3,1fr);grid-template-rows:1fr 1fr;gap:14px;flex:1;min-height:0;margin-top:22px}
+      #c8-decide .choice{display:flex;flex-direction:column;padding:20px 24px;border:1px solid var(--line);border-top:7px solid var(--orange-soft);background:var(--cream-2)}
+      #c8-decide .choice.hot{border-top-color:var(--orange);background:#FFF0DF}
+      #c8-decide .choice .no{font-size:20px;font-weight:900;letter-spacing:.1em;color:var(--orange-deep)}
+      #c8-decide .choice h3{font-size:35px;margin:8px 0 14px;color:var(--ink)}
+      #c8-decide .choice p{font-size:24px;line-height:1.48;color:var(--ink-soft)}
+      #c8-decide .choice p b{color:var(--ink)}
+      #c8-decide .choice .act{margin-top:auto;padding-top:12px;border-top:1px dashed var(--line);font-size:20px;line-height:1.4;font-weight:800;color:var(--orange-deep)}
+      #c8-decide .final{margin-top:16px;padding:20px 30px;background:var(--ink);color:#fff}
+      #c8-decide .final .lab{font-size:19px;font-weight:900;letter-spacing:.12em;color:#FFC99D}
+      #c8-decide .final p{margin-top:6px;font-size:25px;line-height:1.5;font-weight:600}
+      #c8-decide .final p b{color:#FFC99D}
+    </style>
+      <div class="s-head tight"><div class="kicker anim">本章小结 · 供讨论的六个方向</div><div class="s-title anim" style="font-size:48px">共同期待：健康服务成为<span class="hl">保险客户经营与风险减量的有力支撑</span></div></div>
+      <div class="choices anim2">
+        <div class="choice hot"><div class="no">01 · 客群</div><h3>先聚焦A／B层客户</h3><p>优先服务高价值客户和有明确健康需求的客群，<b>逐步扩大覆盖</b>。</p><div class="act">可考虑的起步：统一客户口径，形成客户底表</div></div>
+        <div class="choice"><div class="no">02 · 场景</div><h3>首期聚焦一主一辅</h3><p>体检异常承接＋六高90天管理（单病管理与多病共管）；九德能力作为后台模块灵活组合。</p><div class="act">可考虑的起步：两款产品的SOP、SLA与价格设想</div></div>
+        <div class="choice"><div class="no">03 · 产品</div><h3>服务以保单权益呈现</h3><p>合规、透明、可兑现，挂接保单档位；独立收费服务按相应资质与规则开展。</p><div class="act">可考虑的起步：梳理“保单档位—权益—预算”对照</div></div>
+        <div class="choice hot"><div class="no">04 · 协同</div><h3>联合机制，端到端负责</h3><p>保险与健康共同商议产品、预算与归因；每个重点产品<b>明确一位端到端负责人</b>。</p><div class="act">可考虑的起步：建立定期的联合经营沟通机制</div></div>
+        <div class="choice"><div class="no">05 · 数据</div><h3>白名单回流，数据分域</h3><p>单独授权、最小必要、用途隔离；保险侧关注激活、完成、满意度等经营状态。</p><div class="act">可考虑的起步：共同拟定数据白名单与授权文本</div></div>
+        <div class="choice hot"><div class="no">06 · 节奏</div><h3>先验证，再扩大投入</h3><p>小屋、中心、基地和AI的投入<b>结合试点结果逐步推进</b>，让每一步都有依据。</p><div class="act">可考虑的起步：新增网点同步做单位经济测算</div></div>
+      </div>
+      <div class="final anim3"><div class="lab">共同期待</div><p>希望通过在<b>一个明确客群、一个明确场景</b>中的实践，验证联好的服务能让客户更愿意留在富德、更愿意配置合适保障，并在需要时体验到确定性。以上是基于公开资料与内部研究的初步思考，供大家交流讨论。</p></div>
+      <div class="pagemark">122</div>
     </div>
   </section>
 
